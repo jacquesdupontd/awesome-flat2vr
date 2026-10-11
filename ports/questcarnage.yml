@@ -1,0 +1,38 @@
+name: QuestCarNage
+games:
+  - Carmageddon
+category: source-port
+authors:
+  - name: maranone
+    url: https://github.com/maranone
+platform: both
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "b004"
+version_date: "2026-09-24"
+download_url: https://github.com/maranone/carnage/releases/latest
+source_url: https://github.com/maranone/carnage
+license: unknown
+required_files: Owned Carmageddon installation (DATA directory containing DATA/GENERAL.TXT)
+known_bugs: []
+notes: Native OpenXR port built on the Dethrace engine reimplementation; also builds as PCVRCarnage.exe for Windows PC VR from the same source.
+images:
+  - game: Carmageddon
+    file: images/questcarnage/carmageddon.png
+    credit: Carmageddon grid by GEFAFWISP (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/611611
+reviews:
+  - title: Carmageddon ve virtuální realitě? / Fast or Dead VR recenze
+    channel: Virtuální zóna
+    url: https://www.youtube.com/watch?v=W2DwFqEjBzM
+  - title: Grand Theft Auto  IV VR with Carmageddon Mod
+    channel: "Game Marathon runner "
+    url: https://www.youtube.com/watch?v=F1Q3UGeCCVw
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/questcarnage
+last_checked: "2026-10-11"

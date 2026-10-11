@@ -1,0 +1,39 @@
+name: ReLith
+games:
+  - "The Operative: No One Lives Forever"
+category: source-port
+authors:
+  - name: alex.nax (alex-nax)
+    url: https://github.com/alex-nax
+platform: both
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.4.0"
+version_date: "2026-09-25"
+download_url: https://github.com/alex-nax/relith/releases/latest
+source_url: https://github.com/alex-nax/relith
+homepage: https://github.com/alex-nax/relith
+license: unknown
+required_files: Original No One Lives Forever game data (.REZ archives) from an owned PC install or discs
+known_bugs:
+  - Known menu-panel issue on Quest 2
+notes: Engine-only reimplementation of LithTech 2.x; same engine is planned to add Aliens versus Predator 2 next.
+images:
+  - game: "The Operative: No One Lives Forever"
+    file: images/relith/the-operative-no-one-lives-forever.png
+    credit: "The Operative: No One Lives Forever grid by S.B. Wayne (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/62615
+reviews:
+  - title: "The Operative: No One Lives Forever VR Performance / Quest 3 Standalone VR Mod / 6DOF Motion Control"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=10qKW-CVQNA
+  - title: The Operative - No One Lives Forever VR(Quest 3) - Playtest
+    channel: Alex D
+    url: https://www.youtube.com/watch?v=6NsGBkCp9ro
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/nolf-vr
+last_checked: "2026-10-11"

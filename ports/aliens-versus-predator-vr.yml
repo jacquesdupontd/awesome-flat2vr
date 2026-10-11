@@ -1,0 +1,32 @@
+name: Aliens Versus Predator VR
+games:
+  - Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000
+category: source-port
+authors:
+  - name: Bassquake
+    url: https://github.com/Bassquake
+platform: both
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "1.1"
+version_date: "2026-10-07"
+download_url: https://github.com/Bassquake/Aliens-Versus-Predator-VR/releases/latest
+source_url: https://github.com/Bassquake/Aliens-Versus-Predator-VR
+license: GPL-3.0
+required_files: Original game asset files from Aliens versus Predator Classic 2000 (Steam/GOG) or PC CD-ROM
+known_bugs: []
+notes: Fork of atsb/NakedAVP adding OpenXR support for standalone Quest VR as well as flat PC/Windows ports; supports Marine, Alien, and Predator campaigns with 6DoF motion controls and wall-climbing.
+images:
+  - game: Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000
+    file: images/aliens-versus-predator-vr/aliens-versus-predator-aliens-versus-predator-classic-2000.png
+    credit: Bassquake/Aliens-Versus-Predator-VR
+    source_url: https://github.com/Bassquake/Aliens-Versus-Predator-VR
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/avp-vr
+last_checked: "2026-10-11"

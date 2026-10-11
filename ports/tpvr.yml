@@ -1,0 +1,36 @@
+name: TPVR
+games:
+  - "The Legend of Zelda: Twilight Princess"
+category: mod
+authors:
+  - name: JoeyAW
+    url: https://github.com/JoeyAW
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: stable
+version: "2.3.0"
+version_date: "2026-10-06"
+download_url: https://github.com/JoeyAW/TPVR/releases/latest
+source_url: https://github.com/JoeyAW/TPVR
+license: CC0-1.0
+required_files: A personal disc dump (as .iso/.rvz) of any commercial GameCube or Wii release of Twilight Princess, except the Korean Wii release, plus the Dusklight PC port executable
+known_bugs: []
+notes: VR mod built on top of Dusklight, a native PC port derived from the zeldaret Twilight Princess decompilation; author states the mod's code was written with AI assistance (Claude Code); also ships an early-testing Linux AppImage build.
+images:
+  - game: "The Legend of Zelda: Twilight Princess"
+    file: images/tpvr/the-legend-of-zelda-twilight-princess.png
+    credit: "The Legend of Zelda: Twilight Princess grid by J03L (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/343440
+reviews:
+  - title: Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 2!
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=t9OfB7FwT4Q
+  - title: Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 1!
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=sugca8IC4ac
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/twilight-princess-vr
+last_checked: "2026-10-11"

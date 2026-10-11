@@ -146,6 +146,49 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "aliens-versus-predator-vr",
+    "name": "Aliens Versus Predator VR",
+    "games": [
+      "Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Bassquake",
+        "url": "https://github.com/Bassquake"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "1.1",
+    "version_date": "2026-10-07",
+    "download_url": "https://github.com/Bassquake/Aliens-Versus-Predator-VR/releases/latest",
+    "source_url": "https://github.com/Bassquake/Aliens-Versus-Predator-VR",
+    "license": "GPL-3.0",
+    "required_files": "Original game asset files from Aliens versus Predator Classic 2000 (Steam/GOG) or PC CD-ROM",
+    "known_bugs": [],
+    "notes": "Fork of atsb/NakedAVP adding OpenXR support for standalone Quest VR as well as flat PC/Windows ports; supports Marine, Alien, and Predator campaigns with 6DoF motion controls and wall-climbing.",
+    "images": [
+      {
+        "game": "Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000",
+        "file": "images/aliens-versus-predator-vr/aliens-versus-predator-aliens-versus-predator-classic-2000.png",
+        "credit": "Bassquake/Aliens-Versus-Predator-VR",
+        "source_url": "https://github.com/Bassquake/Aliens-Versus-Predator-VR"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/avp-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "animal-crossing-vr-mr-standalone",
     "name": "Animal Crossing VR/MR Standalone",
     "games": [
@@ -335,6 +378,58 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "astroquest",
+    "name": "AstroQuest",
+    "games": [
+      "ASTRO BOT Rescue Mission"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "bigmak94",
+        "url": "https://github.com/bigmak94"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.20",
+    "version_date": "2026-10-06",
+    "download_url": "https://github.com/bigmak94/AstroQuest/releases/latest",
+    "source_url": "https://github.com/bigmak94/AstroQuest",
+    "license": "GPL-2.0",
+    "required_files": "A clean dumped copy of ASTRO BOT Rescue Mission (PS4, e.g. European release CUSA12392) owned and dumped from the user's own PlayStation 4",
+    "known_bugs": [],
+    "notes": "Based on an ARM64 fork of the shadPS4 PS4 emulator; playable standalone on Quest 3/3S or on PC via Virtual Desktop/SteamVR, with a PS5 DualSense recommended but Quest Touch controllers supported as a fallback.",
+    "images": [
+      {
+        "game": "ASTRO BOT Rescue Mission",
+        "file": "images/astroquest/astro-bot-rescue-mission.jpg",
+        "credit": "VR Studio",
+        "source_url": "https://www.youtube.com/watch?v=3SmrgertDco"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Install the Best PSVR Game on PC in 1 Minute! Astro Bot Rescue Mission VR Mod",
+        "channel": "VR Studio",
+        "url": "https://www.youtube.com/watch?v=3SmrgertDco"
+      },
+      {
+        "title": "Astro Bot Rescue Mission on PCVR or Quest 3 [VR Mod] The PSVR 1 game is back",
+        "channel": "Rames VR - Cafoutch",
+        "url": "https://www.youtube.com/watch?v=ltoL_BLV4qY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/astroquest",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "banjo-kazooie-vr",
@@ -949,6 +1044,63 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "descent-3-vr",
+    "name": "Descent 3 VR",
+    "games": [
+      "Descent 3"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "SgtBilko76",
+        "url": "https://github.com/SgtBilko76"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S",
+      "PICO"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "quest-v0.3-beta",
+    "version_date": "2026-09-23",
+    "download_url": "https://github.com/SgtBilko76/Descent3-VR/releases/latest",
+    "source_url": "https://github.com/SgtBilko76/Descent3-VR",
+    "license": "GPL-3.0",
+    "required_files": "Original Descent 3 game data (GOG, Steam, or original CDs; v1.4 patch recommended)",
+    "known_bugs": [
+      "PICO support is experimental and has never been tested on actual PICO hardware"
+    ],
+    "notes": "Single APK now supports both Meta Quest and PICO headsets; built on the official open-source Descent 3 engine.",
+    "images": [
+      {
+        "game": "Descent 3",
+        "file": "images/descent-3-vr/descent-3.jpg",
+        "credit": "Descent 3 grid by kinginrust (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/426305"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Survivorman VR: The Descent - Meta Quest 3 Gameplay | First Minutes [No Commentary]",
+        "channel": "Meta Quest Central | VR Gameplay",
+        "url": "https://www.youtube.com/watch?v=GjHt_ug7Ykw"
+      },
+      {
+        "title": "OVERVIEW - Survivorman VR: The Descent | Part X Gameplay | Meta Quest 3 VR",
+        "channel": "Dave The Psycho",
+        "url": "https://www.youtube.com/watch?v=XsRfs_1VAqc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/descent-3-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "doom-2016-r-e-a-l-vr",
     "name": "DOOM (2016) R.E.A.L. VR",
     "games": [
@@ -1423,6 +1575,61 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "generals-zero-hour-xr",
+    "name": "Generals: Zero Hour XR",
+    "games": [
+      "Command & Conquer: Generals - Zero Hour"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Cesarus85",
+        "url": "https://github.com/Cesarus85"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.2.36-xr-preview",
+    "version_date": "2026-09-30",
+    "download_url": "https://github.com/Cesarus85/Generals-Zero-Hour-XR/releases/latest",
+    "source_url": "https://github.com/Cesarus85/Generals-Zero-Hour-XR",
+    "license": "unknown",
+    "required_files": "A complete original installation of Command & Conquer: Generals and Zero Hour (not included)",
+    "known_bugs": [
+      "Human LAN/Internet multiplayer, replay XR, keyboard/mouse input and persistent room anchors are not release-ready",
+      "Quest-PC LAN games currently fail",
+      "Ground View controller walking and turning are experimental"
+    ],
+    "notes": "Presents the campaign/skirmish battlefield as a stereoscopic mixed-reality tabletop, built on the open-source SAGE engine lineage (TheSuperHackers/GeneralsX/GeneralsZH-Android).",
+    "images": [
+      {
+        "game": "Command & Conquer: Generals - Zero Hour",
+        "file": "images/generals-zero-hour-xr/command-conquer-generals-zero-hour.png",
+        "credit": "Command & Conquer: Generals – Zero Hour grid by TheWaslijn (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/430086"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Command & Conquer Generals Zero Hour VR Performance / GeneralsVR Mod / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=wUl_WnjUFyY"
+      },
+      {
+        "title": "Command & Conquer: Generals Zero Hour / New Meta Quest Standalone VR Mod / Meta Quest 3",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=_IzGGuUn1cY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/generals-zero-hour-xr",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "ghost-recon-wildlands-vr-grw-xr",
     "name": "Ghost Recon Wildlands VR (GRW-XR)",
     "games": [
@@ -1495,8 +1702,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.4.14",
-    "version_date": "2026-10-08",
+    "version": "v0.4.19",
+    "version_date": "2026-10-10",
     "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
     "source_url": "https://github.com/MrSco/goldeneye-vr",
     "homepage": "https://goldeneyevr.com",
@@ -1526,7 +1733,113 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mrsco/goldeneye-vr",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "gothic-ii-vr",
+    "name": "Gothic II VR",
+    "games": [
+      "Gothic II: Night of the Raven"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "dubrovskiy-yevhen-stakelogic",
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic"
+      },
+      {
+        "name": "JaXt0r"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.2.0",
+    "version_date": "2026-09-23",
+    "download_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr/releases/latest",
+    "source_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr",
+    "license": "MIT",
+    "required_files": "Legally owned PC install of Gothic II: Night of the Raven (Steam or GOG)",
+    "known_bugs": [
+      "Very early alpha; many interactions and original game features are unfinished or may fail."
+    ],
+    "notes": "Built on the open-source OpenGothic engine recreation; combined release ZIP bundles separate PCVR and standalone Quest builds.",
+    "images": [
+      {
+        "game": "Gothic II: Night of the Raven",
+        "file": "images/gothic-ii-vr/gothic-ii-night-of-the-raven.jpg",
+        "credit": "umut_rre",
+        "source_url": "https://www.youtube.com/watch?v=rhsqMxieF08"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "I have to walk IN REAL LIFE!? | Gothic 2 VR Mod (April Fools' 2026)",
+        "channel": "umut_rre",
+        "url": "https://www.youtube.com/watch?v=rhsqMxieF08"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/gothic2-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "gran-turismo-2-vr",
+    "name": "Gran Turismo 2 VR",
+    "games": [
+      "Gran Turismo 2"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "dubrovskiy-yevhen-stakelogic",
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.8.1",
+    "version_date": "2026-09-30",
+    "download_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/latest",
+    "source_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc",
+    "homepage": "https://discord.gg/G5DdNQ9fD",
+    "license": "MIT",
+    "required_files": "Legally owned PS1 disc images (BIN/CUE) of Gran Turismo 2 Arcade and/or Simulation discs",
+    "known_bugs": [],
+    "notes": "Single shared C++ codebase also targets Windows desktop, Steam Deck/Linux, macOS and a WebAssembly browser build alongside the VR modes.",
+    "images": [
+      {
+        "game": "Gran Turismo 2",
+        "file": "images/gran-turismo-2-vr/gran-turismo-2.png",
+        "credit": "Gran Turismo 2 grid by 7Works (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/421449"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Gran Turismo 2 VR Performance / Quest 3 Standalone VR Mod - Motion Control Steering / How to Install",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=1_6met_dnAk"
+      },
+      {
+        "title": "Have You Tried Gran Turismo 2 VR Recomp? It's Amazing!",
+        "channel": "Saiynergy",
+        "url": "https://www.youtube.com/watch?v=gNwACh3Jxs8"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/gran-turismo-2-vr",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "grand-theft-auto-iv-vr",
@@ -1579,6 +1892,49 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "gta-san-andreas-vr-for-quest",
+    "name": "GTA San Andreas VR for Quest",
+    "games": [
+      "Grand Theft Auto: San Andreas"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "dubrovskiy-yevhen-stakelogic",
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "0.3.1 alpha",
+    "version_date": "2026-10-11",
+    "download_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest",
+    "source_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest",
+    "license": "unknown",
+    "required_files": "Legally purchased Google Play GTA: San Andreas ARM64 APK split set (version 2.11.311) plus the gta-sa-ps2-style-mod-pack audio archive",
+    "known_bugs": [],
+    "notes": "Due to Rockstar copyright, no precompiled APK is distributed; a PC build script (BUILD_AND_INSTALL) merges the VR injector with the user's own exported APK and pushes it to the Quest via USB.",
+    "images": [
+      {
+        "game": "Grand Theft Auto: San Andreas",
+        "file": "images/gta-san-andreas-vr-for-quest/grand-theft-auto-san-andreas.png",
+        "credit": "Grand Theft Auto: San Andreas grid by 7Works (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/420221"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/gta-sa-vr-quest",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "gunfirerebornvrmod",
@@ -1840,6 +2196,54 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/livingfray/halocevr",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "harry-potter-vr",
+    "name": "Harry Potter VR",
+    "games": [
+      "Harry Potter and the Sorcerer's Stone"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "dubrovskiy-yevhen-stakelogic",
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.1.4.1",
+    "version_date": "2026-09-23",
+    "download_url": "https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr/releases/latest",
+    "source_url": "https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr",
+    "license": "unknown",
+    "required_files": "A legally owned US PC CD-ROM installation of Harry Potter and the Sorcerer's Stone (2001); original maps, textures, models, music and dialogue are extracted from this install.",
+    "known_bugs": [],
+    "notes": "Decompilation-based native port with tracked wand spellcasting, offline voice recognition, and broomstick flight; currently implements five levels.",
+    "images": [
+      {
+        "game": "Harry Potter and the Sorcerer's Stone",
+        "file": "images/harry-potter-vr/harry-potter-and-the-sorcerer-s-stone.png",
+        "credit": "Harry Potter and the Sorcerer's Stone grid by sergillo_8 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/824577"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "[TUTORIAL] How to install Harry Potter and the Sorcerer's Stone VR | Meta Quest 3/3s + Gameplay ⚡-EN",
+        "channel": "J.H",
+        "url": "https://www.youtube.com/watch?v=J50lNIZZfWo"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/harry-potter-vr",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "heavenvr",
@@ -2605,6 +3009,92 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "mothervr",
+    "name": "MotherVR",
+    "games": [
+      "Alien: Isolation"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Nibre",
+        "url": "https://github.com/Nibre"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.8.1",
+    "version_date": "2020-12-28",
+    "download_url": "https://github.com/Nibre/MotherVR/releases/latest",
+    "source_url": "https://github.com/Nibre/MotherVR",
+    "homepage": "https://twitter.com/nibre_",
+    "license": "unknown",
+    "required_files": "A copy of Alien: Isolation installed on PC",
+    "known_bugs": [],
+    "notes": "Installed by dropping dxgi.dll into the Alien: Isolation game folder; VR can be enabled via in-game Options menu.",
+    "images": [
+      {
+        "game": "Alien: Isolation",
+        "file": "images/mothervr/alien-isolation.png",
+        "credit": "Alien: Isolation grid by Maxine (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/155117"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Alien Isolation VR is a God Tier Experience (And it just got better)",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=2Kj0QCbGiLk"
+      },
+      {
+        "title": "Alien Isolation VR with MOTION CONTROLS is INCREDIBLE! // The Best VR Mod gets BETTER!",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=NgTHbN2btak"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/nibre/mothervr",
+    "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "nolf2-r-e-a-l-mod",
+    "name": "NOLF2 R.E.A.L. mod",
+    "games": [
+      "No One Lives Forever 2: A Spy in H.A.R.M.'s Way"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "LukeRoss00",
+        "url": "https://github.com/LukeRoss00"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "r3",
+    "version_date": "2018-02-13",
+    "download_url": "https://github.com/LukeRoss00/nolf2-real-mod/releases/latest",
+    "source_url": "https://github.com/LukeRoss00/nolf2-real-mod",
+    "license": "unknown",
+    "required_files": "Full install of No One Lives Forever 2 (English or localized DE/ES/FR/IT), updated to v1.3 official patch",
+    "known_bugs": [],
+    "notes": "Part of the R.E.A.L. mod series of VR conversions by LukeRoss00 for Lithtech-engine games.",
+    "images": [
+      {
+        "game": "No One Lives Forever 2: A Spy in H.A.R.M.'s Way",
+        "file": "images/nolf2-r-e-a-l-mod/no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way.jpg",
+        "credit": "No One Lives Forever 2: A Spy in H.A.R.M.'s Way grid by Rick Deckard (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/430254"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/lukeross00/nolf2-real-mod",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "nomaivr",
     "name": "NomaiVR",
     "games": [
@@ -2720,8 +3210,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.4.0-alpha",
-    "version_date": "2026-10-09",
+    "version": "v0.5.0-alpha",
+    "version_date": "2026-10-10",
     "download_url": "https://github.com/gibranfelix/oot-vr/releases/latest",
     "source_url": "https://github.com/gibranfelix/oot-vr",
     "license": "unknown",
@@ -2745,7 +3235,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/gibranfelix/oot-vr",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "openmw-vr",
@@ -2999,6 +3489,53 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "port0r-rally-vr",
+    "name": "Port0r: Rally VR",
+    "games": [
+      "Sega Rally Championship"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "jacquesdupontd (Port0r)",
+        "url": "https://github.com/jacquesdupontd"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.2.4",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/jacquesdupontd/port0r/releases/latest",
+    "source_url": "https://github.com/jacquesdupontd/port0r",
+    "license": "unknown",
+    "required_files": "MAME 0.289 romset for Sega Rally Championship (srallyc.zip, plus segabill.zip if billboard ROM is missing)",
+    "known_bugs": [],
+    "notes": "Runs the original arcade code via a modified MAME core that redraws every Model 2 polygon per eye for true stereoscopic 3D; also has Switch, Android and Linux builds.",
+    "images": [
+      {
+        "game": "Sega Rally Championship",
+        "file": "images/port0r-rally-vr/sega-rally-championship.png",
+        "credit": "Sega Rally Championship grid by Haxy (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/295186"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Sega Rally VR - Port0r: Rally VR - (Meta Quest 3) - Standalone Gameplay",
+        "channel": "Pixelacos Gameplays and Pixelacos VR",
+        "url": "https://www.youtube.com/watch?v=cz97qTB1Yy8"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/sega-rally-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "preyvr",
     "name": "PreyVR",
     "games": [
@@ -3151,6 +3688,61 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "quake3quest",
+    "name": "Quake3Quest",
+    "games": [
+      "Quake III Arena"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.2.0",
+    "version_date": "2026-09-29",
+    "download_url": "https://github.com/Team-Beef-Studios/ioq3quest/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/ioq3quest",
+    "homepage": "https://questports.vercel.app/ports/quake3quest",
+    "license": "GPL-2.0",
+    "required_files": "Quake III Arena baseq3 .pk3 files (owned copy, e.g. from Steam) for the full game; 4 maps included without them",
+    "known_bugs": [],
+    "notes": "Fork/VR port of ioquake3; includes weapon wheel, campaign, local Wi-Fi and dedicated VR-only online multiplayer.",
+    "images": [
+      {
+        "game": "Quake III Arena",
+        "file": "images/quake3quest/quake-iii-arena.png",
+        "credit": "Quake III Arena grid by Niejcas (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/622932"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Quake 3 Arena VR For Quest! Beta Version Installation Guide And Gameplay. [GUIDE OUTDATED]",
+        "channel": "VR Reviews",
+        "url": "https://www.youtube.com/watch?v=3rmbKcA8Wxs"
+      },
+      {
+        "title": "Quake 3 Arena VR on Quest 2 - How to download and install",
+        "channel": "La Baia di Ben",
+        "url": "https://www.youtube.com/watch?v=QYThTnahjI8"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/quake3quest",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "quakequest",
     "name": "QuakeQuest",
     "games": [
@@ -3196,6 +3788,112 @@
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuakeQuest",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "questcarnage",
+    "name": "QuestCarNage",
+    "games": [
+      "Carmageddon"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "maranone",
+        "url": "https://github.com/maranone"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "b004",
+    "version_date": "2026-09-24",
+    "download_url": "https://github.com/maranone/carnage/releases/latest",
+    "source_url": "https://github.com/maranone/carnage",
+    "license": "unknown",
+    "required_files": "Owned Carmageddon installation (DATA directory containing DATA/GENERAL.TXT)",
+    "known_bugs": [],
+    "notes": "Native OpenXR port built on the Dethrace engine reimplementation; also builds as PCVRCarnage.exe for Windows PC VR from the same source.",
+    "images": [
+      {
+        "game": "Carmageddon",
+        "file": "images/questcarnage/carmageddon.png",
+        "credit": "Carmageddon grid by GEFAFWISP (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/611611"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Carmageddon ve virtuální realitě? / Fast or Dead VR recenze",
+        "channel": "Virtuální zóna",
+        "url": "https://www.youtube.com/watch?v=W2DwFqEjBzM"
+      },
+      {
+        "title": "Grand Theft Auto  IV VR with Carmageddon Mod",
+        "channel": "Game Marathon runner ",
+        "url": "https://www.youtube.com/watch?v=F1Q3UGeCCVw"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/questcarnage",
+    "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "questsam",
+    "name": "QuestSam",
+    "games": [
+      "Serious Sam Classic: The First Encounter",
+      "Serious Sam Classic: The Second Encounter"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "maranone",
+        "url": "https://github.com/maranone"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "b004",
+    "version_date": "2026-09-20",
+    "download_url": "https://github.com/maranone/QuestSam/releases/latest",
+    "source_url": "https://github.com/maranone/QuestSam",
+    "license": "unknown",
+    "required_files": "Original .gro game archive files from Serious Sam Classic: The First Encounter and/or The Second Encounter (Steam or GOG)",
+    "known_bugs": [
+      "Some bugs were introduced after rolling back an earlier version to tweak the camera, per the b004 release notes"
+    ],
+    "notes": "Features dual wielding, roomscale tracking, and 1st/3rd-person diorama views.",
+    "images": [
+      {
+        "game": "Serious Sam Classic: The First Encounter",
+        "file": "images/questsam/serious-sam-classic-the-first-encounter.jpg",
+        "credit": "Serious Sam Classic: The First Encounter grid by Comcord (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/177457"
+      },
+      {
+        "game": "Serious Sam Classic: The Second Encounter",
+        "file": "images/questsam/serious-sam-classic-the-second-encounter.jpg",
+        "credit": "Serious Sam Classic: The Second Encounter grid by déf (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/294712"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/questsam",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "questzdoom",
@@ -3424,6 +4122,62 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "relith",
+    "name": "ReLith",
+    "games": [
+      "The Operative: No One Lives Forever"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "alex.nax (alex-nax)",
+        "url": "https://github.com/alex-nax"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.4.0",
+    "version_date": "2026-09-25",
+    "download_url": "https://github.com/alex-nax/relith/releases/latest",
+    "source_url": "https://github.com/alex-nax/relith",
+    "homepage": "https://github.com/alex-nax/relith",
+    "license": "unknown",
+    "required_files": "Original No One Lives Forever game data (.REZ archives) from an owned PC install or discs",
+    "known_bugs": [
+      "Known menu-panel issue on Quest 2"
+    ],
+    "notes": "Engine-only reimplementation of LithTech 2.x; same engine is planned to add Aliens versus Predator 2 next.",
+    "images": [
+      {
+        "game": "The Operative: No One Lives Forever",
+        "file": "images/relith/the-operative-no-one-lives-forever.png",
+        "credit": "The Operative: No One Lives Forever grid by S.B. Wayne (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/62615"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The Operative: No One Lives Forever VR Performance / Quest 3 Standalone VR Mod / 6DOF Motion Control",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=10qKW-CVQNA"
+      },
+      {
+        "title": "The Operative - No One Lives Forever VR(Quest 3) - Playtest",
+        "channel": "Alex D",
+        "url": "https://www.youtube.com/watch?v=6NsGBkCp9ro"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/nolf-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "returnal-uevr",
     "name": "Returnal UEVR",
     "games": [
@@ -3475,6 +4229,54 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "road-rash-jailbreak-vr",
+    "name": "Road Rash: Jailbreak VR",
+    "games": [
+      "Road Rash: Jailbreak"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "dubrovskiy-yevhen-stakelogic",
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.1.0",
+    "version_date": "2026-10-02",
+    "download_url": "https://github.com/dubrovskiy-yevhen-stakelogic/road-rash-jailbreak/releases/latest",
+    "source_url": "https://github.com/dubrovskiy-yevhen-stakelogic/road-rash-jailbreak",
+    "license": "MIT",
+    "required_files": "Legally dumped PS1 disc image of Road Rash: Jailbreak (USA, SLUS_01053) in MODE2/2352 BIN/CUE format",
+    "known_bugs": [],
+    "notes": "Native engine reimplementation ported function-by-function from the original MIPS executable; includes Windows PC flat mode, PCVR via OpenXR, and Quest 3 standalone VR builds.",
+    "images": [
+      {
+        "game": "Road Rash: Jailbreak",
+        "file": "images/road-rash-jailbreak-vr/road-rash-jailbreak.png",
+        "credit": "Road Rash: Jailbreak grid by Frankaupolis (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/711284"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Road Rash: Jailbreak VR Performance / Meta Quest 3 Standalone",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=f01aGgd6Uzs"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/road-rash-jailbreak-vr",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "rtcwquest",
@@ -3615,6 +4417,57 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "sclerosis",
+    "name": "Sclerosis",
+    "games": [
+      "Amnesia: The Dark Descent"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "CreaTeam"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 2",
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.10.7",
+    "version_date": "2026-10-11",
+    "download_url": "https://questports.vercel.app/ports/sclerosis-vr",
+    "source_url": "https://questports.vercel.app/ports/sclerosis-vr",
+    "license": "unknown",
+    "required_files": "A legal copy of Amnesia: The Dark Descent (e.g. from Steam), whose files are copied onto the headset or placed alongside the PC build.",
+    "known_bugs": [],
+    "notes": "1:1 recreation of the entire game in Unity with redesigned VR controls; includes optional Safe Mode (no monsters) and PSX Mode.",
+    "images": [
+      {
+        "game": "Amnesia: The Dark Descent",
+        "file": "images/sclerosis/amnesia-the-dark-descent.png",
+        "credit": "Amnesia: The Dark Descent grid by Marok (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/78508"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "SCLEROSIS A HORROR GAME Gameplay Walkthrough Part 1 FULL GAME - AMNESIA MOBILE [Android/iOS]",
+        "channel": "Marconaeus",
+        "url": "https://www.youtube.com/watch?v=DCiWqSirecM"
+      },
+      {
+        "title": "Amnesia The Dark Descent VR Remake Is The Scariest Game I've Ever Played",
+        "channel": "Bonezz",
+        "url": "https://www.youtube.com/watch?v=bhpnBbaMDmo"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/sclerosis-vr",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "scrap-mechanic-native-vr",
@@ -4062,8 +4915,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "1.12",
-    "version_date": "2026-10-03",
+    "version": "1.13",
+    "version_date": "2026-10-10",
     "download_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest",
     "source_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR",
     "license": "unknown",
@@ -4092,7 +4945,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "stanley-vr",
@@ -4436,6 +5289,157 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "time-crisis-ii-vr",
+    "name": "Time Crisis II VR",
+    "games": [
+      "Time Crisis II (arcade, US TSS3 Ver. B)"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "DR-89",
+        "url": "https://github.com/DR-89"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.2.0",
+    "version_date": "2026-10-10",
+    "download_url": "https://github.com/DR-89/time-crisis-2-vr/releases/latest",
+    "source_url": "https://github.com/DR-89/time-crisis-2-vr",
+    "license": "MIT",
+    "required_files": "None - built on the spacestate1/namco22-decompile arcade reconstruction; game files and weapon models are bundled in the release package",
+    "known_bugs": [
+      "v0.2.0 is experimental and has not been verified through a complete playthrough",
+      "Quest 2 and Quest 3S are not confirmed to work"
+    ],
+    "notes": "Built on the System 23 arcade decompilation spacestate1/namco22-decompile, with OpenXR host/controller code adapted from the author's earlier Time Crisis VR port.",
+    "images": [
+      {
+        "game": "Time Crisis II (arcade, US TSS3 Ver. B)",
+        "file": "images/time-crisis-ii-vr/time-crisis-ii.png",
+        "credit": "Time Crisis II grid by TheBoss86 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/31159"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/time-crisis-2-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "time-crisis-vr",
+    "name": "Time Crisis VR",
+    "games": [
+      "Time Crisis"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "DR-89",
+        "url": "https://github.com/DR-89"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.8.4",
+    "version_date": "2026-10-07",
+    "download_url": "https://github.com/DR-89/time-crisis-vr/releases/latest",
+    "source_url": "https://github.com/DR-89/time-crisis-vr",
+    "license": "MIT",
+    "required_files": "Original Time Crisis arcade ROM/game data (user must own their own copy)",
+    "known_bugs": [
+      "Reported chandelier/stairs crashes have not been reproduced and are not claimed fixed in v0.8.4"
+    ],
+    "notes": "Built on spacestate1/namco22-decompile; adds Android/OpenXR host, Quest renderer, VR aiming and controls, with a Windows PCVR build also available.",
+    "images": [
+      {
+        "game": "Time Crisis",
+        "file": "images/time-crisis-vr/time-crisis.png",
+        "credit": "Time Crisis grid by kimsama98 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/176281"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "VR Time Crisis is Here! Is This NEW VR Light Gun Shooter Worth It?",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=40ZtoY-A2s0"
+      },
+      {
+        "title": "The BEST Time Crisis VR Game EVER? Meta Quest 3 & PSVR2",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=Uc1K-hTLXtY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/time-crisis-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "tpvr",
+    "name": "TPVR",
+    "games": [
+      "The Legend of Zelda: Twilight Princess"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "JoeyAW",
+        "url": "https://github.com/JoeyAW"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "2.3.0",
+    "version_date": "2026-10-06",
+    "download_url": "https://github.com/JoeyAW/TPVR/releases/latest",
+    "source_url": "https://github.com/JoeyAW/TPVR",
+    "license": "CC0-1.0",
+    "required_files": "A personal disc dump (as .iso/.rvz) of any commercial GameCube or Wii release of Twilight Princess, except the Korean Wii release, plus the Dusklight PC port executable",
+    "known_bugs": [],
+    "notes": "VR mod built on top of Dusklight, a native PC port derived from the zeldaret Twilight Princess decompilation; author states the mod's code was written with AI assistance (Claude Code); also ships an early-testing Linux AppImage build.",
+    "images": [
+      {
+        "game": "The Legend of Zelda: Twilight Princess",
+        "file": "images/tpvr/the-legend-of-zelda-twilight-princess.png",
+        "credit": "The Legend of Zelda: Twilight Princess grid by J03L (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/343440"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 2!",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=t9OfB7FwT4Q"
+      },
+      {
+        "title": "Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 1!",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=sugca8IC4ac"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/twilight-princess-vr",
+    "last_checked": "2026-10-11"
+  },
+  {
     "slug": "trails-of-cold-steel-vr",
     "name": "Trails of Cold Steel VR",
     "games": [
@@ -4454,8 +5458,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.0-alpha.3",
-    "version_date": "2026-10-08",
+    "version": "v0.1.0-alpha.5",
+    "version_date": "2026-10-11",
     "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
     "source_url": "https://github.com/petonexus/tocs-vr-releases",
     "homepage": "https://www.trailsvr.pro",
@@ -4476,7 +5480,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "two-forks-vr",
@@ -4592,8 +5596,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.8.8",
-    "version_date": "2026-08-29",
+    "version": "v0.8.10",
+    "version_date": "2026-10-09",
     "download_url": "https://github.com/DennisGHUA/payday2-vr-improvements/releases/latest",
     "source_url": "https://github.com/DennisGHUA/payday2-vr-improvements",
     "homepage": "https://modworkshop.net/mod/45143",
@@ -4623,7 +5627,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/DennisGHUA/payday2-vr-improvements",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "vrg",
@@ -4769,6 +5773,58 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/whateverusername0/vrtrakill",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "wiicompiled-vr-plus",
+    "name": "Wiicompiled VR PLUS",
+    "games": [
+      "Mario Kart Wii"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "heurazy",
+        "url": "https://github.com/heurazy"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.3.1",
+    "version_date": "2026-10-02",
+    "download_url": "https://github.com/heurazy/Wiicompiled_VR-PLUS/releases/latest",
+    "source_url": "https://github.com/heurazy/Wiicompiled_VR-PLUS",
+    "license": "GPL-3.0",
+    "required_files": "A clean, unmodified PAL RMCP01 Mario Kart Wii disc image; the game is built on-device, no Nintendo assets are distributed",
+    "known_bugs": [],
+    "notes": "Fork of iChris4/Wiicompiled_VR merged with heurazy's own mario-kart-wii-VR-port, statically recompiled to native code (ARM64 on Quest via Vulkan/OpenXR, x86-64 on Windows) with no Wii emulator/JIT; adds grab-and-turn kart steering, character body IK, and a standalone Quest APK target.",
+    "images": [
+      {
+        "game": "Mario Kart Wii",
+        "file": "images/wiicompiled-vr-plus/mario-kart-wii.png",
+        "credit": "Mario Kart Wii grid by Sho. (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/263653"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "playing mario kart wii in VR",
+        "channel": "Poofesure",
+        "url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
+      },
+      {
+        "title": "The BIGGEST VR Gain in 1 Hour - Mario Kart Wii",
+        "channel": "TWD98",
+        "url": "https://www.youtube.com/watch?v=gQrwLvBTyN8"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/wiicompiled-vr-plus",
+    "last_checked": "2026-10-11"
   },
   {
     "slug": "wiicompiled-vr",

@@ -1,0 +1,38 @@
+name: QuestSam
+games:
+  - "Serious Sam Classic: The First Encounter"
+  - "Serious Sam Classic: The Second Encounter"
+category: source-port
+authors:
+  - name: maranone
+    url: https://github.com/maranone
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "b004"
+version_date: "2026-09-20"
+download_url: https://github.com/maranone/QuestSam/releases/latest
+source_url: https://github.com/maranone/QuestSam
+license: unknown
+required_files: "Original .gro game archive files from Serious Sam Classic: The First Encounter and/or The Second Encounter (Steam or GOG)"
+known_bugs:
+  - Some bugs were introduced after rolling back an earlier version to tweak the camera, per the b004 release notes
+notes: Features dual wielding, roomscale tracking, and 1st/3rd-person diorama views.
+images:
+  - game: "Serious Sam Classic: The First Encounter"
+    file: images/questsam/serious-sam-classic-the-first-encounter.jpg
+    credit: "Serious Sam Classic: The First Encounter grid by Comcord (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/177457
+  - game: "Serious Sam Classic: The Second Encounter"
+    file: images/questsam/serious-sam-classic-the-second-encounter.jpg
+    credit: "Serious Sam Classic: The Second Encounter grid by déf (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/294712
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/questsam
+last_checked: "2026-10-11"

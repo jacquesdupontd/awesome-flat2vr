@@ -1,0 +1,36 @@
+name: Gothic II VR
+games:
+  - "Gothic II: Night of the Raven"
+category: source-port
+authors:
+  - name: dubrovskiy-yevhen-stakelogic
+    url: https://github.com/dubrovskiy-yevhen-stakelogic
+  - name: JaXt0r
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: alpha
+version: "v0.2.0"
+version_date: "2026-09-23"
+download_url: https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr/releases/latest
+source_url: https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr
+license: MIT
+required_files: "Legally owned PC install of Gothic II: Night of the Raven (Steam or GOG)"
+known_bugs:
+  - Very early alpha; many interactions and original game features are unfinished or may fail.
+notes: Built on the open-source OpenGothic engine recreation; combined release ZIP bundles separate PCVR and standalone Quest builds.
+images:
+  - game: "Gothic II: Night of the Raven"
+    file: images/gothic-ii-vr/gothic-ii-night-of-the-raven.jpg
+    credit: umut_rre
+    source_url: https://www.youtube.com/watch?v=rhsqMxieF08
+reviews:
+  - title: I have to walk IN REAL LIFE!? | Gothic 2 VR Mod (April Fools' 2026)
+    channel: umut_rre
+    url: https://www.youtube.com/watch?v=rhsqMxieF08
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/gothic2-vr
+last_checked: "2026-10-11"

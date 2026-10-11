@@ -1,0 +1,38 @@
+name: "Generals: Zero Hour XR"
+games:
+  - "Command & Conquer: Generals - Zero Hour"
+category: source-port
+authors:
+  - name: Cesarus85
+    url: https://github.com/Cesarus85
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v1.2.36-xr-preview"
+version_date: "2026-09-30"
+download_url: https://github.com/Cesarus85/Generals-Zero-Hour-XR/releases/latest
+source_url: https://github.com/Cesarus85/Generals-Zero-Hour-XR
+license: unknown
+required_files: "A complete original installation of Command & Conquer: Generals and Zero Hour (not included)"
+known_bugs:
+  - Human LAN/Internet multiplayer, replay XR, keyboard/mouse input and persistent room anchors are not release-ready
+  - Quest-PC LAN games currently fail
+  - Ground View controller walking and turning are experimental
+notes: Presents the campaign/skirmish battlefield as a stereoscopic mixed-reality tabletop, built on the open-source SAGE engine lineage (TheSuperHackers/GeneralsX/GeneralsZH-Android).
+images:
+  - game: "Command & Conquer: Generals - Zero Hour"
+    file: images/generals-zero-hour-xr/command-conquer-generals-zero-hour.png
+    credit: "Command & Conquer: Generals – Zero Hour grid by TheWaslijn (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/430086
+reviews:
+  - title: Command & Conquer Generals Zero Hour VR Performance / GeneralsVR Mod / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=wUl_WnjUFyY
+  - title: "Command & Conquer: Generals Zero Hour / New Meta Quest Standalone VR Mod / Meta Quest 3"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=_IzGGuUn1cY
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/generals-zero-hour-xr
+last_checked: "2026-10-11"

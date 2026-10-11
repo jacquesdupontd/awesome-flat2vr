@@ -1,0 +1,40 @@
+name: Descent 3 VR
+games:
+  - Descent 3
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 2
+  - Quest Pro
+  - Quest 3S
+  - PICO
+controls: 6dof
+status: beta
+version: "quest-v0.3-beta"
+version_date: "2026-09-23"
+download_url: https://github.com/SgtBilko76/Descent3-VR/releases/latest
+source_url: https://github.com/SgtBilko76/Descent3-VR
+license: GPL-3.0
+required_files: Original Descent 3 game data (GOG, Steam, or original CDs; v1.4 patch recommended)
+known_bugs:
+  - PICO support is experimental and has never been tested on actual PICO hardware
+notes: Single APK now supports both Meta Quest and PICO headsets; built on the official open-source Descent 3 engine.
+images:
+  - game: Descent 3
+    file: images/descent-3-vr/descent-3.jpg
+    credit: Descent 3 grid by kinginrust (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/426305
+reviews:
+  - title: "Survivorman VR: The Descent - Meta Quest 3 Gameplay | First Minutes [No Commentary]"
+    channel: Meta Quest Central | VR Gameplay
+    url: https://www.youtube.com/watch?v=GjHt_ug7Ykw
+  - title: "OVERVIEW - Survivorman VR: The Descent | Part X Gameplay | Meta Quest 3 VR"
+    channel: Dave The Psycho
+    url: https://www.youtube.com/watch?v=XsRfs_1VAqc
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/descent-3-vr
+last_checked: "2026-10-11"

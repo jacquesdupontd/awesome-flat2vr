@@ -1,0 +1,34 @@
+name: Harry Potter VR
+games:
+  - Harry Potter and the Sorcerer's Stone
+category: source-port
+authors:
+  - name: dubrovskiy-yevhen-stakelogic
+    url: https://github.com/dubrovskiy-yevhen-stakelogic
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "v0.1.4.1"
+version_date: "2026-09-23"
+download_url: https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr/releases/latest
+source_url: https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr
+license: unknown
+required_files: A legally owned US PC CD-ROM installation of Harry Potter and the Sorcerer's Stone (2001); original maps, textures, models, music and dialogue are extracted from this install.
+known_bugs: []
+notes: Decompilation-based native port with tracked wand spellcasting, offline voice recognition, and broomstick flight; currently implements five levels.
+images:
+  - game: Harry Potter and the Sorcerer's Stone
+    file: images/harry-potter-vr/harry-potter-and-the-sorcerer-s-stone.png
+    credit: Harry Potter and the Sorcerer's Stone grid by sergillo_8 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/824577
+reviews:
+  - title: "[TUTORIAL] How to install Harry Potter and the Sorcerer's Stone VR | Meta Quest 3/3s + Gameplay ⚡-EN"
+    channel: J.H
+    url: https://www.youtube.com/watch?v=J50lNIZZfWo
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/harry-potter-vr
+last_checked: "2026-10-11"

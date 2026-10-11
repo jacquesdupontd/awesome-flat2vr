@@ -1,0 +1,32 @@
+name: GTA San Andreas VR for Quest
+games:
+  - "Grand Theft Auto: San Andreas"
+category: mod
+authors:
+  - name: dubrovskiy-yevhen-stakelogic
+    url: https://github.com/dubrovskiy-yevhen-stakelogic
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: alpha
+version: "0.3.1 alpha"
+version_date: "2026-10-11"
+download_url: https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest
+source_url: https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest
+license: unknown
+required_files: "Legally purchased Google Play GTA: San Andreas ARM64 APK split set (version 2.11.311) plus the gta-sa-ps2-style-mod-pack audio archive"
+known_bugs: []
+notes: Due to Rockstar copyright, no precompiled APK is distributed; a PC build script (BUILD_AND_INSTALL) merges the VR injector with the user's own exported APK and pushes it to the Quest via USB.
+images:
+  - game: "Grand Theft Auto: San Andreas"
+    file: images/gta-san-andreas-vr-for-quest/grand-theft-auto-san-andreas.png
+    credit: "Grand Theft Auto: San Andreas grid by 7Works (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/420221
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/gta-sa-vr-quest
+last_checked: "2026-10-11"

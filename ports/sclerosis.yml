@@ -1,0 +1,35 @@
+name: Sclerosis
+games:
+  - "Amnesia: The Dark Descent"
+category: source-port
+authors:
+  - name: CreaTeam
+platform: both
+headsets:
+  - Quest 2
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.10.7"
+version_date: "2026-10-11"
+download_url: https://questports.vercel.app/ports/sclerosis-vr
+source_url: https://questports.vercel.app/ports/sclerosis-vr
+license: unknown
+required_files: "A legal copy of Amnesia: The Dark Descent (e.g. from Steam), whose files are copied onto the headset or placed alongside the PC build."
+known_bugs: []
+notes: 1:1 recreation of the entire game in Unity with redesigned VR controls; includes optional Safe Mode (no monsters) and PSX Mode.
+images:
+  - game: "Amnesia: The Dark Descent"
+    file: images/sclerosis/amnesia-the-dark-descent.png
+    credit: "Amnesia: The Dark Descent grid by Marok (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/78508
+reviews:
+  - title: SCLEROSIS A HORROR GAME Gameplay Walkthrough Part 1 FULL GAME - AMNESIA MOBILE [Android/iOS]
+    channel: Marconaeus
+    url: https://www.youtube.com/watch?v=DCiWqSirecM
+  - title: Amnesia The Dark Descent VR Remake Is The Scariest Game I've Ever Played
+    channel: Bonezz
+    url: https://www.youtube.com/watch?v=bhpnBbaMDmo
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/sclerosis-vr
+last_checked: "2026-10-11"

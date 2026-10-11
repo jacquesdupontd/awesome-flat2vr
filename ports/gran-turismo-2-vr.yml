@@ -1,0 +1,37 @@
+name: Gran Turismo 2 VR
+games:
+  - Gran Turismo 2
+category: source-port
+authors:
+  - name: dubrovskiy-yevhen-stakelogic
+    url: https://github.com/dubrovskiy-yevhen-stakelogic
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.8.1"
+version_date: "2026-09-30"
+download_url: https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/latest
+source_url: https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc
+homepage: https://discord.gg/G5DdNQ9fD
+license: MIT
+required_files: Legally owned PS1 disc images (BIN/CUE) of Gran Turismo 2 Arcade and/or Simulation discs
+known_bugs: []
+notes: Single shared C++ codebase also targets Windows desktop, Steam Deck/Linux, macOS and a WebAssembly browser build alongside the VR modes.
+images:
+  - game: Gran Turismo 2
+    file: images/gran-turismo-2-vr/gran-turismo-2.png
+    credit: Gran Turismo 2 grid by 7Works (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/421449
+reviews:
+  - title: Gran Turismo 2 VR Performance / Quest 3 Standalone VR Mod - Motion Control Steering / How to Install
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=1_6met_dnAk
+  - title: Have You Tried Gran Turismo 2 VR Recomp? It's Amazing!
+    channel: Saiynergy
+    url: https://www.youtube.com/watch?v=gNwACh3Jxs8
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/gran-turismo-2-vr
+last_checked: "2026-10-11"

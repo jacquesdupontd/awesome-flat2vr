@@ -1,0 +1,39 @@
+name: Time Crisis VR
+games:
+  - Time Crisis
+category: source-port
+authors:
+  - name: DR-89
+    url: https://github.com/DR-89
+platform: both
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: alpha
+version: "v0.8.4"
+version_date: "2026-10-07"
+download_url: https://github.com/DR-89/time-crisis-vr/releases/latest
+source_url: https://github.com/DR-89/time-crisis-vr
+license: MIT
+required_files: Original Time Crisis arcade ROM/game data (user must own their own copy)
+known_bugs:
+  - Reported chandelier/stairs crashes have not been reproduced and are not claimed fixed in v0.8.4
+notes: Built on spacestate1/namco22-decompile; adds Android/OpenXR host, Quest renderer, VR aiming and controls, with a Windows PCVR build also available.
+images:
+  - game: Time Crisis
+    file: images/time-crisis-vr/time-crisis.png
+    credit: Time Crisis grid by kimsama98 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/176281
+reviews:
+  - title: VR Time Crisis is Here! Is This NEW VR Light Gun Shooter Worth It?
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=40ZtoY-A2s0
+  - title: The BEST Time Crisis VR Game EVER? Meta Quest 3 & PSVR2
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=Uc1K-hTLXtY
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/time-crisis-vr
+last_checked: "2026-10-11"

@@ -1,0 +1,27 @@
+name: NOLF2 R.E.A.L. mod
+games:
+  - "No One Lives Forever 2: A Spy in H.A.R.M.'s Way"
+category: mod
+authors:
+  - name: LukeRoss00
+    url: https://github.com/LukeRoss00
+platform: pcvr
+controls: 6dof
+status: stable
+version: "r3"
+version_date: "2018-02-13"
+download_url: https://github.com/LukeRoss00/nolf2-real-mod/releases/latest
+source_url: https://github.com/LukeRoss00/nolf2-real-mod
+license: unknown
+required_files: Full install of No One Lives Forever 2 (English or localized DE/ES/FR/IT), updated to v1.3 official patch
+known_bugs: []
+notes: Part of the R.E.A.L. mod series of VR conversions by LukeRoss00 for Lithtech-engine games.
+images:
+  - game: "No One Lives Forever 2: A Spy in H.A.R.M.'s Way"
+    file: images/nolf2-r-e-a-l-mod/no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way.jpg
+    credit: "No One Lives Forever 2: A Spy in H.A.R.M.'s Way grid by Rick Deckard (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/430254
+reviews: []
+added_by: bot
+discovered_via: https://github.com/lukeross00/nolf2-real-mod
+last_checked: "2026-10-11"

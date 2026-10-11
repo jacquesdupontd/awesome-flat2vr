@@ -1,0 +1,36 @@
+name: Wiicompiled VR PLUS
+games:
+  - Mario Kart Wii
+category: source-port
+authors:
+  - name: heurazy
+    url: https://github.com/heurazy
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v1.3.1"
+version_date: "2026-10-02"
+download_url: https://github.com/heurazy/Wiicompiled_VR-PLUS/releases/latest
+source_url: https://github.com/heurazy/Wiicompiled_VR-PLUS
+license: GPL-3.0
+required_files: A clean, unmodified PAL RMCP01 Mario Kart Wii disc image; the game is built on-device, no Nintendo assets are distributed
+known_bugs: []
+notes: Fork of iChris4/Wiicompiled_VR merged with heurazy's own mario-kart-wii-VR-port, statically recompiled to native code (ARM64 on Quest via Vulkan/OpenXR, x86-64 on Windows) with no Wii emulator/JIT; adds grab-and-turn kart steering, character body IK, and a standalone Quest APK target.
+images:
+  - game: Mario Kart Wii
+    file: images/wiicompiled-vr-plus/mario-kart-wii.png
+    credit: Mario Kart Wii grid by Sho. (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/263653
+reviews:
+  - title: playing mario kart wii in VR
+    channel: Poofesure
+    url: https://www.youtube.com/watch?v=2D5KLLdZxPk
+  - title: The BIGGEST VR Gain in 1 Hour - Mario Kart Wii
+    channel: TWD98
+    url: https://www.youtube.com/watch?v=gQrwLvBTyN8
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/wiicompiled-vr-plus
+last_checked: "2026-10-11"

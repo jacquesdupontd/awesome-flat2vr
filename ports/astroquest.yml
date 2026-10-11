@@ -1,0 +1,36 @@
+name: AstroQuest
+games:
+  - ASTRO BOT Rescue Mission
+category: source-port
+authors:
+  - name: bigmak94
+    url: https://github.com/bigmak94
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.20"
+version_date: "2026-10-06"
+download_url: https://github.com/bigmak94/AstroQuest/releases/latest
+source_url: https://github.com/bigmak94/AstroQuest
+license: GPL-2.0
+required_files: A clean dumped copy of ASTRO BOT Rescue Mission (PS4, e.g. European release CUSA12392) owned and dumped from the user's own PlayStation 4
+known_bugs: []
+notes: Based on an ARM64 fork of the shadPS4 PS4 emulator; playable standalone on Quest 3/3S or on PC via Virtual Desktop/SteamVR, with a PS5 DualSense recommended but Quest Touch controllers supported as a fallback.
+images:
+  - game: ASTRO BOT Rescue Mission
+    file: images/astroquest/astro-bot-rescue-mission.jpg
+    credit: VR Studio
+    source_url: https://www.youtube.com/watch?v=3SmrgertDco
+reviews:
+  - title: Install the Best PSVR Game on PC in 1 Minute! Astro Bot Rescue Mission VR Mod
+    channel: VR Studio
+    url: https://www.youtube.com/watch?v=3SmrgertDco
+  - title: Astro Bot Rescue Mission on PCVR or Quest 3 [VR Mod] The PSVR 1 game is back
+    channel: Rames VR - Cafoutch
+    url: https://www.youtube.com/watch?v=ltoL_BLV4qY
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/astroquest
+last_checked: "2026-10-11"

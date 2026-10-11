@@ -1,0 +1,31 @@
+name: Time Crisis II VR
+games:
+  - Time Crisis II (arcade, US TSS3 Ver. B)
+category: source-port
+authors:
+  - name: DR-89
+    url: https://github.com/DR-89
+platform: both
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.2.0"
+version_date: "2026-10-10"
+download_url: https://github.com/DR-89/time-crisis-2-vr/releases/latest
+source_url: https://github.com/DR-89/time-crisis-2-vr
+license: MIT
+required_files: None - built on the spacestate1/namco22-decompile arcade reconstruction; game files and weapon models are bundled in the release package
+known_bugs:
+  - v0.2.0 is experimental and has not been verified through a complete playthrough
+  - Quest 2 and Quest 3S are not confirmed to work
+notes: Built on the System 23 arcade decompilation spacestate1/namco22-decompile, with OpenXR host/controller code adapted from the author's earlier Time Crisis VR port.
+images:
+  - game: Time Crisis II (arcade, US TSS3 Ver. B)
+    file: images/time-crisis-ii-vr/time-crisis-ii.png
+    credit: Time Crisis II grid by TheBoss86 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/31159
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/time-crisis-2-vr
+last_checked: "2026-10-11"

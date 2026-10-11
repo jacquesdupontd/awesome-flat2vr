@@ -1,0 +1,39 @@
+name: Quake3Quest
+games:
+  - Quake III Arena
+category: source-port
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: stable
+version: "1.2.0"
+version_date: "2026-09-29"
+download_url: https://github.com/Team-Beef-Studios/ioq3quest/releases/latest
+source_url: https://github.com/Team-Beef-Studios/ioq3quest
+homepage: https://questports.vercel.app/ports/quake3quest
+license: GPL-2.0
+required_files: Quake III Arena baseq3 .pk3 files (owned copy, e.g. from Steam) for the full game; 4 maps included without them
+known_bugs: []
+notes: Fork/VR port of ioquake3; includes weapon wheel, campaign, local Wi-Fi and dedicated VR-only online multiplayer.
+images:
+  - game: Quake III Arena
+    file: images/quake3quest/quake-iii-arena.png
+    credit: Quake III Arena grid by Niejcas (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/622932
+reviews:
+  - title: Quake 3 Arena VR For Quest! Beta Version Installation Guide And Gameplay. [GUIDE OUTDATED]
+    channel: VR Reviews
+    url: https://www.youtube.com/watch?v=3rmbKcA8Wxs
+  - title: Quake 3 Arena VR on Quest 2 - How to download and install
+    channel: La Baia di Ben
+    url: https://www.youtube.com/watch?v=QYThTnahjI8
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/quake3quest
+last_checked: "2026-10-11"
