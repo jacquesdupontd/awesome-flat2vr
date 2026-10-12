@@ -1,0 +1,39 @@
+name: Overlord
+games:
+  - "Call of Duty: Modern Warfare 2 Campaign Remastered"
+category: mod
+authors:
+  - name: Aeka0
+    url: https://github.com/Aeka0
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.5.0-beta"
+version_date: "2026-10-10"
+download_url: https://github.com/Aeka0/Overlord/releases/latest
+source_url: https://github.com/Aeka0/Overlord
+license: GPL-3.0
+required_files: "Original copy of Call of Duty: Modern Warfare 2 Campaign Remastered"
+known_bugs:
+  - Create2DTexture error may occur unless Shader Preloading is disabled in graphics settings
+  - MSI Afterburner may prevent Overlord from starting
+  - AMD GPUs may experience VR falling back to flat-screen mode unless anti-aliasing is disabled or FXAA is used
+  - Controller positioning may feel offset after the controller tracking refactor in this version
+notes: Supports Quest 3 via a zero-offset origin preset for controller calibration; project is actively developed with no stable release yet.
+images:
+  - game: "Call of Duty: Modern Warfare 2 Campaign Remastered"
+    file: images/overlord/call-of-duty-modern-warfare-2-campaign-remastered.png
+    credit: "Call of Duty: Modern Warfare 2 - Campaign Remastered grid by BruhShashumga (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/274425
+reviews:
+  - title: "Call of Duty: Modern Warfare 2 Campaign Remastered VR is Amazing / New VR Mod / 6DOF Motion Control"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=rh8HVtGAKaM
+  - title: "Call of Duty: Modern Warfare 2 Campaign Remastered VR Mod 6DOF Motion Controls"
+    channel: Uruzz
+    url: https://www.youtube.com/watch?v=FvUelHCBwcc
+added_by: bot
+discovered_via: https://github.com/Aeka0/Overlord
+last_checked: "2026-10-12"

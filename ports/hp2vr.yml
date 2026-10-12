@@ -1,0 +1,28 @@
+name: HP2VR
+games:
+  - Harry Potter and the Chamber of Secrets (2002 PC)
+category: mod
+authors:
+  - name: The-Logeen
+    url: https://github.com/The-Logeen
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.2"
+version_date: "2026-10-11"
+download_url: https://github.com/The-Logeen/HP2VR/releases/latest
+source_url: https://github.com/The-Logeen/HP2VR
+license: MIT
+required_files: Original 2002 PC retail copy of Harry Potter and the Chamber of Secrets (build 021009_1205), plus HP2 DirectX 11 Renderer 1.6.2 and Valve OpenVR SDK 2.15.6
+known_bugs:
+  - Full headset play-through has not been verified yet; installation, startup and stereo rendering tested only in simulation
+notes: Adds SteamVR stereo rendering and tracked wand spellcasting via the game's own spell system, with a guided installer.
+images:
+  - game: Harry Potter and the Chamber of Secrets (2002 PC)
+    file: images/hp2vr/harry-potter-and-the-chamber-of-secrets.png
+    credit: Harry Potter and the Chamber of Secrets grid by Haxy (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/303839
+reviews: []
+added_by: bot
+discovered_via: https://github.com/The-Logeen/HP2VR
+last_checked: "2026-10-12"

@@ -1,0 +1,30 @@
+name: Disney Dreamlight Valley VR
+games:
+  - Disney Dreamlight Valley
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "Disney_Dreamlight_Valley_VR_update1"
+version_date: "2026-10-11"
+download_url: https://github.com/King-EJ/Disney-Dreamlight-Valley-VR/releases/latest
+source_url: https://github.com/King-EJ/Disney-Dreamlight-Valley-VR
+license: unknown
+required_files: A copy of Disney Dreamlight Valley with BepInEx 6 (be.788) installed
+known_bugs: []
+notes: Requires ViGEmBus virtual gamepad driver for menu/dialogue navigation; experimental auto-walk pointer does not work with water or pickaxe actions.
+images:
+  - game: Disney Dreamlight Valley
+    file: images/disney-dreamlight-valley-vr/disney-dreamlight-valley.png
+    credit: Disney Dreamlight Valley grid by CelaenaTDD (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/508588
+reviews:
+  - title: The Happiest Place in VR - Disney Dreamlight Valley VR Mod - Gameplay & Commentary
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=2pElA9KSMF4
+added_by: bot
+discovered_via: https://github.com/King-EJ/Disney-Dreamlight-Valley-VR
+last_checked: "2026-10-12"

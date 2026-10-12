@@ -12,8 +12,8 @@ headsets:
   - Quest
 controls: 6dof
 status: alpha
-version: "v2.0.0-alpha.2"
-version_date: "2026-10-08"
+version: "v2.0.0-alpha.3"
+version_date: "2026-10-12"
 download_url: https://github.com/iChris4/MetroidPrimePortVR/releases/latest
 source_url: https://github.com/iChris4/MetroidPrimePortVR
 homepage: https://github.com/Odrannnn/MetroidPrimePort/releases/latest
@@ -35,4 +35,4 @@ reviews:
     url: https://www.youtube.com/watch?v=--05XNl9YaU
 added_by: bot
 discovered_via: https://github.com/ichris4/metroidprimeportvr
-last_checked: "2026-10-09"
+last_checked: "2026-10-12"

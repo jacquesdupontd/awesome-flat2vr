@@ -1,0 +1,29 @@
+name: PC2VR (PlanetCoaster2VR)
+games:
+  - Planet Coaster 2
+category: mod
+authors:
+  - name: D-Rey86
+    url: https://github.com/D-Rey86
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.1.0-alpha.1"
+version_date: "2026-10-11"
+download_url: https://github.com/D-Rey86/PlanetCoaster2VR/releases/latest
+source_url: https://github.com/D-Rey86/PlanetCoaster2VR
+license: GPL-3.0
+required_files: Legitimate Steam installation of Planet Coaster 2 (tested on build 1.11.3.986758)
+known_bugs:
+  - Other physical headsets and AMD GPUs still need community validation
+  - Later game updates may require a mod update due to reliance on measured game interfaces
+notes: Bundles CheekyFoveatedDLSS for optional foveated DLSS rendering on NVIDIA GPUs; requires OpenXR runtime with D3D12 support.
+images:
+  - game: Planet Coaster 2
+    file: images/pc2vr-planetcoaster2vr/planet-coaster-2.png
+    credit: Planet Coaster 2 grid by Pherby (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/830351
+reviews: []
+added_by: bot
+discovered_via: https://github.com/D-Rey86/PlanetCoaster2VR
+last_checked: "2026-10-12"

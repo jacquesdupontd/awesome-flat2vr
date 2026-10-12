@@ -1,0 +1,37 @@
+name: EternalVR
+games:
+  - DOOM Eternal
+category: mod
+authors:
+  - name: ArcadaLabs-Jason
+    url: https://github.com/ArcadaLabs-Jason
+platform: pcvr
+headsets:
+  - Quest 3
+  - PlayStation VR2
+controls: mixed
+status: alpha
+version: "v0.1.47"
+version_date: "2026-10-12"
+download_url: https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest
+source_url: https://github.com/ArcadaLabs-Jason/EternalVR
+homepage: https://ko-fi.com/FanciestPeanut
+license: MIT
+required_files: A PC copy of DOOM Eternal (Steam, Game Pass, or Microsoft Store)
+known_bugs: []
+notes: Requires an OpenXR runtime such as Virtual Desktop, SteamVR, or Meta Horizon Link.
+images:
+  - game: DOOM Eternal
+    file: images/eternalvr/doom-eternal.jpg
+    credit: DOOM Eternal grid by Vargavaka (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/360225
+reviews:
+  - title: DOOM Eternal VR Is Here... Mods Have Changed VR Forever!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=rf1aWozpwK0
+  - title: Doom Eternal is a VR Game NOW!
+    channel: "VR DaD "
+    url: https://www.youtube.com/watch?v=x5IhUhJaNrg
+added_by: bot
+discovered_via: https://github.com/ArcadaLabs-Jason/EternalVR
+last_checked: "2026-10-12"

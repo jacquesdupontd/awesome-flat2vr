@@ -1,0 +1,37 @@
+name: DeadRisingVR
+games:
+  - Dead Rising
+category: mod
+authors:
+  - name: AshenVR
+    url: https://github.com/AshenVR
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.0-alpha"
+version_date: "2026-10-11"
+download_url: https://github.com/AshenVR/DeadRisingVR/releases/latest
+source_url: https://github.com/AshenVR/DeadRisingVR
+license: unknown
+required_files: Dead Rising (PC, Steam)
+known_bugs:
+  - First-person mode is experimental with 3DOF aiming only
+  - SteamVR/Steam Link support is experimental and may cause the game to launch in 2D if the active OpenXR runtime is misconfigured
+notes: Requires an active OpenXR runtime; Virtual Desktop + VDXR is the recommended/most-tested setup.
+images:
+  - game: Dead Rising
+    file: images/deadrisingvr/dead-rising.png
+    credit: Dead Rising grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/171923
+reviews:
+  - title: Dead Rising in Virtual Reality Tour!
+    channel: Freako
+    url: https://www.youtube.com/watch?v=aLlOIIkpCMA
+  - title: Requisition is Dead Rising VR (and it’s amazing)
+    channel: Jammyhero
+    url: https://www.youtube.com/watch?v=fxVvP3Plt1g
+added_by: bot
+discovered_via: https://github.com/AshenVR/DeadRisingVR
+last_checked: "2026-10-12"

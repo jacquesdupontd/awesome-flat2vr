@@ -1,0 +1,27 @@
+name: BL1GOTYVR
+games:
+  - "Borderlands: Game of the Year Enhanced"
+category: mod
+authors:
+  - name: Mastersellz
+    url: https://github.com/Mastersellz
+platform: pcvr
+controls: 6dof
+status: beta
+version: "V0.5.7.3"
+version_date: "2026-10-12"
+download_url: https://github.com/Mastersellz/BL1GOTYVR/releases/latest
+source_url: https://github.com/Mastersellz/BL1GOTYVR
+license: unknown
+required_files: "A copy of Borderlands: Game of the Year Enhanced (2019, Win64/D3D11)"
+known_bugs: []
+notes: DXGI-proxy-based OpenXR mod; targets the 2019 GOTY Enhanced release only, not the original 2009 Borderlands.
+images:
+  - game: "Borderlands: Game of the Year Enhanced"
+    file: images/bl1gotyvr/borderlands-game-of-the-year-enhanced.png
+    credit: "Borderlands: Game of the Year Enhanced grid by adamboulton (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/367944
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Mastersellz/BL1GOTYVR
+last_checked: "2026-10-12"

@@ -9,8 +9,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: stable
-version: "1.13"
-version_date: "2026-10-10"
+version: "1.14"
+version_date: "2026-10-12"
 download_url: https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest
 source_url: https://github.com/helpimaghost/Space-Hulk-Deathwing-VR
 license: unknown
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=FINK6QAYO50
 added_by: bot
 discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
-last_checked: "2026-10-11"
+last_checked: "2026-10-12"

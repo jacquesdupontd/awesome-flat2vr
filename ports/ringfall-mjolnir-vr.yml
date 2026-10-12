@@ -1,0 +1,31 @@
+name: "Ringfall: Mjolnir VR"
+games:
+  - "Halo: Combat Evolved"
+category: mod
+authors:
+  - name: Cesarus85
+    url: https://github.com/Cesarus85
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Steam Frame
+controls: 6dof
+status: alpha
+version: "build-300"
+version_date: "2026-10-11"
+download_url: https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest
+source_url: https://github.com/Cesarus85/ringfall-mjolnir-vr
+license: CC0-1.0
+required_files: "A disc image (.iso or .xiso) of the player's own purchased copy of Halo: Combat Evolved for the original Xbox"
+known_bugs: []
+notes: Runs standalone on-device with full 6DoF campaign, co-op, LAN and online multiplayer (up to 128 players), and cross-play with the OpenCE PC/phone builds.
+images:
+  - game: "Halo: Combat Evolved"
+    file: images/ringfall-mjolnir-vr/halo-combat-evolved.png
+    credit: "Halo: Combat Evolved grid by ender-blade (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/34594
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Cesarus85/ringfall-mjolnir-vr
+last_checked: "2026-10-12"

@@ -1,0 +1,33 @@
+name: Dungeon Keeper 2 VR (DK2VR)
+games:
+  - Dungeon Keeper 2
+category: mod
+authors:
+  - name: LoVeMaKeRz
+    url: https://github.com/lovemakerz
+platform: pcvr
+headsets:
+  - Meta Quest 3
+controls: 6dof
+status: alpha
+version: "V0.9.47.63"
+version_date: "2026-10-11"
+download_url: https://github.com/lovemakerz/Dungeon-Keeper-2-VR-MOD/releases/latest
+source_url: https://github.com/lovemakerz/Dungeon-Keeper-2-VR-MOD
+license: unknown
+required_files: Dungeon Keeper 2 version 1.70 (DKII-DX.exe)
+known_bugs:
+  - Resolution change requires restarting the game or the UI/selection lines draw incorrectly
+notes: Non-invasive install that leaves DKII-DX.exe untouched and restores the game folder to its original state on exit; dungeon table viewed from above with first-person 360° creature possession.
+images:
+  - game: Dungeon Keeper 2
+    file: images/dungeon-keeper-2-vr-dk2vr/dungeon-keeper-2.png
+    credit: Dungeon Keeper 2 grid by Luckspeare (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/323493
+reviews:
+  - title: Dungeon Keeper 2 VR
+    channel: LoVeMaKeRz
+    url: https://www.youtube.com/watch?v=0tBOKbF9qJE
+added_by: bot
+discovered_via: https://github.com/lovemakerz/Dungeon-Keeper-2-VR-MOD
+last_checked: "2026-10-12"

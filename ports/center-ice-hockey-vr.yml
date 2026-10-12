@@ -1,0 +1,27 @@
+name: Center Ice Hockey VR
+games:
+  - Center Ice Hockey
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: mixed
+status: alpha
+version: "0.1.2"
+version_date: "2026-10-12"
+download_url: https://github.com/King-EJ/Center-Ice-Hockey-VR/releases/latest
+source_url: https://github.com/King-EJ/Center-Ice-Hockey-VR
+license: unknown
+required_files: An installed copy of Center Ice Hockey (Unity 2022.3, IL2CPP)
+known_bugs: []
+notes: Test build only, offline; author states it will be a while before further work resumes. Skater view is experimental.
+images:
+  - game: Center Ice Hockey
+    file: images/center-ice-hockey-vr/center-ice-hockey.jpg
+    credit: Center Ice Hockey store art
+    source_url: https://store.steampowered.com/app/5100030/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Center-Ice-Hockey-VR
+last_checked: "2026-10-12"

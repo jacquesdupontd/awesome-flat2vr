@@ -10,8 +10,8 @@ headsets:
   - Quest
 controls: 6dof
 status: beta
-version: "v0.35"
-version_date: "2026-10-08"
+version: "v0.36"
+version_date: "2026-10-11"
 download_url: https://github.com/fulldivegames/Majoras-Mask-VR/releases/latest
 source_url: https://github.com/fulldivegames/Majoras-Mask-VR
 license: CC0-1.0
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=MJuM7PrNoK0
 added_by: bot
 discovered_via: https://github.com/fulldivegames/majoras-mask-vr
-last_checked: "2026-10-09"
+last_checked: "2026-10-12"

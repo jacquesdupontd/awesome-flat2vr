@@ -1,0 +1,27 @@
+name: RDRVR
+games:
+  - Red Dead Redemption (2024 PC port)
+category: mod
+authors:
+  - name: Disonomouss
+    url: https://github.com/Disonomouss
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.8.7"
+version_date: "2026-10-12"
+download_url: https://github.com/Disonomouss/RDRVR/releases/latest
+source_url: https://github.com/Disonomouss/RDRVR
+license: MIT
+required_files: Legal copy of the PC port of Red Dead Redemption (2024); RedHook v0.8 must be installed first
+known_bugs: []
+notes: Native-stereo VR mod rendering the scene per eye with head/hand tracked John's body and hand-aimed weapons/lasso; tested on Meta Quest 3 via Virtual Desktop.
+images:
+  - game: Red Dead Redemption (2024 PC port)
+    file: images/rdrvr/red-dead-redemption.png
+    credit: Red Dead Redemption grid by Macho Sadness (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/500162
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Disonomouss/RDRVR
+last_checked: "2026-10-12"

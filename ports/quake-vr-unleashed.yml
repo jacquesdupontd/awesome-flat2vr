@@ -1,0 +1,35 @@
+name: "Quake VR: UNLEASHED"
+games:
+  - Quake
+category: source-port
+authors:
+  - name: Vittorio Romeo
+    url: https://github.com/vittorioromeo
+platform: pcvr
+headsets:
+  - Meta Quest 3
+controls: 6dof
+status: stable
+version: "v1.0.1"
+version_date: "2026-10-11"
+download_url: https://github.com/vittorioromeo/quakevr/releases/latest
+source_url: https://github.com/vittorioromeo/quakevr
+license: GPL-2.0
+required_files: The full game of Quake (e.g. from Steam)
+known_bugs: []
+notes: Runs on the Ironwail engine via OpenXR; successor to the original Quake VR mod which ran on QuakeSpasm-Spiked/OpenVR.
+images:
+  - game: Quake
+    file: images/quake-vr-unleashed/quake.jpg
+    credit: Quake grid by BadYesterday (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/429796
+reviews:
+  - title: Let's Play Quake in VR!
+    channel: Ben Plays VR
+    url: https://www.youtube.com/watch?v=CqWprpl17MM
+  - title: Quake VR - Body Holsters, Finger Tracking, Melee Combat, and more!
+    channel: Ben Plays VR
+    url: https://www.youtube.com/watch?v=OTGxe-sFijU
+added_by: bot
+discovered_via: https://github.com/vittorioromeo/quakevr
+last_checked: "2026-10-12"

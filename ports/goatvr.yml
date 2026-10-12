@@ -1,0 +1,38 @@
+name: GoatVR
+games:
+  - Goat Simulator
+category: mod
+authors:
+  - name: 5chech
+    url: https://github.com/5chech
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Quest 2
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "v43.0"
+version_date: "2026-10-11"
+download_url: https://github.com/5chech/GoatVR/releases/latest
+source_url: https://github.com/5chech/GoatVR
+license: unknown
+required_files: Legally owned Goat Simulator Android/mobile APK
+known_bugs: []
+notes: Built on the mobile phone version of Goat Simulator; runs fully standalone on the headset, no PCVR or streaming required.
+images:
+  - game: Goat Simulator
+    file: images/goatvr/goat-simulator.png
+    credit: Goat Simulator grid by QuiGonJinnah (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/26800
+reviews:
+  - title: goatVR new VRsion
+    channel: Wadonk AB
+    url: https://www.youtube.com/watch?v=3eR-GNQdHiw
+  - title: Goatvr Live Stream
+    channel: E-Goat
+    url: https://www.youtube.com/watch?v=cpLlkY3QLtI
+added_by: bot
+discovered_via: https://github.com/5chech/GoatVR
+last_checked: "2026-10-12"

@@ -1,0 +1,39 @@
+name: "Half-Life: VR Mod - Blue Shift"
+games:
+  - "Half-Life: Blue Shift"
+category: mod
+authors:
+  - name: DmitryShaburov
+    url: https://github.com/DmitryShaburov
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.2.1"
+version_date: "2026-10-11"
+download_url: https://github.com/DmitryShaburov/Blue-Shift-VR/releases/latest
+source_url: https://github.com/DmitryShaburov/Blue-Shift-VR
+license: unknown
+required_files: "Half-Life: Blue Shift and Half-Life: VR Mod, both owned on Steam"
+known_bugs:
+  - Teleportation in some Xen places instantly kills you
+  - Hand models on weapons are mess
+  - No Linux support
+  - Immersive ladders are hard to climb and properly dismount
+  - The mod may crash on launch, during level transitions or at random, and may corrupt saves
+  - No manual reload or two-hand weapon holding
+notes: "Ports the Half-Life: VR Mod codebase onto the Blue Shift Updated SDK and the HL 25th Anniversary engine."
+images:
+  - game: "Half-Life: Blue Shift"
+    file: images/half-life-vr-mod-blue-shift/half-life-blue-shift.png
+    credit: "Half-Life: Blue Shift grid by AleX1282 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/197818
+reviews:
+  - title: "HALF-LIFE: BLUE SHIFT & OPPOSING FORCE IN VR! | Half Life VR Mod + DLC Installation Tutorial"
+    channel: SweViver
+    url: https://www.youtube.com/watch?v=rUvwvqrFtE4
+  - title: Half Life Blue Shift VR FULL Playthrough
+    channel: Sky Yuki
+    url: https://www.youtube.com/watch?v=tMPT7EjAnIQ
+added_by: bot
+discovered_via: https://github.com/DmitryShaburov/Blue-Shift-VR
+last_checked: "2026-10-12"

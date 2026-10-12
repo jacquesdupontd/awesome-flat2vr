@@ -1,0 +1,38 @@
+name: MGS5VR
+games:
+  - "Metal Gear Solid V: The Phantom Pain"
+category: mod
+authors:
+  - name: nikamigaming-create
+    url: https://github.com/nikamigaming-create
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "experimental-2026-10-11"
+version_date: "2026-10-12"
+download_url: https://github.com/nikamigaming-create/MGS5VR/releases/latest
+source_url: https://github.com/nikamigaming-create/MGS5VR
+license: MIT
+required_files: "Own copy of Metal Gear Solid V: The Phantom Pain (TPP) version 1.0.15.4 on Windows x64"
+known_bugs:
+  - Full-game and weapon coverage incomplete
+  - iDroid tutorial recovery not yet finished
+  - Physical-headset acceptance beyond Quest 3 + Touch is unverified
+notes: Experimental Windows PC mod via OpenXR; not a standalone Quest app, requires PC-connected headset.
+images:
+  - game: "Metal Gear Solid V: The Phantom Pain"
+    file: images/mgs5vr/metal-gear-solid-v-the-phantom-pain.png
+    credit: "Metal Gear Solid V: The Phantom Pain grid by SadSeagull (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/626492
+reviews:
+  - title: "METAL GEAR SOLID V: THE PHANTOM PAIN - VR Mod with 6DOF Motion Controls & Head-tracking"
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=dshTY6jZAbM
+  - title: You Won't Believe This...Metal Gear Solid 5 The Phantom Pain in...Virtual Reality.
+    channel: TheReclusiveGamer
+    url: https://www.youtube.com/watch?v=E7usAsMe0n0
+added_by: bot
+discovered_via: https://github.com/nikamigaming-create/MGS5VR
+last_checked: "2026-10-12"
