@@ -1,0 +1,30 @@
+name: "Port0r: Cop VR"
+games:
+  - Virtua Cop
+category: source-port
+authors:
+  - name: jacquesdupontd (Port0r)
+    url: https://github.com/jacquesdupontd
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.1.0"
+version_date: "2026-10-13"
+download_url: https://port0r.itch.io/cop-vr
+source_url: https://github.com/jacquesdupontd/port0r
+homepage: https://github.com/jacquesdupontd/port0r#install-port0r-cop-vr
+license: unknown
+required_files: Your own MAME 0.289 Virtua Cop set (vcop.zip and model1io2.zip)
+known_bugs: []
+notes: Runs the original 1994 arcade code through a modified MAME core and redraws the Model 2 scene for each eye in stereoscopic 3D. A 3D gun in your hand, shots land where you aim in the scene, and the game's camera zooms become a move through the level.
+images:
+  - game: Virtua Cop
+    file: images/port0r-cop-vr/virtua-cop.jpg
+    credit: "Port0r: Cop VR release video thumbnail, by the author"
+    source_url: https://www.youtube.com/watch?v=1qCQorbbdPc
+reviews: []
+added_by: human
+discovered_via: https://github.com/jacquesdupontd/port0r
+last_checked: "2026-10-13"
