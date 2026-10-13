@@ -13,8 +13,8 @@ headsets:
   - Quest Pro
 controls: 6dof
 status: beta
-version: "1.1"
-version_date: "2026-10-07"
+version: "1.2"
+version_date: "2026-10-12"
 download_url: https://github.com/Bassquake/Aliens-Versus-Predator-VR/releases/latest
 source_url: https://github.com/Bassquake/Aliens-Versus-Predator-VR
 license: GPL-3.0
@@ -29,4 +29,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/avp-vr
-last_checked: "2026-10-11"
+last_checked: "2026-10-13"

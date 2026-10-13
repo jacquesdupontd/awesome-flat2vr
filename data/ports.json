@@ -167,8 +167,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "1.1",
-    "version_date": "2026-10-07",
+    "version": "1.2",
+    "version_date": "2026-10-12",
     "download_url": "https://github.com/Bassquake/Aliens-Versus-Predator-VR/releases/latest",
     "source_url": "https://github.com/Bassquake/Aliens-Versus-Predator-VR",
     "license": "GPL-3.0",
@@ -186,7 +186,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/avp-vr",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "animal-crossing-vr-mr-standalone",
@@ -845,7 +845,7 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "0.1.2",
+    "version": "Center_Ice_Hockey_VR",
     "version_date": "2026-10-12",
     "download_url": "https://github.com/King-EJ/Center-Ice-Hockey-VR/releases/latest",
     "source_url": "https://github.com/King-EJ/Center-Ice-Hockey-VR",
@@ -864,7 +864,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Center-Ice-Hockey-VR",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "control-vr",
@@ -1524,7 +1524,7 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.47",
+    "version": "v0.1.49",
     "version_date": "2026-10-12",
     "download_url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
     "source_url": "https://github.com/ArcadaLabs-Jason/EternalVR",
@@ -1555,7 +1555,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ArcadaLabs-Jason/EternalVR",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "f-e-a-r-vr",
@@ -1917,8 +1917,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.11.1",
-    "version_date": "2026-09-13",
+    "version": "v0.13.0",
+    "version_date": "2026-10-12",
     "download_url": "https://github.com/Firejumper93/GhostReconWildlandsVR/releases/latest",
     "source_url": "https://github.com/Firejumper93/GhostReconWildlandsVR",
     "license": "unknown",
@@ -1950,7 +1950,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Firejumper93/GhostReconWildlandsVR",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "goatvr",
@@ -2028,8 +2028,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.4.19",
-    "version_date": "2026-10-10",
+    "version": "v0.4.22",
+    "version_date": "2026-10-13",
     "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
     "source_url": "https://github.com/MrSco/goldeneye-vr",
     "homepage": "https://goldeneyevr.com",
@@ -2059,7 +2059,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mrsco/goldeneye-vr",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "gothic-ii-vr",
@@ -2497,8 +2497,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.0.18",
-    "version_date": "2026-10-08",
+    "version": "v1.0.31",
+    "version_date": "2026-10-12",
     "download_url": "https://github.com/moistman42069/HaloCE-Quest-VR/releases/latest",
     "source_url": "https://github.com/moistman42069/HaloCE-Quest-VR",
     "homepage": "https://buymeacoffee.com/orgixsphero",
@@ -2517,7 +2517,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/moistman42069/haloce-quest-vr",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "halocevr",
@@ -3685,8 +3685,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.5.0-alpha",
-    "version_date": "2026-10-10",
+    "version": "v0.6.0-beta",
+    "version_date": "2026-10-13",
     "download_url": "https://github.com/gibranfelix/oot-vr/releases/latest",
     "source_url": "https://github.com/gibranfelix/oot-vr",
     "license": "unknown",
@@ -3710,7 +3710,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/gibranfelix/oot-vr",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "openmw-vr",
@@ -3936,8 +3936,8 @@
     "platform": "pcvr",
     "controls": "gamepad",
     "status": "alpha",
-    "version": "v0.1.0-alpha.1",
-    "version_date": "2026-10-11",
+    "version": "v0.1.0-alpha.2",
+    "version_date": "2026-10-13",
     "download_url": "https://github.com/D-Rey86/PlanetCoaster2VR/releases/latest",
     "source_url": "https://github.com/D-Rey86/PlanetCoaster2VR",
     "license": "GPL-3.0",
@@ -3958,7 +3958,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/D-Rey86/PlanetCoaster2VR",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "penumbra-overture-vr-mod",
@@ -4079,8 +4079,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.2.5",
-    "version_date": "2026-10-11",
+    "version": "vcop-v0.1.0",
+    "version_date": "2026-10-13",
     "download_url": "https://github.com/jacquesdupontd/port0r/releases/latest",
     "source_url": "https://github.com/jacquesdupontd/port0r",
     "license": "unknown",
@@ -4104,7 +4104,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/sega-rally-vr",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "preyvr",
@@ -4676,8 +4676,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.8.7",
-    "version_date": "2026-10-12",
+    "version": "v0.8.9",
+    "version_date": "2026-10-13",
     "download_url": "https://github.com/Disonomouss/RDRVR/releases/latest",
     "source_url": "https://github.com/Disonomouss/RDRVR",
     "license": "MIT",
@@ -4695,7 +4695,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Disonomouss/RDRVR",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "reframework",
@@ -4910,8 +4910,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "build-300",
-    "version_date": "2026-10-11",
+    "version": "build-301",
+    "version_date": "2026-10-12",
     "download_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest",
     "source_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
     "license": "CC0-1.0",
@@ -4929,7 +4929,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "road-rash-jailbreak-vr",
@@ -5189,8 +5189,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.4.8",
-    "version_date": "2026-09-08",
+    "version": "v1.4.10",
+    "version_date": "2026-10-12",
     "download_url": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR/releases/latest",
     "source_url": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR",
     "license": "unknown",
@@ -5219,7 +5219,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "shenmue-iii-uevr",
@@ -6106,8 +6106,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.2.0",
-    "version_date": "2026-10-10",
+    "version": "v0.3.0",
+    "version_date": "2026-10-12",
     "download_url": "https://github.com/DR-89/time-crisis-2-vr/releases/latest",
     "source_url": "https://github.com/DR-89/time-crisis-2-vr",
     "license": "MIT",
@@ -6128,7 +6128,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/time-crisis-2-vr",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "time-crisis-vr",
@@ -6152,8 +6152,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.8.4",
-    "version_date": "2026-10-07",
+    "version": "v0.9.0",
+    "version_date": "2026-10-12",
     "download_url": "https://github.com/DR-89/time-crisis-vr/releases/latest",
     "source_url": "https://github.com/DR-89/time-crisis-vr",
     "license": "MIT",
@@ -6184,7 +6184,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/time-crisis-vr",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "tpvr",
@@ -6257,8 +6257,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.0-alpha.5",
-    "version_date": "2026-10-11",
+    "version": "v0.1.0-alpha.6",
+    "version_date": "2026-10-13",
     "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
     "source_url": "https://github.com/petonexus/tocs-vr-releases",
     "homepage": "https://www.trailsvr.pro",
@@ -6279,7 +6279,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-13"
   },
   {
     "slug": "two-forks-vr",

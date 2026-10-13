@@ -10,8 +10,8 @@ headsets:
   - Quest
 controls: 6dof
 status: beta
-version: "v1.0.18"
-version_date: "2026-10-08"
+version: "v1.0.31"
+version_date: "2026-10-12"
 download_url: https://github.com/moistman42069/HaloCE-Quest-VR/releases/latest
 source_url: https://github.com/moistman42069/HaloCE-Quest-VR
 homepage: https://buymeacoffee.com/orgixsphero
@@ -27,4 +27,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/moistman42069/haloce-quest-vr
-last_checked: "2026-10-09"
+last_checked: "2026-10-13"

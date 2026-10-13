@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.11.1"
-version_date: "2026-09-13"
+version: "v0.13.0"
+version_date: "2026-10-12"
 download_url: https://github.com/Firejumper93/GhostReconWildlandsVR/releases/latest
 source_url: https://github.com/Firejumper93/GhostReconWildlandsVR
 license: unknown
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=dMRfAHhmbbc
 added_by: bot
 discovered_via: https://github.com/Firejumper93/GhostReconWildlandsVR
-last_checked: "2026-10-09"
+last_checked: "2026-10-13"

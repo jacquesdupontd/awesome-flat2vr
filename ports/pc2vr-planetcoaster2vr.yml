@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: gamepad
 status: alpha
-version: "v0.1.0-alpha.1"
-version_date: "2026-10-11"
+version: "v0.1.0-alpha.2"
+version_date: "2026-10-13"
 download_url: https://github.com/D-Rey86/PlanetCoaster2VR/releases/latest
 source_url: https://github.com/D-Rey86/PlanetCoaster2VR
 license: GPL-3.0
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/D-Rey86/PlanetCoaster2VR
-last_checked: "2026-10-12"
+last_checked: "2026-10-13"

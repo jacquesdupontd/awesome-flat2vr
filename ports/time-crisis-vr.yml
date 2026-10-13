@@ -13,8 +13,8 @@ headsets:
   - Quest Pro
 controls: 6dof
 status: alpha
-version: "v0.8.4"
-version_date: "2026-10-07"
+version: "v0.9.0"
+version_date: "2026-10-12"
 download_url: https://github.com/DR-89/time-crisis-vr/releases/latest
 source_url: https://github.com/DR-89/time-crisis-vr
 license: MIT
@@ -36,4 +36,4 @@ reviews:
     url: https://www.youtube.com/watch?v=Uc1K-hTLXtY
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/time-crisis-vr
-last_checked: "2026-10-11"
+last_checked: "2026-10-13"

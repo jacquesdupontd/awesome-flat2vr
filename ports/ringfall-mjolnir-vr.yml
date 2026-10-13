@@ -12,8 +12,8 @@ headsets:
   - Steam Frame
 controls: 6dof
 status: alpha
-version: "build-300"
-version_date: "2026-10-11"
+version: "build-301"
+version_date: "2026-10-12"
 download_url: https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest
 source_url: https://github.com/Cesarus85/ringfall-mjolnir-vr
 license: CC0-1.0
@@ -28,4 +28,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/Cesarus85/ringfall-mjolnir-vr
-last_checked: "2026-10-12"
+last_checked: "2026-10-13"
