@@ -1,0 +1,30 @@
+name: Quest 3 Strikers
+games:
+  - Super Mario Strikers
+category: source-port
+authors:
+  - name: LanceSweatpants
+    url: https://github.com/LanceSweatpants
+platform: standalone
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "v0.1.3-alpha1"
+version_date: "2026-10-14"
+download_url: https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/latest
+source_url: https://github.com/LanceSweatpants/Strikers-Quest-MR
+homepage: https://questports.vercel.app/ports/strikers-quest-mr
+license: GPL-3.0
+required_files: "Own Super Mario Strikers (GameCube) disc image: .iso, .gcm, .ciso, .gcz, .rvz or .wia"
+known_bugs: []
+notes: Fork of luisxl15/Strikers-Android-Port compiled for Quest via OpenXR; offers tabletop and life-size-stadium mixed-reality views plus online 1v1 with room codes.
+images:
+  - game: Super Mario Strikers
+    file: images/quest-3-strikers/super-mario-strikers.jpg
+    credit: Super Mario Strikers grid by Arthur Lopes (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/129428
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/strikers-quest-mr
+last_checked: "2026-10-14"

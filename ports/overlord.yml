@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: beta
-version: "v0.5.0-beta"
-version_date: "2026-10-10"
+version: "v0.6.0-beta"
+version_date: "2026-10-13"
 download_url: https://github.com/Aeka0/Overlord/releases/latest
 source_url: https://github.com/Aeka0/Overlord
 license: GPL-3.0
@@ -36,4 +36,4 @@ reviews:
     url: https://www.youtube.com/watch?v=FvUelHCBwcc
 added_by: bot
 discovered_via: https://github.com/Aeka0/Overlord
-last_checked: "2026-10-12"
+last_checked: "2026-10-14"

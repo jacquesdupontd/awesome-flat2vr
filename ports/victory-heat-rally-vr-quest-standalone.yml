@@ -1,0 +1,32 @@
+name: "Victory Heat Rally VR: Quest Standalone"
+games:
+  - Victory Heat Rally
+category: mod
+authors:
+  - name: segadreamcat
+    url: https://github.com/segadreamcat
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: stable
+version: "v1.1"
+version_date: "2026-10-03"
+download_url: https://github.com/segadreamcat/VictoryHeatRallyVR-Quest/releases/latest
+source_url: https://github.com/segadreamcat/VictoryHeatRallyVR-Quest
+license: unknown
+required_files: Player's own Steam copy of Victory Heat Rally (installer patches it and builds the APK locally)
+known_bugs: []
+notes: Installer is a Windows .bat tool that builds and signs the APK from the user's Steam copy and installs it over USB; no game files are distributed.
+images:
+  - game: Victory Heat Rally
+    file: images/victory-heat-rally-vr-quest-standalone/victory-heat-rally.png
+    credit: Victory Heat Rally grid by JF0117 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/729024
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/victory-heat-rally-vr
+last_checked: "2026-10-14"

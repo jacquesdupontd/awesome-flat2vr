@@ -1,0 +1,37 @@
+name: Insanity Engine VR
+games:
+  - Outlast (2013)
+category: mod
+authors:
+  - name: TdiamondOf
+    url: https://github.com/TdiamondOf
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.0-beta"
+version_date: "2026-10-14"
+download_url: https://github.com/TdiamondOf/InsanityEngineVR/releases/latest
+source_url: https://github.com/TdiamondOf/InsanityEngineVR
+license: unknown
+required_files: Outlast (2013) on PC (Steam version tested)
+known_bugs:
+  - The night-vision light can still show partly in your own view.
+  - The HUD centre dot isn't centred in the headset.
+  - No pickup prompts in VR; X picks up the nearest item.
+  - Camcorder is currently broken, fix in progress.
+notes: Very early WIP beta build; requires an OpenXR runtime and a Vulkan-capable GPU.
+images:
+  - game: Outlast (2013)
+    file: images/insanity-engine-vr/outlast.png
+    credit: Outlast grid by Obsess (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/798526
+reviews:
+  - title: I Slept In Outlast In VR and It Was Horrifying
+    channel: Dredile
+    url: https://www.youtube.com/watch?v=YRUx35lBTiY
+  - title: OUTLAST 360° VR Video
+    channel: VR Gamez
+    url: https://www.youtube.com/watch?v=badQWmQ5hDY
+added_by: bot
+discovered_via: https://github.com/TdiamondOf/InsanityEngineVR
+last_checked: "2026-10-14"

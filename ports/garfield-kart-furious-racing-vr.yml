@@ -1,0 +1,27 @@
+name: Garfield Kart - Furious Racing VR
+games:
+  - Garfield Kart - Furious Racing
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "0.1.5"
+version_date: "2026-10-14"
+download_url: https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR/releases/latest
+source_url: https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR
+license: unknown
+required_files: Garfield Kart - Furious Racing game install
+known_bugs: []
+notes: Uses BepInEx plugin GKVR for OpenXR; VR controllers emulate an Xbox gamepad with an optional gyro steering mode; online multiplayer untested per the author.
+images:
+  - game: Garfield Kart - Furious Racing
+    file: images/garfield-kart-furious-racing-vr/garfield-kart-furious-racing.png
+    credit: Garfield Kart - Furious Racing grid by torch (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/742572
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR
+last_checked: "2026-10-14"

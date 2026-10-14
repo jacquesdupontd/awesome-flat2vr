@@ -1,0 +1,28 @@
+name: NewDarkVR
+games:
+  - System Shock 2
+category: mod
+authors:
+  - name: Owloeb
+    url: https://github.com/Owloeb
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v.0.1.0"
+version_date: "2026-10-14"
+download_url: https://github.com/Owloeb/NewDarkVR/releases/latest
+source_url: https://github.com/Owloeb/NewDarkVR
+license: unknown
+required_files: Owned copy of System Shock 2 (SS2.exe) plus a local NewDarkRecompiled checkout
+known_bugs:
+  - OpenXR runtimes that only offer a D3D11 graphics binding (no OpenGL) are not yet supported
+notes: Built on the author's NewDarkRecompiled 64-bit decompilation port; current build only offers a standalone OpenXR test (ndvr_gltest.exe), not full in-game VR yet.
+images:
+  - game: System Shock 2
+    file: images/newdarkvr/system-shock-2.png
+    credit: System Shock 2 grid by spookiehacker (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/32776
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Owloeb/NewDarkVR
+last_checked: "2026-10-14"
