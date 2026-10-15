@@ -3,7 +3,7 @@
 // Tate's release-report gists, GitHub, SideQuest and Reddit, committed straight to main.
 //
 //   node scripts/discover/run.mjs [--dry-run] [--commit] [--notify]
-//        [--sources gists,github,sidequest,reddit] [--max-extract N] [--no-bumps]
+//        [--sources gists,github,sidequest,reddit,x] [--max-extract N] [--no-bumps]
 //
 // --dry-run   discover + extract, print what would change, write nothing (state included)
 // --commit    build, validate, commit the new/bumped entries to main and push origin main.
@@ -39,7 +39,7 @@ const flag = (f) => args.includes(f);
 const opt = (f, d) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
 const DRY = flag('--dry-run');
 const COMMIT = (flag('--commit') || flag('--pr')) && !DRY;
-const SOURCES = opt('--sources', 'seeds,mvrh,questports,gists,github,steam,sidequest,discord,youtube,reddit')
+const SOURCES = opt('--sources', 'seeds,mvrh,questports,gists,github,steam,sidequest,discord,youtube,reddit,x')
   .split(',')
   .filter(Boolean);
 const MAX_EXTRACT = Number(opt('--max-extract', '25'));
