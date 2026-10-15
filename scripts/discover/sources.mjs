@@ -345,6 +345,31 @@ export function xMentionLeads(json, { sinceMs, now = Date.now() } = {}) {
   return out;
 }
 
+// Fallback parser for `twikit dm-requests`, used when the twitter skill's replies verb is unavailable.
+export function xDmLeads(json, { sinceMs, now = Date.now() } = {}) {
+  const out = [];
+  for (const c of json?.conversations ?? []) {
+    const m = c.last_message;
+    if (!m?.id || m.sender_id === X_OWNER_ID) continue;
+    const when = xTime(m.time);
+    if (Number.isNaN(when.getTime()) || when.getTime() < (sinceMs ?? now - 7 * 864e5)) continue;
+    const who = c.participants?.find((p) => p.user_id === m.sender_id)?.screen_name ?? 'unknown';
+    const body = stripHtml(m.text ?? '');
+    const urls = [...new Set(extractUrls(body).filter((u) => !/\/\/t\.co\//.test(u)))];
+    if (!urls.length || !X_VR_HINT.test(body)) continue;
+    out.push({
+      id: `x:dm:${m.id}`,
+      source: 'X DM',
+      source_url: `https://x.com/${who}`,
+      title: body.slice(0, 80),
+      date: when.toISOString().slice(0, 10),
+      text: `Direct message to @${X_HANDLE} from @${who} on ${when.toISOString().slice(0, 10)}:\n${body}`,
+      urls,
+    });
+  }
+  return out;
+}
+
 // `twitter replies` (twitter skill) prints one JSON event per line for the replies and DMs sent to
 // Jordan, message requests included: {id:"dm:<id>"|"tweet:<id>", kind, by, text, url, created}.
 export function xReplyLeads(lines, { sinceMs, now = Date.now() } = {}) {
@@ -397,7 +422,12 @@ export async function x({
       .map((l) => JSON.parse(l));
     leads.push(...xReplyLeads(lines, { sinceMs }));
   } catch (e) {
-    console.error(`x replies/DMs: ${e.message.split('\n')[0]}`);
+    console.error(`x replies/DMs: ${e.message.split('\n')[0]}; falling back to twikit dm-requests`);
+    try {
+      leads.push(...xDmLeads(JSON.parse(call(process.env.TWIKIT_BIN || 'twikit', ['dm-requests'])), { sinceMs }));
+    } catch (e2) {
+      console.error(`x dm-requests: ${e2.message.split('\n')[0]}`);
+    }
   }
   return leads.slice(0, cap);
 }
