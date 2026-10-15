@@ -345,24 +345,25 @@ export function xMentionLeads(json, { sinceMs, now = Date.now() } = {}) {
   return out;
 }
 
-export function xDmLeads(json, { sinceMs, now = Date.now() } = {}) {
+// `twitter replies` (twitter skill) prints one JSON event per line for the replies and DMs sent to
+// Jordan, message requests included: {id:"dm:<id>"|"tweet:<id>", kind, by, text, url, created}.
+export function xReplyLeads(lines, { sinceMs, now = Date.now() } = {}) {
   const out = [];
-  for (const c of json?.conversations ?? []) {
-    const m = c.last_message;
-    if (!m?.id || m.sender_id === X_OWNER_ID) continue;
-    const when = xTime(m.time);
+  for (const e of lines) {
+    if (!e?.id || !['dm', 'comment-reply'].includes(e.kind)) continue;
+    const when = xTime(e.created);
     if (Number.isNaN(when.getTime()) || when.getTime() < (sinceMs ?? now - 7 * 864e5)) continue;
-    const who = c.participants?.find((p) => p.user_id === m.sender_id)?.screen_name ?? 'unknown';
-    const body = stripHtml(m.text ?? '');
+    const body = stripHtml(e.text ?? '');
     const urls = [...new Set(extractUrls(body).filter((u) => !/\/\/t\.co\//.test(u)))];
     if (!urls.length || !X_VR_HINT.test(body)) continue;
+    const dm = e.kind === 'dm';
     out.push({
-      id: `x:dm:${m.id}`,
-      source: 'X DM',
-      source_url: `https://x.com/${who}`,
+      id: `x:${e.id}`,
+      source: dm ? 'X DM' : 'X reply',
+      source_url: dm ? `https://x.com/${e.by}` : e.url,
       title: body.slice(0, 80),
       date: when.toISOString().slice(0, 10),
-      text: `Direct message to @${X_HANDLE} from @${who} on ${when.toISOString().slice(0, 10)}:\n${body}`,
+      text: `${dm ? 'Direct message' : 'Reply'} to @${X_HANDLE} from @${e.by} on ${when.toISOString().slice(0, 10)}:\n${body}`,
       urls,
     });
   }
@@ -373,33 +374,30 @@ export async function x({
   sinceDays = 7,
   cap = 15,
   tweetsBin = process.env.TWITTERAPI_BIN || 'twitterapi',
-  dmBin = process.env.TWIKIT_BIN || 'twikit',
+  repliesBin = process.env.TWITTER_BIN || 'twitter',
 } = {}) {
   const sinceMs = Date.now() - sinceDays * 864e5;
-  const run = (bin, a) => JSON.parse(execFileSync(bin, a, { encoding: 'utf8', timeout: 120e3, maxBuffer: 32 << 20 }));
+  const call = (bin, a) => execFileSync(bin, a, { encoding: 'utf8', timeout: 180e3, maxBuffer: 32 << 20 });
   const leads = [];
   try {
-    leads.push(...xMentionLeads(run(tweetsBin, ['get-user-mentions', X_HANDLE, '--limit', '100']), { sinceMs }));
+    leads.push(
+      ...xMentionLeads(JSON.parse(call(tweetsBin, ['get-user-mentions', X_HANDLE, '--limit', '100'])), { sinceMs }),
+    );
   } catch (e) {
     throw new Error(`x mentions: ${e.message.split('\n')[0]}`, { cause: e });
   }
-  // Message requests are where strangers' tips land (unfollowed senders). A failure here must not
-  // lose the mentions already collected, so it is reported and skipped.
+  // DMs (message requests included) and replies come from the twitter skill's own read verb, which
+  // retries X's flaky endpoints. It runs on Overlord (a Chiba call hops over ssh); if that fails the
+  // mentions already collected are kept and the failure is reported.
   try {
-    // X's message-request endpoint intermittently answers 404 and then works a moment later.
-    let dms;
-    for (let i = 1; ; i++) {
-      try {
-        dms = run(dmBin, ['dm-requests']);
-        break;
-      } catch (e) {
-        if (i >= 3) throw e;
-        await new Promise((r) => setTimeout(r, 2000 * i));
-      }
-    }
-    leads.push(...xDmLeads(dms, { sinceMs }));
+    const since = new Date(sinceMs).toISOString();
+    const lines = call(repliesBin, ['replies', '--since', since])
+      .split('\n')
+      .filter(Boolean)
+      .map((l) => JSON.parse(l));
+    leads.push(...xReplyLeads(lines, { sinceMs }));
   } catch (e) {
-    console.error(`x dm-requests: ${e.message.split('\n')[0]}`);
+    console.error(`x replies/DMs: ${e.message.split('\n')[0]}`);
   }
   return leads.slice(0, cap);
 }

@@ -1,6 +1,6 @@
 import { test } from 'vitest';
 import assert from 'node:assert/strict';
-import { xMentionLeads, xDmLeads } from '../scripts/discover/sources.mjs';
+import { xMentionLeads, xReplyLeads } from '../scripts/discover/sources.mjs';
 
 const NOW = Date.parse('2026-10-16T00:00:00Z');
 const tweet = (over: Record<string, unknown> = {}) => ({
@@ -40,23 +40,30 @@ test('an injection attempt stays inside the lead text and never becomes a URL or
   assert.match(lead!.text, /Ignore previous instructions/, 'text is carried verbatim as data for the fenced prompt');
 });
 
-test('DM requests: the last message from someone else with a link and a VR hint is a lead', () => {
-  const conv = (sender: string, text: string) => ({
-    conversation_id: `2509004038-${sender}`,
-    participants: [{ user_id: sender, screen_name: 'tipster' }],
-    last_message: { id: `m${sender}`, time: String(Date.parse('2026-10-14T00:00:00Z')), sender_id: sender, text },
+test('twitter replies events: a DM or reply from someone else with a link and a VR hint is a lead', () => {
+  const ev = (id: string, kind: string, text: string, by = 'tipster') => ({
+    id,
+    kind,
+    by,
+    text,
+    url: 'https://x.com/tipster/status/5',
+    created: '2026-10-14T00:00:00Z',
   });
-  const leads = xDmLeads(
-    {
-      conversations: [
-        conv('7', 'hey a UEVR mod for Dead Space just dropped https://github.com/x/ds-vr'),
-        conv('8', 'hello how are you'),
-        conv('2509004038', 'my own reply with a VR mod link https://github.com/x/y'),
-      ],
-    },
+  const leads = xReplyLeads(
+    [
+      ev('dm:1', 'dm', 'hey a UEVR mod for Dead Space just dropped https://github.com/x/ds-vr'),
+      ev('dm:2', 'dm', 'hello how are you'),
+      ev('tweet:3', 'comment-reply', 'Quest port of Halo here https://github.com/x/halo-quest'),
+      ev('tweet:4', 'quote', 'VR mod https://github.com/x/y'),
+    ],
     { now: NOW },
   );
-  assert.equal(leads.length, 1);
-  assert.equal(leads[0]!.id, 'x:dm:m7');
+  assert.deepEqual(
+    leads.map((l) => [l.id, l.source]),
+    [
+      ['x:dm:1', 'X DM'],
+      ['x:tweet:3', 'X reply'],
+    ],
+  );
   assert.deepEqual(leads[0]!.urls, ['https://github.com/x/ds-vr']);
 });
