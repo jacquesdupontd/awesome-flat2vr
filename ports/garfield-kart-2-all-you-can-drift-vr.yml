@@ -17,11 +17,8 @@ required_files: Garfield Kart 2 - All You Can Drift (offline) game installation
 known_bugs:
   - Author describes the mod as very WIP and 'kinda broken'
 notes: Install by unzipping the release into the game folder.
-images:
-  - game: Garfield Kart 2 - All You Can Drift
-    file: images/garfield-kart-2-all-you-can-drift-vr/garfield-kart-2-all-you-can-drift.png
-    credit: King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR
-    source_url: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR
+no_image:
+  - Garfield Kart 2 - All You Can Drift
 reviews: []
 added_by: bot
 discovered_via: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR
