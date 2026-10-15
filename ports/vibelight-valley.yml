@@ -1,0 +1,32 @@
+name: Vibelight Valley
+games:
+  - Disney Dreamlight Valley
+category: mod
+authors:
+  - name: TheBacon00
+    url: https://github.com/TheBacon00
+platform: pcvr
+headsets:
+  - Steam Frame
+controls: gamepad
+status: alpha
+version: "v0.2.0"
+version_date: "2026-10-15"
+download_url: https://github.com/TheBacon00/vibelight-valley/releases/latest
+source_url: https://github.com/TheBacon00/vibelight-valley
+license: MIT
+required_files: Disney Dreamlight Valley on Steam (Direct3D 11)
+known_bugs: []
+notes: Experimental BepInEx OpenXR mod with stereo 6DOF head tracking, HUD layer and a one-click installer; requires SteamVR as the OpenXR runtime.
+images:
+  - game: Disney Dreamlight Valley
+    file: images/vibelight-valley/disney-dreamlight-valley.png
+    credit: Disney Dreamlight Valley grid by CelaenaTDD (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/508588
+reviews:
+  - title: The Happiest Place in VR? Disney Dreamlight Valley VR Mod
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=2pElA9KSMF4
+added_by: bot
+discovered_via: https://github.com/TheBacon00/vibelight-valley
+last_checked: "2026-10-15"

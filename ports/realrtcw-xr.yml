@@ -1,0 +1,40 @@
+name: RealRTCW XR
+games:
+  - Return to Castle Wolfenstein
+  - RealRTCW
+category: source-port
+authors:
+  - name: Team Beef Studios
+    url: https://github.com/Team-Beef-Studios
+platform: pcvr
+headsets:
+  - Meta Quest (Link/Air Link)
+controls: 6dof
+status: stable
+version: "0.8.7"
+version_date: "2026-10-10"
+download_url: https://github.com/Team-Beef-Studios/RealRTCWXR/releases/latest
+source_url: https://github.com/Team-Beef-Studios/RealRTCWXR
+license: GPL-3.0
+required_files: Return to Castle Wolfenstein (Steam). The installer can copy the game data from Steam. The minimal installer also needs RealRTCW 5.0 (beta branch) installed in Steam.
+known_bugs: []
+notes: OpenXR PC VR build of RealRTCW 5.0 for the full single-player campaign. Works with any OpenXR headset.
+images:
+  - game: Return to Castle Wolfenstein
+    file: images/realrtcw-xr/return-to-castle-wolfenstein.png
+    credit: Return to Castle Wolfenstein grid by scandro1d (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/793491
+  - game: RealRTCW
+    file: images/realrtcw-xr/realrtcw.png
+    credit: RealRTCW grid by gleem (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/253378
+reviews:
+  - title: IS RETURN TO CASTLE WOLFENSTEIN GOOD IN VR?
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=waWTqeNHqOM
+  - title: Return to Castle Wolfenstein VR Oculus Quest 2 Review - A True Golden Oldie | Pure Play TV
+    channel: Pure Play TV
+    url: https://www.youtube.com/watch?v=kZJNHJdbBkU
+added_by: bot
+discovered_via: https://github.com/Team-Beef-Studios/RealRTCWXR
+last_checked: "2026-10-15"

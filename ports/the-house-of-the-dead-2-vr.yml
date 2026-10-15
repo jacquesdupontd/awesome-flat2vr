@@ -11,8 +11,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "v0.3-test1"
-version_date: "2026-10-09"
+version: "v0.4-test1"
+version_date: "2026-10-14"
 download_url: https://github.com/mikermak/hotd2-vr/releases/latest
 source_url: https://github.com/mikermak/hotd2-vr
 license: GPL-2.0
@@ -39,4 +39,4 @@ reviews:
     url: https://www.youtube.com/watch?v=MkmQsxcIMLc
 added_by: bot
 discovered_via: https://github.com/mikermak/hotd2-vr
-last_checked: "2026-10-09"
+last_checked: "2026-10-15"

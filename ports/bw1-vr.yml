@@ -1,0 +1,35 @@
+name: BW1-VR
+games:
+  - Black & White
+category: mod
+authors:
+  - name: BW1-VR
+    url: https://github.com/BW1-VR
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v1.1.0-20261014-72ada9d"
+version_date: "2026-10-14"
+download_url: https://github.com/BW1-VR/BW1-VR/releases/latest
+source_url: https://github.com/BW1-VR/BW1-VR
+license: unknown
+required_files: Own copy of Black & White (2001) patched to v1.42 (official patches 1.10 and 1.20 plus unofficial patch v1.42)
+known_bugs: []
+notes: Mod for the original Black & White (2001) that requires game version 1.42 (patches 1.10, 1.20 and unofficial 1.42); tested on Quest 3 via Virtual Desktop.
+images:
+  - game: Black & White
+    file: images/bw1-vr/black-white.png
+    credit: Black & White grid by Kuhneghetz (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/7853
+reviews:
+  - title: Black & White VR mod - Preview 1
+    channel: Buck
+    url: https://www.youtube.com/watch?v=fT-J_DspllY
+  - title: Endlich ein richtiges Black & White in VR?! Genesis of a Small God
+    channel: VoodooDE VR
+    url: https://www.youtube.com/watch?v=uo5Q8LV3hTM
+added_by: bot
+discovered_via: https://github.com/BW1-VR/BW1-VR
+last_checked: "2026-10-15"

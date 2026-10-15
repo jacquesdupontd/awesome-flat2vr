@@ -10,8 +10,8 @@ headsets:
   - Meta Quest 3
 controls: 6dof
 status: alpha
-version: "v0.1.0-alpha.6"
-version_date: "2026-10-13"
+version: "v0.1.0-alpha.7"
+version_date: "2026-10-14"
 download_url: https://github.com/petonexus/tocs-vr-releases/releases/latest
 source_url: https://github.com/petonexus/tocs-vr-releases
 homepage: https://www.trailsvr.pro
@@ -28,4 +28,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/petonexus/tocs-vr-releases
-last_checked: "2026-10-13"
+last_checked: "2026-10-15"

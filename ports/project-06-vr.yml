@@ -1,0 +1,35 @@
+name: Project 06 VR
+games:
+  - Sonic Project 06
+category: mod
+authors:
+  - name: moistman42069
+    url: https://github.com/moistman42069
+platform: standalone
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "v0.1.15"
+version_date: "2026-09-27"
+download_url: https://github.com/moistman42069/Project06-VR/releases/latest
+source_url: https://github.com/moistman42069/Project06-VR
+homepage: https://github.com/moistman42069/Project06-VR/releases
+license: unknown
+required_files: Android Sonic Release port APK (p-06RELEASE64.apk, Unity 2022.3.62f1) of Sonic Project 06
+known_bugs:
+  - Currently only Sonic levels work; compatibility with other characters is WIP
+  - Level glitches may be inherited from the Android port
+notes: Wraps the Android Sonic Release port with OpenXR stereo rendering, Touch controls, optional first-person view and physical motion controls.
+images:
+  - game: Sonic Project 06
+    file: images/project-06-vr/sonic-project-06.jpg
+    credit: farmertrueVR
+    source_url: https://www.youtube.com/watch?v=-ysJK4IrE4E
+reviews:
+  - title: "Sonic the Hedgehog Project 06 VR! & Subnautica VR! Prawn Exploring #vr #live #quest3 #pimax Crystal"
+    channel: farmertrueVR
+    url: https://www.youtube.com/watch?v=-ysJK4IrE4E
+added_by: bot
+discovered_via: https://github.com/moistman42069/Project06-VR
+last_checked: "2026-10-15"

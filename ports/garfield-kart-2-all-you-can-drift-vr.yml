@@ -8,7 +8,7 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "Garfield_Kart_2"
+version: "Garfield_Kart_Furious_Racing_VRa"
 version_date: "2026-10-14"
 download_url: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR/releases/latest
 source_url: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR
@@ -25,4 +25,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR
-last_checked: "2026-10-14"
+last_checked: "2026-10-15"

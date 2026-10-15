@@ -1,0 +1,39 @@
+name: CodiesVR
+games:
+  - GRID Legends
+  - Dirt 4
+category: mod
+authors:
+  - name: drowhunter
+    url: https://github.com/drowhunter
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.4"
+version_date: "2026-10-15"
+download_url: https://github.com/drowhunter/CodiesVR/releases/latest
+source_url: https://github.com/drowhunter/CodiesVR
+license: GPL-3.0
+required_files: GRID Legends (Steam or EA) or Dirt 4 (Steam), run once so the settings file exists; OpenXR runtime with Direct3D 12 support
+known_bugs:
+  - In alternate-eye rendering mode each eye updates at half the game's frame rate
+notes: Release v0.4 includes Grid Legends VR 0.4.1 and Dirt VR 0.1, with mono, AFR and native stereo rendering modes.
+images:
+  - game: GRID Legends
+    file: images/codiesvr/grid-legends.jpg
+    credit: GRID Legends grid by PanPawlik (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/840275
+  - game: Dirt 4
+    file: images/codiesvr/dirt-4.png
+    credit: DiRT 4 grid by Marok (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/150717
+reviews:
+  - title: GRID Legends VR Review on Meta Quest 2
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=IY-sZO68E8k
+  - title: GRID Legends has come to VR on the Quest 2 - I LIKE it and here's why!
+    channel: GameOnScorpio
+    url: https://www.youtube.com/watch?v=0aFCZnMl4Lk
+added_by: bot
+discovered_via: https://github.com/drowhunter/CodiesVR
+last_checked: "2026-10-15"

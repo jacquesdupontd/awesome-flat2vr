@@ -1,0 +1,46 @@
+name: Gen1Recomp for Steam Frame
+games:
+  - Pokémon Red
+  - Pokémon Blue
+  - Pokémon Yellow
+category: source-port
+authors:
+  - name: astromaddie
+    url: https://github.com/astromaddie
+platform: standalone
+headsets:
+  - Steam Frame
+controls: mixed
+status: alpha
+version: "v0.2.1"
+version_date: "2026-10-12"
+download_url: https://github.com/astromaddie/gen1recomp-frame/releases/latest
+source_url: https://github.com/astromaddie/gen1recomp-frame
+license: MIT
+required_files: Your own unmodified 1 MiB US Pokémon Red, Blue or Yellow .gb/.gbc ROM, placed in the roms/ folder
+known_bugs:
+  - HUD readability and performance still need work in the current renderer
+notes: Experimental native Linux ARM64 OpenXR kit adapting Polymatic Gen1Recomp and DRAMALESS_SHAPE; runs on the headset with no PC streaming.
+images:
+  - game: Pokémon Red
+    file: images/gen1recomp-for-steam-frame/pokemon-red.png
+    credit: Pokémon Red Version grid by JackSilversonX (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/827358
+  - game: Pokémon Blue
+    file: images/gen1recomp-for-steam-frame/pokemon-blue.png
+    credit: Pokémon Blue Version grid by Passer (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/817304
+  - game: Pokémon Yellow
+    file: images/gen1recomp-for-steam-frame/pokemon-yellow.png
+    credit: Pokémon Yellow Version grid by chestergreen (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/845135
+reviews:
+  - title: Pokémon  Blue VR Standalone Quest 3 Gameplay
+    channel: Gaming Cause What ?
+    url: https://www.youtube.com/watch?v=ECUJnNGWAAA
+  - title: POKEMON YELLOW IN VR QUEST 2 - PART 2 (DRAMATIC SHAPE)
+    channel: Plasmakilla1
+    url: https://www.youtube.com/watch?v=6GRFBnxK2GQ
+added_by: bot
+discovered_via: https://github.com/astromaddie/gen1recomp-frame
+last_checked: "2026-10-15"

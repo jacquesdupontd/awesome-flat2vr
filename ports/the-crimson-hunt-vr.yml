@@ -8,7 +8,7 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "0.1.9"
+version: "The_Crimson_Hunt_VR"
 version_date: "2026-10-13"
 download_url: https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-/releases/latest
 source_url: https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-
@@ -24,4 +24,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-
-last_checked: "2026-10-14"
+last_checked: "2026-10-15"

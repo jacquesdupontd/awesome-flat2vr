@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: beta
-version: "v0.2.1"
-version_date: "2026-10-11"
+version: "v0.3.0"
+version_date: "2026-10-14"
 download_url: https://github.com/DmitryShaburov/Blue-Shift-VR/releases/latest
 source_url: https://github.com/DmitryShaburov/Blue-Shift-VR
 license: unknown
@@ -36,4 +36,4 @@ reviews:
     url: https://www.youtube.com/watch?v=tMPT7EjAnIQ
 added_by: bot
 discovered_via: https://github.com/DmitryShaburov/Blue-Shift-VR
-last_checked: "2026-10-12"
+last_checked: "2026-10-15"

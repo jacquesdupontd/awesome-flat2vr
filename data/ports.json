@@ -189,6 +189,53 @@
     "last_checked": "2026-10-13"
   },
   {
+    "slug": "alphahaloquest",
+    "name": "AlphaHaloQuest",
+    "games": [
+      "Halo: Combat Evolved"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "christiancoler",
+        "url": "https://github.com/christiancoler"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Meta Quest"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "alpha",
+    "version_date": "2026-09-30",
+    "download_url": "https://github.com/christiancoler/AlphaHaloQuest/releases/latest",
+    "source_url": "https://github.com/christiancoler/AlphaHaloQuest",
+    "license": "CC0-1.0",
+    "required_files": "Legally dumped original Xbox Halo CE disc image (.iso/.xiso) or extracted folder containing maps/ui.map",
+    "known_bugs": [
+      "Crashes, bad controls, visual problems and unfinished VR behavior",
+      "No visible reticle during weapon zoom",
+      "HUD placement and scopes not VR-native",
+      "No left-handed weapon support",
+      "Vehicle controls not designed for VR",
+      "Aiming and two-hand behavior unreliable in some situations"
+    ],
+    "notes": "Based on halo-ce-universal and the Xbox Halo decompilation; runs natively on the headset with OpenXR and OpenGL ES.",
+    "images": [
+      {
+        "game": "Halo: Combat Evolved",
+        "file": "images/alphahaloquest/halo-combat-evolved.png",
+        "credit": "Halo: Combat Evolved grid by ender-blade (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/34594"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/christiancoler/AlphaHaloQuest",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "animal-crossing-vr-mr-standalone",
     "name": "Animal Crossing VR/MR Standalone",
     "games": [
@@ -666,6 +713,48 @@
     "last_checked": "2026-10-14"
   },
   {
+    "slug": "bf2142vr",
+    "name": "BF2142VR",
+    "games": [
+      "Battlefield 2142"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "justiceofrip",
+        "url": "https://github.com/justiceofrip"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.2.0-beta.4-hotfix.4",
+    "version_date": "2026-10-13",
+    "download_url": "https://github.com/justiceofrip/BF2142VR/releases/latest",
+    "source_url": "https://github.com/justiceofrip/BF2142VR",
+    "license": "MIT",
+    "required_files": "Own working BF2142 v1.51 installation on Windows x64, with Reclamation/OpenSpy set up separately",
+    "known_bugs": [
+      "Remaining animation and compatibility issues"
+    ],
+    "notes": "Based on BFVR by JayBiggsGMG; tested with Quest 3 controllers via Steam Link/SteamVR.",
+    "images": [
+      {
+        "game": "Battlefield 2142",
+        "file": "images/bf2142vr/battlefield-2142.png",
+        "credit": "Battlefield 2142 grid by Humb (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/156496"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/justiceofrip/BF2142VR",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "big-walk-vr",
     "name": "Big Walk VR",
     "games": [
@@ -870,6 +959,100 @@
     "last_checked": "2026-10-12"
   },
   {
+    "slug": "bomberman-hero-quest-3-vr-standalone",
+    "name": "Bomberman Hero Quest 3 VR Standalone",
+    "games": [
+      "Bomberman Hero"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "VistaLargaGames",
+        "url": "https://github.com/VistaLargaGames"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "n64",
+    "version_date": "2026-10-12",
+    "download_url": "https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone/releases/latest",
+    "source_url": "https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone",
+    "license": "GPL-3.0",
+    "required_files": "Your own backup of the 1.0 North American Bomberman Hero ROM, selected when the game launches",
+    "known_bugs": [
+      "Bomb explosions don't always display",
+      "Screen recording on the headset drops resolution until recording stops"
+    ],
+    "notes": "Based on the PC Bomberman Hero Recomp; install the APK via the Quest browser or SideQuest.",
+    "images": [
+      {
+        "game": "Bomberman Hero",
+        "file": "images/bomberman-hero-quest-3-vr-standalone/bomberman-hero.png",
+        "credit": "Bomberman Hero grid by Sho. (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/263683"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone",
+    "last_checked": "2026-10-15"
+  },
+  {
+    "slug": "bw1-vr",
+    "name": "BW1-VR",
+    "games": [
+      "Black & White"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "BW1-VR",
+        "url": "https://github.com/BW1-VR"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v1.1.0-20261014-72ada9d",
+    "version_date": "2026-10-14",
+    "download_url": "https://github.com/BW1-VR/BW1-VR/releases/latest",
+    "source_url": "https://github.com/BW1-VR/BW1-VR",
+    "license": "unknown",
+    "required_files": "Own copy of Black & White (2001) patched to v1.42 (official patches 1.10 and 1.20 plus unofficial patch v1.42)",
+    "known_bugs": [],
+    "notes": "Mod for the original Black & White (2001) that requires game version 1.42 (patches 1.10, 1.20 and unofficial 1.42); tested on Quest 3 via Virtual Desktop.",
+    "images": [
+      {
+        "game": "Black & White",
+        "file": "images/bw1-vr/black-white.png",
+        "credit": "Black & White grid by Kuhneghetz (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/7853"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Black & White VR mod - Preview 1",
+        "channel": "Buck",
+        "url": "https://www.youtube.com/watch?v=fT-J_DspllY"
+      },
+      {
+        "title": "Endlich ein richtiges Black & White in VR?! Genesis of a Small God",
+        "channel": "VoodooDE VR",
+        "url": "https://www.youtube.com/watch?v=uo5Q8LV3hTM"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/BW1-VR/BW1-VR",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "center-ice-hockey-vr",
     "name": "Center Ice Hockey VR",
     "games": [
@@ -905,6 +1088,63 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Center-Ice-Hockey-VR",
     "last_checked": "2026-10-13"
+  },
+  {
+    "slug": "codiesvr",
+    "name": "CodiesVR",
+    "games": [
+      "GRID Legends",
+      "Dirt 4"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "drowhunter",
+        "url": "https://github.com/drowhunter"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.4",
+    "version_date": "2026-10-15",
+    "download_url": "https://github.com/drowhunter/CodiesVR/releases/latest",
+    "source_url": "https://github.com/drowhunter/CodiesVR",
+    "license": "GPL-3.0",
+    "required_files": "GRID Legends (Steam or EA) or Dirt 4 (Steam), run once so the settings file exists; OpenXR runtime with Direct3D 12 support",
+    "known_bugs": [
+      "In alternate-eye rendering mode each eye updates at half the game's frame rate"
+    ],
+    "notes": "Release v0.4 includes Grid Legends VR 0.4.1 and Dirt VR 0.1, with mono, AFR and native stereo rendering modes.",
+    "images": [
+      {
+        "game": "GRID Legends",
+        "file": "images/codiesvr/grid-legends.jpg",
+        "credit": "GRID Legends grid by PanPawlik (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/840275"
+      },
+      {
+        "game": "Dirt 4",
+        "file": "images/codiesvr/dirt-4.png",
+        "credit": "DiRT 4 grid by Marok (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/150717"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "GRID Legends VR Review on Meta Quest 2",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=IY-sZO68E8k"
+      },
+      {
+        "title": "GRID Legends has come to VR on the Quest 2 - I LIKE it and here's why!",
+        "channel": "GameOnScorpio",
+        "url": "https://www.youtube.com/watch?v=0aFCZnMl4Lk"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/drowhunter/CodiesVR",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "control-vr",
@@ -955,6 +1195,63 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "crazy-taxi-vr-standalone",
+    "name": "Crazy Taxi VR Standalone",
+    "games": [
+      "Crazy Taxi"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Baywilly",
+        "url": "https://github.com/Baywilly"
+      },
+      {
+        "name": "Sito"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.1-beta",
+    "version_date": "2026-10-12",
+    "download_url": "https://github.com/Baywilly/Crazy-Taxi-VR-Standalone/releases/latest",
+    "source_url": "https://github.com/Baywilly/Crazy-Taxi-VR-Standalone",
+    "homepage": "https://questports.vercel.app/ports/crazy-taxi-vr",
+    "license": "unknown",
+    "required_files": "Own copy of SEGA's Crazy Taxi for Android, exact version 6.0-80 (APKM bundle), to which the XDelta patch is applied.",
+    "known_bugs": [
+      "Release notes say this version may contain bugs."
+    ],
+    "notes": "Distributed as an ~250 MB XDelta patch for the user's own Android game copy; offers cockpit, chase and miniature camera views.",
+    "images": [
+      {
+        "game": "Crazy Taxi",
+        "file": "images/crazy-taxi-vr-standalone/crazy-taxi.png",
+        "credit": "Crazy Taxi grid by Klumb3r (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/698"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Crazy Taxi VR Performance / New Meta Quest 3 Standalone VR Mod with Motion Steering / Quest 3",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=53FEb8eGrSo"
+      },
+      {
+        "title": "Crazy Taxi First Person VR MOD - Quest 2 - PPSSPP VR",
+        "channel": "𝐈𝐑𝐎𝐍𝐁𝐔𝐆𝙑𝙍",
+        "url": "https://www.youtube.com/watch?v=J0pn9FTNJKs"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/crazy-taxi-vr",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "cronos-the-new-dawn-uevr",
@@ -1328,6 +1625,60 @@
     "last_checked": "2026-10-11"
   },
   {
+    "slug": "dirt2vr",
+    "name": "DiRT2VR",
+    "games": [
+      "Colin McRae: DiRT 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "preseznik",
+        "url": "https://github.com/preseznik"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "gamepad",
+    "status": "beta",
+    "version": "v0.16.0",
+    "version_date": "2026-09-28",
+    "download_url": "https://github.com/preseznik/DiRT2VR/releases/latest",
+    "source_url": "https://github.com/preseznik/DiRT2VR",
+    "license": "unknown",
+    "required_files": "Own working DiRT 2 version 1.1.0.0 installation (Windows x64)",
+    "known_bugs": [
+      "PSVR2, Logitech and Fanatec hardware not yet verified",
+      "VDXR support is experimental"
+    ],
+    "notes": "Launcher with experimental stereoscopic VR and head tracking via SteamVR or OpenXR; menus use a virtual screen; tested on Quest 3 through SteamVR.",
+    "images": [
+      {
+        "game": "Colin McRae: DiRT 2",
+        "file": "images/dirt2vr/colin-mcrae-dirt-2.jpg",
+        "credit": "NotAGameAddict",
+        "source_url": "https://www.youtube.com/watch?v=rwlOWadANQ0"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Colin McRae: DiRT 2 VR Performance / New VR Mod with Head Tracking / Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=rwlOWadANQ0"
+      },
+      {
+        "title": "DiRT Rally 2.0 VR - Colin McRae FLAT OUT Pack - Ford Focus 2001 [No HUD]",
+        "channel": "GregzVR",
+        "url": "https://www.youtube.com/watch?v=0dnauzNftNs"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/preseznik/DiRT2VR",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "disney-dreamlight-valley-vr",
     "name": "Disney Dreamlight Valley VR",
     "games": [
@@ -1505,6 +1856,60 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/RaYRoD-TV/MVRH",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "ds-vr",
+    "name": "ds-vr",
+    "games": [
+      "Dead Space (2008)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Mortygotvr",
+        "url": "https://github.com/Mortygotvr"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.0-alpha",
+    "version_date": "2026-10-14",
+    "download_url": "https://github.com/Mortygotvr/deadspace-vr/releases/latest",
+    "source_url": "https://github.com/Mortygotvr/deadspace-vr",
+    "license": "unknown",
+    "required_files": "Dead Space (2008) on Steam (app 17470), running under Proton on Linux with SteamVR",
+    "known_bugs": [
+      "One image for both eyes (no stereo yet)",
+      "Only the plasma cutter is tested as a weapon",
+      "Saves at save stations only",
+      "Tested on one PC through the start of the game only",
+      "Windows not supported yet"
+    ],
+    "notes": "Linux-only (Proton + SteamVR) mod with head-tracked first person, 6DoF aiming, wrist hologram HUD and in-VR settings menu.",
+    "images": [
+      {
+        "game": "Dead Space (2008)",
+        "file": "images/ds-vr/dead-space.png",
+        "credit": "Dead Space grid by DFE 785 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/611555"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Dead Space VR Is Real... and It's Incredible!",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=i8kqEA6QuM4"
+      },
+      {
+        "title": "This is TOO INTENSE in VR! // The DEAD SPACE VR We Wanted? (Unreal Engine VR)",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=lvCuaE87zS0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Mortygotvr/deadspace-vr",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "dungeon-keeper-2-vr-dk2vr",
@@ -1847,6 +2252,58 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "farpoint-pc-vr",
+    "name": "Farpoint PC VR",
+    "games": [
+      "Farpoint"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "evertec82",
+        "url": "https://github.com/evertec82"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.8.5",
+    "version_date": "2026-10-12",
+    "download_url": "https://github.com/evertec82/Farpoint/releases/latest",
+    "source_url": "https://github.com/evertec82/Farpoint",
+    "license": "GPL-2.0",
+    "required_files": "Your own compatible Farpoint game package named Farpoint.pkg, placed beside Play Farpoint.bat",
+    "known_bugs": [
+      "Rainbow textures",
+      "Stretched geometry",
+      "Intermittent crashes"
+    ],
+    "notes": "Development port built on shadPS4 and OpenXR, based on AstroQuest, with tracked controllers, haptics and SteamVR support.",
+    "images": [
+      {
+        "game": "Farpoint",
+        "file": "images/farpoint-pc-vr/farpoint.png",
+        "credit": "Farpoint grid by Benuno (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/34924"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The BEST Game I've EVER Played! | Farpoint FPS VR Gameplay!",
+        "channel": "Wizzite",
+        "url": "https://www.youtube.com/watch?v=CNg8TdD1S4A"
+      },
+      {
+        "title": "Farpoint VR Full Walkthrough HD",
+        "channel": "SpottinGames",
+        "url": "https://www.youtube.com/watch?v=UwKws_65zeI"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/evertec82/Farpoint",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "fear2vr",
     "name": "FEAR2VR",
     "games": [
@@ -2009,7 +2466,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "Garfield_Kart_2",
+    "version": "Garfield_Kart_Furious_Racing_VRa",
     "version_date": "2026-10-14",
     "download_url": "https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR/releases/latest",
     "source_url": "https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR",
@@ -2030,7 +2487,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "garfield-kart-furious-racing-vr",
@@ -2048,7 +2505,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "0.1.5",
+    "version": "Garfield_Kart_Furious_Racing_VRa",
     "version_date": "2026-10-14",
     "download_url": "https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR/releases/latest",
     "source_url": "https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR",
@@ -2067,7 +2524,74 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
+  },
+  {
+    "slug": "gen1recomp-for-steam-frame",
+    "name": "Gen1Recomp for Steam Frame",
+    "games": [
+      "Pokémon Red",
+      "Pokémon Blue",
+      "Pokémon Yellow"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "astromaddie",
+        "url": "https://github.com/astromaddie"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Steam Frame"
+    ],
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "v0.2.1",
+    "version_date": "2026-10-12",
+    "download_url": "https://github.com/astromaddie/gen1recomp-frame/releases/latest",
+    "source_url": "https://github.com/astromaddie/gen1recomp-frame",
+    "license": "MIT",
+    "required_files": "Your own unmodified 1 MiB US Pokémon Red, Blue or Yellow .gb/.gbc ROM, placed in the roms/ folder",
+    "known_bugs": [
+      "HUD readability and performance still need work in the current renderer"
+    ],
+    "notes": "Experimental native Linux ARM64 OpenXR kit adapting Polymatic Gen1Recomp and DRAMALESS_SHAPE; runs on the headset with no PC streaming.",
+    "images": [
+      {
+        "game": "Pokémon Red",
+        "file": "images/gen1recomp-for-steam-frame/pokemon-red.png",
+        "credit": "Pokémon Red Version grid by JackSilversonX (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/827358"
+      },
+      {
+        "game": "Pokémon Blue",
+        "file": "images/gen1recomp-for-steam-frame/pokemon-blue.png",
+        "credit": "Pokémon Blue Version grid by Passer (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/817304"
+      },
+      {
+        "game": "Pokémon Yellow",
+        "file": "images/gen1recomp-for-steam-frame/pokemon-yellow.png",
+        "credit": "Pokémon Yellow Version grid by chestergreen (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/845135"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Pokémon  Blue VR Standalone Quest 3 Gameplay",
+        "channel": "Gaming Cause What ?",
+        "url": "https://www.youtube.com/watch?v=ECUJnNGWAAA"
+      },
+      {
+        "title": "POKEMON YELLOW IN VR QUEST 2 - PART 2 (DRAMATIC SHAPE)",
+        "channel": "Plasmakilla1",
+        "url": "https://www.youtube.com/watch?v=6GRFBnxK2GQ"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/astromaddie/gen1recomp-frame",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "generals-zero-hour-xr",
@@ -2251,8 +2775,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.4.23",
-    "version_date": "2026-10-13",
+    "version": "v0.5.1",
+    "version_date": "2026-10-15",
     "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
     "source_url": "https://github.com/MrSco/goldeneye-vr",
     "homepage": "https://goldeneyevr.com",
@@ -2282,7 +2806,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mrsco/goldeneye-vr",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "gothic-ii-vr",
@@ -2614,8 +3138,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.2.1",
-    "version_date": "2026-10-11",
+    "version": "v0.3.0",
+    "version_date": "2026-10-14",
     "download_url": "https://github.com/DmitryShaburov/Blue-Shift-VR/releases/latest",
     "source_url": "https://github.com/DmitryShaburov/Blue-Shift-VR",
     "license": "unknown",
@@ -2651,7 +3175,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/DmitryShaburov/Blue-Shift-VR",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "halo-campaign-evolved-uevr",
@@ -3044,7 +3568,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.0-beta",
+    "version": "v0.1.1-beta",
     "version_date": "2026-10-14",
     "download_url": "https://github.com/TdiamondOf/InsanityEngineVR/releases/latest",
     "source_url": "https://github.com/TdiamondOf/InsanityEngineVR",
@@ -3079,7 +3603,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/TdiamondOf/InsanityEngineVR",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "jkxr",
@@ -3493,6 +4017,73 @@
     "added_by": "bot",
     "discovered_via": "https://thunderstore.io/c/lethal-company/p/DaXcess/LethalCompanyVR/",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "magic-carpet-vr",
+    "name": "Magic Carpet VR",
+    "games": [
+      "Magic Carpet",
+      "Magic Carpet: Hidden Worlds",
+      "Magic Carpet 2: The Netherworlds"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "NathanaelA",
+        "url": "https://github.com/NathanaelA"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.1.0",
+    "version_date": "2026-08-18",
+    "download_url": "https://github.com/NathanaelA/mgcarpet-vr/releases/latest",
+    "source_url": "https://github.com/NathanaelA/mgcarpet-vr",
+    "homepage": "https://questports.vercel.app/ports/magic-carpet-vr",
+    "license": "GPL-3.0",
+    "required_files": "Own copies of Magic Carpet (and optionally Hidden Worlds / Magic Carpet 2), e.g. GOG, original disc or full install; data must be converted on a Windows or Linux PC.",
+    "known_bugs": [],
+    "notes": "Engine reimplementation in Rust with true stereo, dual-cast spells on each controller, and an optional Enhanced Mode.",
+    "images": [
+      {
+        "game": "Magic Carpet",
+        "file": "images/magic-carpet-vr/magic-carpet.jpg",
+        "credit": "Magic Carpet grid by Luckspeare (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/381806"
+      },
+      {
+        "game": "Magic Carpet: Hidden Worlds",
+        "file": "images/magic-carpet-vr/magic-carpet-hidden-worlds.png",
+        "credit": "NathanaelA/mgcarpet-vr",
+        "source_url": "https://github.com/NathanaelA/mgcarpet-vr"
+      },
+      {
+        "game": "Magic Carpet 2: The Netherworlds",
+        "file": "images/magic-carpet-vr/magic-carpet-2-the-netherworlds.png",
+        "credit": "NathanaelA/mgcarpet-vr",
+        "source_url": "https://github.com/NathanaelA/mgcarpet-vr"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Magic Carpet VR Teaser",
+        "channel": "샌프란시스코 아빠의 농구 다이어리",
+        "url": "https://www.youtube.com/watch?v=B4LGZ_hp_14"
+      },
+      {
+        "title": "Time For A Magic Carpet Ride // Rug Riders VR Quest 2 Gameplay",
+        "channel": "ClicksterVR",
+        "url": "https://www.youtube.com/watch?v=71c9InnRu30"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/magic-carpet-vr",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "majoras-mask-vr",
@@ -4621,6 +5212,61 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "primedgun-quest-3",
+    "name": "PrimedGun Quest 3",
+    "games": [
+      "Metroid Prime"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "LiquidAzir",
+        "url": "https://github.com/LiquidAzir"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.0-preview.1",
+    "version_date": "2026-10-03",
+    "download_url": "https://github.com/LiquidAzir/PrimedGun-Quest3/releases/latest",
+    "source_url": "https://github.com/LiquidAzir/PrimedGun-Quest3",
+    "license": "GPL-3.0",
+    "required_files": "Metroid Prime for GameCube, USA GM8E01 revision 0 (1.0) disc image",
+    "known_bugs": [
+      "Public preview APK has not had an end-to-end headset playthrough",
+      "Quest 3S not validated",
+      "Demanding scenes or newly encountered effects can stutter"
+    ],
+    "notes": "Standalone build on Dolphin and Dolphin ReduX; emulation runs on the headset.",
+    "images": [
+      {
+        "game": "Metroid Prime",
+        "file": "images/primedgun-quest-3/metroid-prime.png",
+        "credit": "Metroid Prime grid by alfiehicks (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/418999"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "METROID PRIME VR is one of the BEST Dolphin VR experiences! // Quest 2 Airlink Gameplay",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=iWS_krcirCw"
+      },
+      {
+        "title": "Metroid Prime VR Performance / New Meta Quest Standalone VR Mod / Meta Quest 3",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=d_xUXZURdzM"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/LiquidAzir/PrimedGun-Quest3",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "primedgun",
     "name": "PrimedGun",
     "games": [
@@ -4669,6 +5315,56 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "project-06-vr",
+    "name": "Project 06 VR",
+    "games": [
+      "Sonic Project 06"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "moistman42069",
+        "url": "https://github.com/moistman42069"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "v0.1.15",
+    "version_date": "2026-09-27",
+    "download_url": "https://github.com/moistman42069/Project06-VR/releases/latest",
+    "source_url": "https://github.com/moistman42069/Project06-VR",
+    "homepage": "https://github.com/moistman42069/Project06-VR/releases",
+    "license": "unknown",
+    "required_files": "Android Sonic Release port APK (p-06RELEASE64.apk, Unity 2022.3.62f1) of Sonic Project 06",
+    "known_bugs": [
+      "Currently only Sonic levels work; compatibility with other characters is WIP",
+      "Level glitches may be inherited from the Android port"
+    ],
+    "notes": "Wraps the Android Sonic Release port with OpenXR stereo rendering, Touch controls, optional first-person view and physical motion controls.",
+    "images": [
+      {
+        "game": "Sonic Project 06",
+        "file": "images/project-06-vr/sonic-project-06.jpg",
+        "credit": "farmertrueVR",
+        "source_url": "https://www.youtube.com/watch?v=-ysJK4IrE4E"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Sonic the Hedgehog Project 06 VR! & Subnautica VR! Prawn Exploring #vr #live #quest3 #pimax Crystal",
+        "channel": "farmertrueVR",
+        "url": "https://www.youtube.com/watch?v=-ysJK4IrE4E"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/moistman42069/Project06-VR",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "quake-vr-unleashed",
@@ -4871,6 +5567,49 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "quest-3-strikers-charged",
+    "name": "Quest 3 Strikers CHARGED",
+    "games": [
+      "Mario Strikers Charged"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "LanceSweatpants",
+        "url": "https://github.com/LanceSweatpants"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.1.0-alpha1",
+    "version_date": "2026-10-15",
+    "download_url": "https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED/releases/latest",
+    "source_url": "https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED",
+    "license": "CC0-1.0",
+    "required_files": "Mario Strikers Charged, USA version (R4QE01) revision 1, as .iso, .rvz or .wia",
+    "known_bugs": [
+      "Only the USA R4QE01 revision 1 game version works; other regions and revisions are unsupported"
+    ],
+    "notes": "Fork of yannicksuter/mscharged-port with a Quest OpenXR layer offering Jumbotron living-room and stadium views.",
+    "images": [
+      {
+        "game": "Mario Strikers Charged",
+        "file": "images/quest-3-strikers-charged/mario-strikers-charged.png",
+        "credit": "Mario Strikers Charged grid by Alfonso72394 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/129551"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "quest-3-strikers",
     "name": "Quest 3 Strikers",
     "games": [
@@ -4889,8 +5628,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.3-alpha1",
-    "version_date": "2026-10-14",
+    "version": "v0.1.5-alpha1",
+    "version_date": "2026-10-15",
     "download_url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/latest",
     "source_url": "https://github.com/LanceSweatpants/Strikers-Quest-MR",
     "homepage": "https://questports.vercel.app/ports/strikers-quest-mr",
@@ -4909,7 +5648,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/strikers-quest-mr",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "questcarnage",
@@ -5176,8 +5915,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.8.10",
-    "version_date": "2026-10-13",
+    "version": "v0.8.11",
+    "version_date": "2026-10-14",
     "download_url": "https://github.com/Disonomouss/RDRVR/releases/latest",
     "source_url": "https://github.com/Disonomouss/RDRVR",
     "license": "MIT",
@@ -5195,7 +5934,65 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Disonomouss/RDRVR",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
+  },
+  {
+    "slug": "realrtcw-xr",
+    "name": "RealRTCW XR",
+    "games": [
+      "Return to Castle Wolfenstein",
+      "RealRTCW"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef Studios",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Meta Quest (Link/Air Link)"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "0.8.7",
+    "version_date": "2026-10-10",
+    "download_url": "https://github.com/Team-Beef-Studios/RealRTCWXR/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/RealRTCWXR",
+    "license": "GPL-3.0",
+    "required_files": "Return to Castle Wolfenstein (Steam). The installer can copy the game data from Steam. The minimal installer also needs RealRTCW 5.0 (beta branch) installed in Steam.",
+    "known_bugs": [],
+    "notes": "OpenXR PC VR build of RealRTCW 5.0 for the full single-player campaign. Works with any OpenXR headset.",
+    "images": [
+      {
+        "game": "Return to Castle Wolfenstein",
+        "file": "images/realrtcw-xr/return-to-castle-wolfenstein.png",
+        "credit": "Return to Castle Wolfenstein grid by scandro1d (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/793491"
+      },
+      {
+        "game": "RealRTCW",
+        "file": "images/realrtcw-xr/realrtcw.png",
+        "credit": "RealRTCW grid by gleem (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/253378"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "IS RETURN TO CASTLE WOLFENSTEIN GOOD IN VR?",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=waWTqeNHqOM"
+      },
+      {
+        "title": "Return to Castle Wolfenstein VR Oculus Quest 2 Review - A True Golden Oldie | Pure Play TV",
+        "channel": "Pure Play TV",
+        "url": "https://www.youtube.com/watch?v=kZJNHJdbBkU"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Team-Beef-Studios/RealRTCWXR",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "reframework",
@@ -5410,8 +6207,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "build-302",
-    "version_date": "2026-10-13",
+    "version": "build-303",
+    "version_date": "2026-10-14",
     "download_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest",
     "source_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
     "license": "CC0-1.0",
@@ -5429,7 +6226,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "road-rash-jailbreak-vr",
@@ -6018,6 +6815,54 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "soma-vr",
+    "name": "SOMA VR",
+    "games": [
+      "SOMA"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Bateau01",
+        "url": "https://github.com/Bateau01"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.07.1",
+    "version_date": "2026-10-14",
+    "download_url": "https://github.com/Bateau01/SOMA-VR/releases/latest",
+    "source_url": "https://github.com/Bateau01/SOMA-VR",
+    "license": "GPL-3.0",
+    "required_files": "Owned copy of SOMA (Steam) installed; launch flatscreen once first to generate user_settings.cfg",
+    "known_bugs": [],
+    "notes": "Native OpenXR VR conversion with motion controls and physical interactions; runs via SteamVR or Virtual Desktop (VDXR).",
+    "images": [
+      {
+        "game": "SOMA",
+        "file": "images/soma-vr/soma.jpg",
+        "credit": "SOMA grid by Comcord (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/180075"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "VR Headsets to Get More Expensive | GTA: Vice City, Batman: Arkham Knight, FEAR and SOMA Coming t...",
+        "channel": "Portal News",
+        "url": "https://www.youtube.com/watch?v=bl2-F1t2mK8"
+      },
+      {
+        "title": "SOMA native VR mod - Trailer",
+        "channel": "bateau1",
+        "url": "https://www.youtube.com/watch?v=1WeFO728uA4"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Bateau01/SOMA-VR",
+    "last_checked": "2026-10-15"
+  },
+  {
     "slug": "sonic-robo-blast-2-vr",
     "name": "Sonic Robo Blast 2 VR",
     "games": [
@@ -6487,7 +7332,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "0.1.9",
+    "version": "The_Crimson_Hunt_VR",
     "version_date": "2026-10-13",
     "download_url": "https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-/releases/latest",
     "source_url": "https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-",
@@ -6506,7 +7351,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "the-house-of-the-dead-2-vr",
@@ -6528,8 +7373,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.3-test1",
-    "version_date": "2026-10-09",
+    "version": "v0.4-test1",
+    "version_date": "2026-10-14",
     "download_url": "https://github.com/mikermak/hotd2-vr/releases/latest",
     "source_url": "https://github.com/mikermak/hotd2-vr",
     "license": "GPL-2.0",
@@ -6567,7 +7412,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mikermak/hotd2-vr",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "the-witcher-3-vr",
@@ -6735,7 +7580,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "0.0.5 (Preview 5)",
+    "version": "0.0.5",
     "version_date": "2026-10-12",
     "download_url": "https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port/releases/latest",
     "source_url": "https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port",
@@ -6765,7 +7610,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port",
-    "last_checked": "2026-10-14"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "tpvr",
@@ -6838,8 +7683,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.0-alpha.6",
-    "version_date": "2026-10-13",
+    "version": "v0.1.0-alpha.7",
+    "version_date": "2026-10-14",
     "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
     "source_url": "https://github.com/petonexus/tocs-vr-releases",
     "homepage": "https://www.trailsvr.pro",
@@ -6860,7 +7705,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "twisted-tower-vr-mod",
@@ -6957,6 +7802,167 @@
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/two-forks-vr",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "unreal-gold-vr",
+    "name": "Unreal Gold VR",
+    "games": [
+      "Unreal Gold"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "SgtBilko76",
+        "url": "https://github.com/SgtBilko76"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3",
+      "Quest 3S",
+      "PICO 4 (experimental)",
+      "PICO Neo 3 (experimental)"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.0-beta10",
+    "version_date": "2026-09-26",
+    "download_url": "https://github.com/SgtBilko76/Unreal-Gold-VR/releases/latest",
+    "source_url": "https://github.com/SgtBilko76/Unreal-Gold-VR",
+    "license": "unknown",
+    "required_files": "Original Unreal Gold 226b game files (System, Maps, Textures, Sounds, Music, Help) copied to /sdcard/SurrealEngine/. The game is free from OldUnreal, but the 227 System files don't work.",
+    "known_bugs": [],
+    "notes": "Built on the Surreal Engine (Unreal Engine 1 reimplementation) with an OpenXR/Vulkan renderer. PICO support is untested on hardware.",
+    "images": [
+      {
+        "game": "Unreal Gold",
+        "file": "images/unreal-gold-vr/unreal-gold.jpg",
+        "credit": "Unreal Gold grid by Rick Deckard (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/579104"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Unreal Gold VR for Quest by Ghwstvr, early v0.1.0 - Gameplay and feedback in the description ",
+        "channel": "333hronos",
+        "url": "https://www.youtube.com/watch?v=ClQXAt0FhUo"
+      },
+      {
+        "title": "Unreal Gold VR (Quest 3)",
+        "channel": "F guillotine",
+        "url": "https://www.youtube.com/watch?v=Zo95yLp1CQs"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/SgtBilko76/Unreal-Gold-VR",
+    "last_checked": "2026-10-15"
+  },
+  {
+    "slug": "unreal-tournament-vr",
+    "name": "Unreal Tournament VR",
+    "games": [
+      "Unreal Tournament (UT99)"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "SgtBilko76",
+        "url": "https://github.com/SgtBilko76"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3",
+      "Quest 3S",
+      "PICO 4 (experimental)",
+      "PICO Neo 3 (experimental)"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.0-beta10-ut99",
+    "version_date": "2026-09-26",
+    "download_url": "https://github.com/SgtBilko76/Unreal-Tournament-VR/releases/latest",
+    "source_url": "https://github.com/SgtBilko76/Unreal-Tournament-VR",
+    "license": "unknown",
+    "required_files": "Own copy of Unreal Tournament 99 (free from OldUnreal, 469e or 436); copy System, Maps, Textures, Sounds, Music, Help to /sdcard/SurrealEngineUT/",
+    "known_bugs": [
+      "Single-player tournament ladder does not spawn bots yet",
+      "PICO 4 / Neo 3 support untested on hardware"
+    ],
+    "notes": "Built on the Surreal Engine Unreal Engine 1 reimplementation with an OpenXR/Vulkan renderer.",
+    "images": [
+      {
+        "game": "Unreal Tournament (UT99)",
+        "file": "images/unreal-tournament-vr/unreal-tournament.png",
+        "credit": "Unreal Tournament grid by QuiGonJinnah (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/28751"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Unreal Tournament VR - Native on Meta Quest 3 / How to install see Description",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=IuMcM7eZ6Cc"
+      },
+      {
+        "title": "Unreal Tournament VR Native on Meta Quest | First Minutes VR Gameplay (No Commentary) | Meta Quest 3",
+        "channel": "EVERYDAY VR Gameplay⁩ ᯅ TOXXUS",
+        "url": "https://www.youtube.com/watch?v=3HXaguU4eUA"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/SgtBilko76/Unreal-Tournament-VR",
+    "last_checked": "2026-10-15"
+  },
+  {
+    "slug": "vibelight-valley",
+    "name": "Vibelight Valley",
+    "games": [
+      "Disney Dreamlight Valley"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "TheBacon00",
+        "url": "https://github.com/TheBacon00"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Steam Frame"
+    ],
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.2.0",
+    "version_date": "2026-10-15",
+    "download_url": "https://github.com/TheBacon00/vibelight-valley/releases/latest",
+    "source_url": "https://github.com/TheBacon00/vibelight-valley",
+    "license": "MIT",
+    "required_files": "Disney Dreamlight Valley on Steam (Direct3D 11)",
+    "known_bugs": [],
+    "notes": "Experimental BepInEx OpenXR mod with stereo 6DOF head tracking, HUD layer and a one-click installer; requires SteamVR as the OpenXR runtime.",
+    "images": [
+      {
+        "game": "Disney Dreamlight Valley",
+        "file": "images/vibelight-valley/disney-dreamlight-valley.png",
+        "credit": "Disney Dreamlight Valley grid by CelaenaTDD (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/508588"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The Happiest Place in VR? Disney Dreamlight Valley VR Mod",
+        "channel": "FastLawyer",
+        "url": "https://www.youtube.com/watch?v=2pElA9KSMF4"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/TheBacon00/vibelight-valley",
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "vice-city-vr",
@@ -7067,8 +8073,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.8.10",
-    "version_date": "2026-10-09",
+    "version": "v0.8.11",
+    "version_date": "2026-10-13",
     "download_url": "https://github.com/DennisGHUA/payday2-vr-improvements/releases/latest",
     "source_url": "https://github.com/DennisGHUA/payday2-vr-improvements",
     "homepage": "https://modworkshop.net/mod/45143",
@@ -7098,7 +8104,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/DennisGHUA/payday2-vr-improvements",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-15"
   },
   {
     "slug": "vrg",
@@ -7531,5 +8537,49 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "xonotic-vr",
+    "name": "Xonotic VR",
+    "games": [
+      "Xonotic"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "SgtBilko76",
+        "url": "https://github.com/SgtBilko76"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro",
+      "Pico"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "Beta-0.5",
+    "version_date": "2026-10-05",
+    "download_url": "https://github.com/SgtBilko76/Xonotic-VR/releases/latest",
+    "source_url": "https://github.com/SgtBilko76/Xonotic-VR",
+    "license": "unknown",
+    "required_files": "None; the release APK bundles the Xonotic 0.8.6 game data.",
+    "known_bugs": [],
+    "notes": "Native standalone DarkPlaces-based port with room-scale tracking, hand-aimed weapons and online multiplayer.",
+    "images": [
+      {
+        "game": "Xonotic",
+        "file": "images/xonotic-vr/xonotic.png",
+        "credit": "Xonotic grid by Moohoo (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/760029"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/SgtBilko76/Xonotic-VR",
+    "last_checked": "2026-10-15"
   }
 ]

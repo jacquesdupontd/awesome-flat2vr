@@ -1,0 +1,30 @@
+name: BF2142VR
+games:
+  - Battlefield 2142
+category: mod
+authors:
+  - name: justiceofrip
+    url: https://github.com/justiceofrip
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.2.0-beta.4-hotfix.4"
+version_date: "2026-10-13"
+download_url: https://github.com/justiceofrip/BF2142VR/releases/latest
+source_url: https://github.com/justiceofrip/BF2142VR
+license: MIT
+required_files: Own working BF2142 v1.51 installation on Windows x64, with Reclamation/OpenSpy set up separately
+known_bugs:
+  - Remaining animation and compatibility issues
+notes: Based on BFVR by JayBiggsGMG; tested with Quest 3 controllers via Steam Link/SteamVR.
+images:
+  - game: Battlefield 2142
+    file: images/bf2142vr/battlefield-2142.png
+    credit: Battlefield 2142 grid by Humb (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/156496
+reviews: []
+added_by: bot
+discovered_via: https://github.com/justiceofrip/BF2142VR
+last_checked: "2026-10-15"
