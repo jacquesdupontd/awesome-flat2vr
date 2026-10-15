@@ -312,6 +312,98 @@ export async function reddit({ limit = 50, bin = process.env.REDDIT_BIN || 'redd
   return out;
 }
 
+// ---- X: tips people send Jordan (mentions + DMs) --------------------------------------------
+// "Hey, there's a new VR port of X". Anyone on earth can write these, so a tweet or DM is only a
+// LEAD: its text is fenced as untrusted data for the model, which has no tools, and the entry that
+// comes out is built from the linked release page and checked in code against the URLs the
+// source contains (extract.mjs / core.finalizeEntry). Nothing a sender writes can reach a tool,
+// a file, or an outbound message; the worst a hostile sender gets is one wasted extraction.
+const X_OWNER_ID = '2509004038'; // @JordanRejaud: his own posts are never tips
+const X_HANDLE = 'JordanRejaud';
+const X_VR_HINT = /\b(vr|quest|pico|uevr|6dof|flat2vr|openxr|port|mod)\b/i;
+const xTime = (v) => new Date(/^\d+$/.test(String(v)) ? Number(v) : v);
+
+export function xMentionLeads(json, { sinceMs, now = Date.now() } = {}) {
+  const out = [];
+  for (const t of json?.tweets ?? []) {
+    if (!t?.id || t.author?.id === X_OWNER_ID) continue;
+    const when = xTime(t.createdAt);
+    if (Number.isNaN(when.getTime()) || when.getTime() < (sinceMs ?? now - 7 * 864e5)) continue;
+    const expanded = (t.entities?.urls ?? []).map((u) => u.expanded_url).filter(Boolean);
+    const urls = [...new Set([...expanded, ...extractUrls(t.text ?? '').filter((u) => !/\/\/t\.co\//.test(u))])];
+    if (!urls.length || !X_VR_HINT.test(t.text ?? '')) continue;
+    out.push({
+      id: `x:mention:${t.id}`,
+      source: 'X mention',
+      source_url: t.url,
+      title: (t.text ?? '').slice(0, 80),
+      date: when.toISOString().slice(0, 10),
+      text: `Tweet to @${X_HANDLE} by @${t.author?.userName ?? 'unknown'} on ${when.toISOString().slice(0, 10)}:\n${t.text}\nLinks in the tweet: ${urls.join(' ')}`,
+      urls,
+    });
+  }
+  return out;
+}
+
+export function xDmLeads(json, { sinceMs, now = Date.now() } = {}) {
+  const out = [];
+  for (const c of json?.conversations ?? []) {
+    const m = c.last_message;
+    if (!m?.id || m.sender_id === X_OWNER_ID) continue;
+    const when = xTime(m.time);
+    if (Number.isNaN(when.getTime()) || when.getTime() < (sinceMs ?? now - 7 * 864e5)) continue;
+    const who = c.participants?.find((p) => p.user_id === m.sender_id)?.screen_name ?? 'unknown';
+    const body = stripHtml(m.text ?? '');
+    const urls = [...new Set(extractUrls(body).filter((u) => !/\/\/t\.co\//.test(u)))];
+    if (!urls.length || !X_VR_HINT.test(body)) continue;
+    out.push({
+      id: `x:dm:${m.id}`,
+      source: 'X DM',
+      source_url: `https://x.com/${who}`,
+      title: body.slice(0, 80),
+      date: when.toISOString().slice(0, 10),
+      text: `Direct message to @${X_HANDLE} from @${who} on ${when.toISOString().slice(0, 10)}:\n${body}`,
+      urls,
+    });
+  }
+  return out;
+}
+
+export async function x({
+  sinceDays = 7,
+  cap = 15,
+  tweetsBin = process.env.TWITTERAPI_BIN || 'twitterapi',
+  dmBin = process.env.TWIKIT_BIN || 'twikit',
+} = {}) {
+  const sinceMs = Date.now() - sinceDays * 864e5;
+  const run = (bin, a) => JSON.parse(execFileSync(bin, a, { encoding: 'utf8', timeout: 120e3, maxBuffer: 32 << 20 }));
+  const leads = [];
+  try {
+    leads.push(...xMentionLeads(run(tweetsBin, ['get-user-mentions', X_HANDLE, '--limit', '100']), { sinceMs }));
+  } catch (e) {
+    throw new Error(`x mentions: ${e.message.split('\n')[0]}`, { cause: e });
+  }
+  // Message requests are where strangers' tips land (unfollowed senders). A failure here must not
+  // lose the mentions already collected, so it is reported and skipped.
+  try {
+    // X's message-request endpoint intermittently answers 404 and then works a moment later.
+    let dms;
+    for (let i = 1; ; i++) {
+      try {
+        dms = run(dmBin, ['dm-requests']);
+        break;
+      } catch (e) {
+        if (i >= 3) throw e;
+        await new Promise((r) => setTimeout(r, 2000 * i));
+      }
+    }
+    leads.push(...xDmLeads(dms, { sinceMs }));
+  } catch (e) {
+    console.error(`x dm-requests: ${e.message.split('\n')[0]}`);
+  }
+  return leads.slice(0, cap);
+}
+
 // ---- Steam: free VR mods published as their own store app (Half-Life 2: VR Mod) ---------
 // Store search is fuzzy, so a hit only becomes a candidate when appdetails says it is a
 // `mod` of a base game, or its name says VR mod/port.
@@ -617,6 +709,7 @@ export const COLLECTORS = {
   discord,
   youtube,
   reddit,
+  x,
 };
 
 // GitHub repo a candidate points at, for enrichment and dedupe.
