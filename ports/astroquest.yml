@@ -21,9 +21,9 @@ known_bugs: []
 notes: Based on an ARM64 fork of the shadPS4 PS4 emulator; playable standalone on Quest 3/3S or on PC via Virtual Desktop/SteamVR, with a PS5 DualSense recommended but Quest Touch controllers supported as a fallback.
 images:
   - game: ASTRO BOT Rescue Mission
-    file: images/astroquest/astro-bot-rescue-mission.jpg
-    credit: VR Studio
-    source_url: https://www.youtube.com/watch?v=3SmrgertDco
+    file: images/astroquest/astro-bot-rescue-mission.png
+    credit: Astro Bot Rescue Mission grid by babinok (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/854678
 reviews:
   - title: Install the Best PSVR Game on PC in 1 Minute! Astro Bot Rescue Mission VR Mod
     channel: VR Studio

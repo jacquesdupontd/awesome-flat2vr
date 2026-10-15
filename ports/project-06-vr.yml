@@ -21,11 +21,8 @@ known_bugs:
   - Currently only Sonic levels work; compatibility with other characters is WIP
   - Level glitches may be inherited from the Android port
 notes: Wraps the Android Sonic Release port with OpenXR stereo rendering, Touch controls, optional first-person view and physical motion controls.
-images:
-  - game: Sonic Project 06
-    file: images/project-06-vr/sonic-project-06.jpg
-    credit: farmertrueVR
-    source_url: https://www.youtube.com/watch?v=-ysJK4IrE4E
+no_image:
+  - Sonic Project 06
 reviews:
   - title: "Sonic the Hedgehog Project 06 VR! & Subnautica VR! Prawn Exploring #vr #live #quest3 #pimax Crystal"
     channel: farmertrueVR

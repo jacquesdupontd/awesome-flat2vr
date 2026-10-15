@@ -18,8 +18,8 @@ notes: First public player build of a dedicated VR source-port project for Wolfe
 images:
   - game: Wolfenstein 3-D
     file: images/wolfsharp-vr/wolfenstein-3-d.jpg
-    credit: Ben Plays VR
-    source_url: https://www.youtube.com/watch?v=IXfuSlNU5ps
+    credit: Wolfenstein 3D (Wikipedia)
+    source_url: https://en.wikipedia.org/wiki/Wolfenstein_3D
 reviews:
   - title: Free Wolfenstein VR Game!
     channel: Ben Plays VR

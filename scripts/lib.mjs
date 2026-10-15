@@ -61,8 +61,13 @@ export function loadPorts(dir = join(ROOT, 'ports'), imageRoot = ROOT) {
     }
     const slug = basename(file, '.yml');
     const imaged = new Set((data.images ?? []).map((i) => i.game));
+    const noImage = new Set(data.no_image ?? []);
+    for (const game of data.no_image ?? []) {
+      if (!data.games.includes(game)) errors.push(`${where}: no_image lists '${game}', which is not in games`);
+      if (imaged.has(game)) errors.push(`${where}: '${game}' has an image and is also listed in no_image`);
+    }
     for (const game of data.games) {
-      if (!imaged.has(game))
+      if (!imaged.has(game) && !noImage.has(game))
         errors.push(`${where}: no image for game '${game}' (run: node scripts/enrich.mjs ${slug})`);
     }
     for (const img of data.images ?? []) {

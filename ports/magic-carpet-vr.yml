@@ -22,19 +22,14 @@ license: GPL-3.0
 required_files: Own copies of Magic Carpet (and optionally Hidden Worlds / Magic Carpet 2), e.g. GOG, original disc or full install; data must be converted on a Windows or Linux PC.
 known_bugs: []
 notes: Engine reimplementation in Rust with true stereo, dual-cast spells on each controller, and an optional Enhanced Mode.
+no_image:
+  - "Magic Carpet: Hidden Worlds"
+  - "Magic Carpet 2: The Netherworlds"
 images:
   - game: Magic Carpet
     file: images/magic-carpet-vr/magic-carpet.jpg
     credit: Magic Carpet grid by Luckspeare (SteamGridDB)
     source_url: https://www.steamgriddb.com/grid/381806
-  - game: "Magic Carpet: Hidden Worlds"
-    file: images/magic-carpet-vr/magic-carpet-hidden-worlds.png
-    credit: NathanaelA/mgcarpet-vr
-    source_url: https://github.com/NathanaelA/mgcarpet-vr
-  - game: "Magic Carpet 2: The Netherworlds"
-    file: images/magic-carpet-vr/magic-carpet-2-the-netherworlds.png
-    credit: NathanaelA/mgcarpet-vr
-    source_url: https://github.com/NathanaelA/mgcarpet-vr
 reviews:
   - title: Magic Carpet VR Teaser
     channel: 샌프란시스코 아빠의 농구 다이어리

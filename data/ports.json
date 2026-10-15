@@ -121,13 +121,8 @@
       "Requires bypassing EasyAntiCheat by launching AceCombat8.exe directly, which disables multiplayer/online play"
     ],
     "notes": "Fixes the flight HUD (minimap, center instruments, weapons/status) not being visible in VR via UEVR.",
-    "images": [
-      {
-        "game": "ACE COMBAT 8",
-        "file": "images/ace-combat-8-uevr-profile-hud-fix/ace-combat-8.jpg",
-        "credit": "Paradise Decay",
-        "source_url": "https://www.youtube.com/watch?v=weAhEMpT87k"
-      }
+    "no_image": [
+      "ACE COMBAT 8"
     ],
     "reviews": [
       {
@@ -175,13 +170,8 @@
     "required_files": "Original game asset files from Aliens versus Predator Classic 2000 (Steam/GOG) or PC CD-ROM",
     "known_bugs": [],
     "notes": "Fork of atsb/NakedAVP adding OpenXR support for standalone Quest VR as well as flat PC/Windows ports; supports Marine, Alien, and Predator campaigns with 6DoF motion controls and wall-climbing.",
-    "images": [
-      {
-        "game": "Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000",
-        "file": "images/aliens-versus-predator-vr/aliens-versus-predator-aliens-versus-predator-classic-2000.png",
-        "credit": "Bassquake/Aliens-Versus-Predator-VR",
-        "source_url": "https://github.com/Bassquake/Aliens-Versus-Predator-VR"
-      }
+    "no_image": [
+      "Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000"
     ],
     "reviews": [],
     "added_by": "bot",
@@ -457,9 +447,9 @@
     "images": [
       {
         "game": "ASTRO BOT Rescue Mission",
-        "file": "images/astroquest/astro-bot-rescue-mission.jpg",
-        "credit": "VR Studio",
-        "source_url": "https://www.youtube.com/watch?v=3SmrgertDco"
+        "file": "images/astroquest/astro-bot-rescue-mission.png",
+        "credit": "Astro Bot Rescue Mission grid by babinok (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/854678"
       }
     ],
     "reviews": [
@@ -1658,8 +1648,8 @@
       {
         "game": "Colin McRae: DiRT 2",
         "file": "images/dirt2vr/colin-mcrae-dirt-2.jpg",
-        "credit": "NotAGameAddict",
-        "source_url": "https://www.youtube.com/watch?v=rwlOWadANQ0"
+        "credit": "Colin McRae: Dirt 2 (Wikipedia)",
+        "source_url": "https://en.wikipedia.org/wiki/Colin_McRae%3A_Dirt_2"
       }
     ],
     "reviews": [
@@ -2476,13 +2466,8 @@
       "Author describes the mod as very WIP and 'kinda broken'"
     ],
     "notes": "Install by unzipping the release into the game folder.",
-    "images": [
-      {
-        "game": "Garfield Kart 2 - All You Can Drift",
-        "file": "images/garfield-kart-2-all-you-can-drift-vr/garfield-kart-2-all-you-can-drift.png",
-        "credit": "King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR",
-        "source_url": "https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR"
-      }
+    "no_image": [
+      "Garfield Kart 2 - All You Can Drift"
     ],
     "reviews": [],
     "added_by": "bot",
@@ -2846,8 +2831,8 @@
       {
         "game": "Gothic II: Night of the Raven",
         "file": "images/gothic-ii-vr/gothic-ii-night-of-the-raven.jpg",
-        "credit": "umut_rre",
-        "source_url": "https://www.youtube.com/watch?v=rhsqMxieF08"
+        "credit": "Gothic II: Night of the Raven (Wikipedia)",
+        "source_url": "https://en.wikipedia.org/wiki/Gothic_II%3A_Night_of_the_Raven"
       }
     ],
     "reviews": [
@@ -4049,24 +4034,16 @@
     "required_files": "Own copies of Magic Carpet (and optionally Hidden Worlds / Magic Carpet 2), e.g. GOG, original disc or full install; data must be converted on a Windows or Linux PC.",
     "known_bugs": [],
     "notes": "Engine reimplementation in Rust with true stereo, dual-cast spells on each controller, and an optional Enhanced Mode.",
+    "no_image": [
+      "Magic Carpet: Hidden Worlds",
+      "Magic Carpet 2: The Netherworlds"
+    ],
     "images": [
       {
         "game": "Magic Carpet",
         "file": "images/magic-carpet-vr/magic-carpet.jpg",
         "credit": "Magic Carpet grid by Luckspeare (SteamGridDB)",
         "source_url": "https://www.steamgriddb.com/grid/381806"
-      },
-      {
-        "game": "Magic Carpet: Hidden Worlds",
-        "file": "images/magic-carpet-vr/magic-carpet-hidden-worlds.png",
-        "credit": "NathanaelA/mgcarpet-vr",
-        "source_url": "https://github.com/NathanaelA/mgcarpet-vr"
-      },
-      {
-        "game": "Magic Carpet 2: The Netherworlds",
-        "file": "images/magic-carpet-vr/magic-carpet-2-the-netherworlds.png",
-        "credit": "NathanaelA/mgcarpet-vr",
-        "source_url": "https://github.com/NathanaelA/mgcarpet-vr"
       }
     ],
     "reviews": [
@@ -4893,18 +4870,15 @@
     "required_files": "PainKiller 1.64 (Heaven's Got a Hitman) and/or Battle Out of Hell; tested on PainKiller: Black Edition (Steam)",
     "known_bugs": [],
     "notes": "Native OpenXR implementation (no UEVR dependency); author tested with Black Edition on Steam, Quest 2 and Virtual Desktop, though broader OpenXR headset/runtime support is expected but less proven.",
+    "no_image": [
+      "PainKiller: Battle Out of Hell"
+    ],
     "images": [
       {
         "game": "PainKiller",
         "file": "images/painkiller-vr-mod/painkiller.png",
         "credit": "Painkiller grid by YMCrank (SteamGridDB)",
         "source_url": "https://www.steamgriddb.com/grid/761033"
-      },
-      {
-        "game": "PainKiller: Battle Out of Hell",
-        "file": "images/painkiller-vr-mod/painkiller-battle-out-of-hell.png",
-        "credit": "FluorescentHallucinogen/painkiller-vr-mod",
-        "source_url": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod"
       }
     ],
     "reviews": [
@@ -5347,13 +5321,8 @@
       "Level glitches may be inherited from the Android port"
     ],
     "notes": "Wraps the Android Sonic Release port with OpenXR stereo rendering, Touch controls, optional first-person view and physical motion controls.",
-    "images": [
-      {
-        "game": "Sonic Project 06",
-        "file": "images/project-06-vr/sonic-project-06.jpg",
-        "credit": "farmertrueVR",
-        "source_url": "https://www.youtube.com/watch?v=-ysJK4IrE4E"
-      }
+    "no_image": [
+      "Sonic Project 06"
     ],
     "reviews": [
       {
@@ -5851,6 +5820,9 @@
     "license": "GPL-2.0",
     "required_files": "GRP/data files from owned copies of the supported Build engine games",
     "known_bugs": [],
+    "no_image": [
+      "Exhumed"
+    ],
     "images": [
       {
         "game": "Duke Nukem 3D",
@@ -5875,12 +5847,6 @@
         "file": "images/razexr/redneck-rampage.png",
         "credit": "Redneck Rampage grid by Haxy (SteamGridDB)",
         "source_url": "https://www.steamgriddb.com/grid/287114"
-      },
-      {
-        "game": "Exhumed",
-        "file": "images/razexr/exhumed.png",
-        "credit": "Team-Beef-Studios/RazeXR",
-        "source_url": "https://github.com/Team-Beef-Studios/RazeXR"
       }
     ],
     "reviews": [
@@ -7384,18 +7350,15 @@
       "Quest 2 and Quest Pro are new and not tested yet"
     ],
     "notes": "Fork of the Flycast Dreamcast/NAOMI emulator; no game data included.",
+    "no_image": [
+      "The Maze of the Kings"
+    ],
     "images": [
       {
         "game": "The House of the Dead 2",
         "file": "images/the-house-of-the-dead-2-vr/the-house-of-the-dead-2.png",
         "credit": "The House of the Dead 2 grid by elgamer242 (SteamGridDB)",
         "source_url": "https://www.steamgriddb.com/grid/33449"
-      },
-      {
-        "game": "The Maze of the Kings",
-        "file": "images/the-house-of-the-dead-2-vr/the-maze-of-the-kings.png",
-        "credit": "mikermak/hotd2-vr",
-        "source_url": "https://github.com/mikermak/hotd2-vr"
       }
     ],
     "reviews": [
@@ -8523,8 +8486,8 @@
       {
         "game": "Wolfenstein 3-D",
         "file": "images/wolfsharp-vr/wolfenstein-3-d.jpg",
-        "credit": "Ben Plays VR",
-        "source_url": "https://www.youtube.com/watch?v=IXfuSlNU5ps"
+        "credit": "Wolfenstein 3D (Wikipedia)",
+        "source_url": "https://en.wikipedia.org/wiki/Wolfenstein_3D"
       }
     ],
     "reviews": [
