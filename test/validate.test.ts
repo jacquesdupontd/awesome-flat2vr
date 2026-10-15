@@ -27,7 +27,7 @@ test('malformed fixture fails with field-level errors', () => {
   assert.match(text, /bad_Name\.yml: filename must be/);
 });
 
-test('an entry with neither an image nor a no_image mark for a game fails', () => {
+test('an entry without an image for each game fails', () => {
   const { errors } = loadPorts(fx('noimage'));
   assert.match(errors.join('\n'), /no image for game 'Outer Wilds'/);
 });
