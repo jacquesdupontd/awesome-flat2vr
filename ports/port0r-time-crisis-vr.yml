@@ -1,0 +1,30 @@
+name: "Port0r: Time Crisis VR"
+games:
+  - Time Crisis
+category: source-port
+authors:
+  - name: jacquesdupontd (Port0r)
+    url: https://github.com/jacquesdupontd
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.2.1"
+version_date: "2026-10-16"
+download_url: https://port0r.itch.io/time-crisis-vr
+source_url: https://github.com/jacquesdupontd/port0r
+homepage: https://github.com/jacquesdupontd/port0r#install-port0r-time-crisis-vr
+license: unknown
+required_files: Your own MAME 0.289 Time Crisis set (timecris.zip and namcoc71.zip)
+known_bugs: []
+notes: Runs the original 1995 arcade code through a modified MAME core and redraws the Namco System 22 scene for each eye in stereoscopic 3D. A 3D gun in your hand, shots land where you aim in the scene, and you take cover with the pedal button or by crouching for real.
+images:
+  - game: Time Crisis
+    file: images/port0r-time-crisis-vr/time-crisis.jpg
+    credit: "Port0r: Time Crisis VR release video thumbnail, by the author"
+    source_url: https://www.youtube.com/watch?v=F7Ig3bwq7K8
+reviews: []
+added_by: human
+discovered_via: https://github.com/jacquesdupontd/port0r
+last_checked: "2026-10-16"
