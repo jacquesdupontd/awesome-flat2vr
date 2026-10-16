@@ -1,0 +1,32 @@
+name: SM64 VR for Steam Frame
+games:
+  - Super Mario 64
+category: mod
+authors:
+  - name: astromaddie
+    url: https://github.com/astromaddie
+platform: standalone
+headsets:
+  - Steam Frame
+controls: 6dof
+status: alpha
+version: "v0.1.0"
+version_date: "2026-10-11"
+download_url: https://github.com/astromaddie/sm64-vr/releases/latest
+source_url: https://github.com/astromaddie/sm64-vr
+license: unknown
+required_files: Legally obtained Super Mario 64 (US) ROM (SHA-1 9bef1128717f958171a4afac3ed78ee2bb4e86ce)
+known_bugs: []
+notes: Fork of SM64CoopDX adding stereoscopic VR, head tracking, and Steam Frame controller bindings; runs natively via SteamLinuxRuntime without a PC.
+images:
+  - game: Super Mario 64
+    file: images/sm64-vr-for-steam-frame/super-mario-64.png
+    credit: Super Mario 64 grid by Pyrus (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/101483
+reviews:
+  - title: Playing Super Mario 64 VR on my Quest 2 is WEIRD! // Mario 64 First Person VR Mod
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=4lG9Ux9DxwY
+added_by: bot
+discovered_via: https://github.com/astromaddie/sm64-vr
+last_checked: "2026-10-14"

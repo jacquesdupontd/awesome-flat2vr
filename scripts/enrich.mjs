@@ -3,8 +3,9 @@
 //   node scripts/enrich.mjs [slug ...] [--force] [--no-reviews]
 // With no slugs, enriches every ports/*.yml that is missing an image or reviews.
 // Images: SteamGridDB 920x430 grid for each game, else the Steam 616x353 capsule (header as
-// fallback), else the top review's YouTube thumbnail,
-// else the GitHub social card of the port's repo. Reviews: yt-dlp YouTube search.
+// fallback), else the lead image of the game's Wikipedia article. Never a YouTube thumbnail or a
+// repo social card: those show the wrong game, so no image beats a wrong one.
+// Reviews: yt-dlp YouTube search.
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -140,6 +141,52 @@ export async function sgdbGrid(game, { avoid = new Set() } = {}) {
   return null;
 }
 
+// Cover from the game's Wikipedia article infobox. Only an article whose title is the game's
+// (optionally "(video game)") counts, so a search never lands on a different game. The cover is a
+// non-free file, which the pageimages API omits, so the infobox's image field is read directly.
+const flat = (s) => norm(s).replace(/[^a-z0-9]/g, '');
+export function pickWikiPage(game, pages) {
+  const want = flat(game);
+  const year = /\((\d{4})\)/.exec(game)?.[1];
+  const title = (p) => flat(p.title.replace(/\((?:\d{4} )?(?:video )?game\)/i, ''));
+  const hits = pages.filter((p) => title(p) === want);
+  return (year && hits.find((p) => p.title.includes(year))) || hits[0] || null;
+}
+
+export function infoboxImage(wikitext) {
+  const m = /\|\s*(?:image|cover)\s*=\s*(?:\[\[)?(?:File:|Image:)?([^|\n\]]+\.(?:jpe?g|png))/i.exec(wikitext ?? '');
+  return m ? m[1].trim() : null;
+}
+
+export async function wikiImage(game) {
+  const api = 'https://en.wikipedia.org/w/api.php?format=json&action=query';
+  const q = encodeURIComponent(`${game.replace(/\(.*?\)/g, '').trim()} video game`);
+  const found = await retry(() => getJson(`${api}&list=search&srlimit=8&srsearch=${q}`));
+  const page = pickWikiPage(game, found.query?.search ?? []);
+  if (!page) return null;
+  const rev = await retry(() =>
+    getJson(`${api}&prop=revisions&rvprop=content&rvslots=main&titles=${encodeURIComponent(page.title)}`),
+  );
+  const text = Object.values(rev.query?.pages ?? {})[0]?.revisions?.[0]?.slots?.main?.['*'];
+  const file = infoboxImage(text);
+  if (!file) return null;
+  const info = await retry(() =>
+    getJson(`${api}&prop=imageinfo&iiprop=url&titles=${encodeURIComponent(`File:${file}`)}`),
+  );
+  const url = Object.values(info.query?.pages ?? {})[0]?.imageinfo?.[0]?.url;
+  if (!url) return null;
+  return {
+    url,
+    ext: /\.png$/i.test(url) ? 'png' : 'jpg',
+    credit: `${page.title} (Wikipedia)`,
+    source_url: `https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replace(/ /g, '_'))}`,
+  };
+}
+
+// Art sourced from a game database (SteamGridDB, Steam, Wikipedia) is about the game. Anything
+// else (a YouTube thumbnail, a repo social card) is not, and is re-sourced.
+export const isStoreArt = (i) => /\((SteamGridDB|Wikipedia)\)$|store art$/.test(i?.credit ?? '');
+
 async function download(url, dest) {
   const r = await fetch(url, { headers: UA });
   if (!r.ok) throw new Error(`${r.status} ${url}`);
@@ -234,7 +281,7 @@ export async function enrich(
     }
   }
   const prev = new Map((entry.images ?? []).map((i) => [i.game, i]));
-  const usable = (i) => i && existsSync(join(root, i.file));
+  const usable = (i) => i && existsSync(join(root, i.file)) && isStoreArt(i);
   const images = [];
   const usedUrls = new Set();
   const usedHashes = new Set();
@@ -292,28 +339,12 @@ export async function enrich(
     } catch (e) {
       log(`  steam ${game}: ${e.message}`);
     }
-    // Prefer a review of THIS game for its thumbnail; a multi-game port's top video may be another game.
-    const words = norm(game)
-      .split(' ')
-      .filter((w) => w.length > 2);
-    const rv =
-      (entry.reviews ?? []).find((r) => words.every((w) => norm(r.title).includes(w))) ??
-      (entry.games.length === 1 ? entry.reviews?.[0] : undefined);
-    if (!img && rv) {
+    if (!img) {
       try {
-        const file = await save(`https://i.ytimg.com/vi/${new URL(rv.url).searchParams.get('v')}/hqdefault.jpg`, 'jpg');
-        img = { game, file, credit: rv.channel, source_url: rv.url };
+        const w = await wikiImage(game);
+        if (w) img = { game, file: await save(w.url, w.ext), credit: w.credit, source_url: w.source_url };
       } catch (e) {
-        log(`  youtube thumb ${game}: ${e.message}`);
-      }
-    }
-    const gh = /^https:\/\/github\.com\/([^/]+\/[^/]+)/.exec(entry.source_url ?? '');
-    if (!img && gh) {
-      try {
-        const file = await save(`https://opengraph.githubassets.com/1/${gh[1]}`, 'png');
-        img = { game, file, credit: gh[1], source_url: `https://github.com/${gh[1]}` };
-      } catch (e) {
-        log(`  github card ${game}: ${e.message}`);
+        log(`  wikipedia ${game}: ${e.message}`);
       }
     }
     // A failed refresh keeps the image already on file rather than losing it.
@@ -321,7 +352,16 @@ export async function enrich(
     if (img) images.push(img);
     else log(`  no image found for ${game}`);
   }
+  // A weak image nothing better replaced is dropped (file included): no image beats a wrong one.
+  const kept = new Set(images.map((i) => i.file));
+  for (const old of prev.values()) {
+    if (!kept.has(old.file) && existsSync(join(root, old.file))) unlinkSync(join(root, old.file));
+  }
   if (images.length) entry.images = images;
+  else delete entry.images;
+  const none = entry.games.filter((g) => !images.some((i) => i.game === g));
+  if (none.length) entry.no_image = none;
+  else delete entry.no_image;
   return entry;
 }
 
@@ -347,7 +387,10 @@ if (isMain) {
   for (const f of files) {
     const path = join(ROOT, 'ports', f);
     const entry = yaml.load(readFileSync(path, 'utf8'), { schema: yaml.JSON_SCHEMA });
-    const done = entry.images?.length === entry.games.length && (!reviews || Array.isArray(entry.reviews));
+    const done =
+      entry.images?.length === entry.games.length &&
+      entry.images.every(isStoreArt) &&
+      (!reviews || Array.isArray(entry.reviews));
     if (done && !force && !slugs.length) continue;
     const slug = f.replace(/\.yml$/, '');
     console.log(`→ ${slug}`);
@@ -356,8 +399,5 @@ if (isMain) {
     if ((entry.images?.length ?? 0) < entry.games.length) missing++;
     writeFileSync(path, toYaml(entry));
   }
-  if (missing) {
-    console.error(`${missing} port(s) still missing an image`);
-    process.exit(1);
-  }
+  if (missing) console.log(`${missing} port(s) have a game with no trustworthy art (recorded as no_image)`);
 }

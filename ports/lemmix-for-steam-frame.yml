@@ -1,0 +1,30 @@
+name: Lemmix for Steam Frame
+games:
+  - Lemmings (NeoLemmix)
+category: source-port
+authors:
+  - name: SPD13
+    url: https://github.com/SPD13
+platform: standalone
+headsets:
+  - Steam Frame
+controls: 6dof
+status: stable
+version: "v1.0.0"
+version_date: "2026-10-13"
+download_url: https://github.com/SPD13/lemmix-frame/releases/latest
+source_url: https://github.com/SPD13/lemmix-frame
+license: unknown
+required_files: NeoLemmix levels and styles, downloaded in-app from neolemmix.com
+known_bugs:
+  - Android APK fallback (via Lepton) is not set up yet
+notes: Native Godot 4.7 .NET port of the web-based VR engine LemmingsJS_VR, running as a devkit title on Steam Frame.
+images:
+  - game: Lemmings (NeoLemmix)
+    file: images/lemmix-for-steam-frame/lemmings.png
+    credit: Lemmings grid by [EW] Mitsie (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/146527
+reviews: []
+added_by: bot
+discovered_via: https://github.com/SPD13/lemmix-frame
+last_checked: "2026-10-14"

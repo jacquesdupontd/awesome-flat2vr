@@ -21,11 +21,8 @@ license: GPL-3.0
 required_files: Original game asset files from Aliens versus Predator Classic 2000 (Steam/GOG) or PC CD-ROM
 known_bugs: []
 notes: Fork of atsb/NakedAVP adding OpenXR support for standalone Quest VR as well as flat PC/Windows ports; supports Marine, Alien, and Predator campaigns with 6DoF motion controls and wall-climbing.
-images:
-  - game: Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000
-    file: images/aliens-versus-predator-vr/aliens-versus-predator-aliens-versus-predator-classic-2000.png
-    credit: Bassquake/Aliens-Versus-Predator-VR
-    source_url: https://github.com/Bassquake/Aliens-Versus-Predator-VR
+no_image:
+  - Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000
 reviews: []
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/avp-vr

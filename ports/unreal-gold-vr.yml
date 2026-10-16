@@ -1,0 +1,40 @@
+name: Unreal Gold VR
+games:
+  - Unreal Gold
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest Pro
+  - Quest 3
+  - Quest 3S
+  - PICO 4 (experimental)
+  - PICO Neo 3 (experimental)
+controls: 6dof
+status: beta
+version: "v1.0.0-beta10"
+version_date: "2026-09-26"
+download_url: https://github.com/SgtBilko76/Unreal-Gold-VR/releases/latest
+source_url: https://github.com/SgtBilko76/Unreal-Gold-VR
+license: unknown
+required_files: Original Unreal Gold 226b game files (System, Maps, Textures, Sounds, Music, Help) copied to /sdcard/SurrealEngine/. The game is free from OldUnreal, but the 227 System files don't work.
+known_bugs: []
+notes: Built on the Surreal Engine (Unreal Engine 1 reimplementation) with an OpenXR/Vulkan renderer. PICO support is untested on hardware.
+images:
+  - game: Unreal Gold
+    file: images/unreal-gold-vr/unreal-gold.jpg
+    credit: Unreal Gold grid by Rick Deckard (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/579104
+reviews:
+  - title: "Unreal Gold VR for Quest by Ghwstvr, early v0.1.0 - Gameplay and feedback in the description "
+    channel: 333hronos
+    url: https://www.youtube.com/watch?v=ClQXAt0FhUo
+  - title: Unreal Gold VR (Quest 3)
+    channel: F guillotine
+    url: https://www.youtube.com/watch?v=Zo95yLp1CQs
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/Unreal-Gold-VR
+last_checked: "2026-10-15"

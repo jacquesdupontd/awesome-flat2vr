@@ -312,6 +312,126 @@ export async function reddit({ limit = 50, bin = process.env.REDDIT_BIN || 'redd
   return out;
 }
 
+// ---- X: tips people send Jordan (mentions + DMs) --------------------------------------------
+// "Hey, there's a new VR port of X". Anyone on earth can write these, so a tweet or DM is only a
+// LEAD: its text is fenced as untrusted data for the model, which has no tools, and the entry that
+// comes out is built from the linked release page and checked in code against the URLs the
+// source contains (extract.mjs / core.finalizeEntry). Nothing a sender writes can reach a tool,
+// a file, or an outbound message; the worst a hostile sender gets is one wasted extraction.
+const X_OWNER_ID = '2509004038'; // @JordanRejaud: his own posts are never tips
+const X_HANDLE = 'JordanRejaud';
+const X_VR_HINT = /\b(vr|quest|pico|uevr|6dof|flat2vr|openxr|port|mod)\b/i;
+const xTime = (v) => new Date(/^\d+$/.test(String(v)) ? Number(v) : v);
+
+export function xMentionLeads(json, { sinceMs, now = Date.now() } = {}) {
+  const out = [];
+  for (const t of json?.tweets ?? []) {
+    if (!t?.id || t.author?.id === X_OWNER_ID) continue;
+    const when = xTime(t.createdAt);
+    if (Number.isNaN(when.getTime()) || when.getTime() < (sinceMs ?? now - 7 * 864e5)) continue;
+    const expanded = (t.entities?.urls ?? []).map((u) => u.expanded_url).filter(Boolean);
+    const urls = [...new Set([...expanded, ...extractUrls(t.text ?? '').filter((u) => !/\/\/t\.co\//.test(u))])];
+    if (!urls.length || !X_VR_HINT.test(t.text ?? '')) continue;
+    out.push({
+      id: `x:mention:${t.id}`,
+      source: 'X mention',
+      source_url: t.url,
+      title: (t.text ?? '').slice(0, 80),
+      date: when.toISOString().slice(0, 10),
+      text: `Tweet to @${X_HANDLE} by @${t.author?.userName ?? 'unknown'} on ${when.toISOString().slice(0, 10)}:\n${t.text}\nLinks in the tweet: ${urls.join(' ')}`,
+      urls,
+    });
+  }
+  return out;
+}
+
+// Fallback parser for `twikit dm-requests`, used when the twitter skill's replies verb is unavailable.
+export function xDmLeads(json, { sinceMs, now = Date.now() } = {}) {
+  const out = [];
+  for (const c of json?.conversations ?? []) {
+    const m = c.last_message;
+    if (!m?.id || m.sender_id === X_OWNER_ID) continue;
+    const when = xTime(m.time);
+    if (Number.isNaN(when.getTime()) || when.getTime() < (sinceMs ?? now - 7 * 864e5)) continue;
+    const who = c.participants?.find((p) => p.user_id === m.sender_id)?.screen_name ?? 'unknown';
+    const body = stripHtml(m.text ?? '');
+    const urls = [...new Set(extractUrls(body).filter((u) => !/\/\/t\.co\//.test(u)))];
+    if (!urls.length || !X_VR_HINT.test(body)) continue;
+    out.push({
+      id: `x:dm:${m.id}`,
+      source: 'X DM',
+      source_url: `https://x.com/${who}`,
+      title: body.slice(0, 80),
+      date: when.toISOString().slice(0, 10),
+      text: `Direct message to @${X_HANDLE} from @${who} on ${when.toISOString().slice(0, 10)}:\n${body}`,
+      urls,
+    });
+  }
+  return out;
+}
+
+// `twitter replies` (twitter skill) prints one JSON event per line for the replies and DMs sent to
+// Jordan, message requests included: {id:"dm:<id>"|"tweet:<id>", kind, by, text, url, created}.
+export function xReplyLeads(lines, { sinceMs, now = Date.now() } = {}) {
+  const out = [];
+  for (const e of lines) {
+    if (!e?.id || !['dm', 'comment-reply'].includes(e.kind)) continue;
+    const when = xTime(e.created);
+    if (Number.isNaN(when.getTime()) || when.getTime() < (sinceMs ?? now - 7 * 864e5)) continue;
+    const body = stripHtml(e.text ?? '');
+    const urls = [...new Set(extractUrls(body).filter((u) => !/\/\/t\.co\//.test(u)))];
+    if (!urls.length || !X_VR_HINT.test(body)) continue;
+    const dm = e.kind === 'dm';
+    out.push({
+      id: `x:${e.id}`,
+      source: dm ? 'X DM' : 'X reply',
+      source_url: dm ? `https://x.com/${e.by}` : e.url,
+      title: body.slice(0, 80),
+      date: when.toISOString().slice(0, 10),
+      text: `${dm ? 'Direct message' : 'Reply'} to @${X_HANDLE} from @${e.by} on ${when.toISOString().slice(0, 10)}:\n${body}`,
+      urls,
+    });
+  }
+  return out;
+}
+
+export async function x({
+  sinceDays = 7,
+  cap = 15,
+  tweetsBin = process.env.TWITTERAPI_BIN || 'twitterapi',
+  repliesBin = process.env.TWITTER_BIN || 'twitter',
+} = {}) {
+  const sinceMs = Date.now() - sinceDays * 864e5;
+  const call = (bin, a) => execFileSync(bin, a, { encoding: 'utf8', timeout: 180e3, maxBuffer: 32 << 20 });
+  const leads = [];
+  try {
+    leads.push(
+      ...xMentionLeads(JSON.parse(call(tweetsBin, ['get-user-mentions', X_HANDLE, '--limit', '100'])), { sinceMs }),
+    );
+  } catch (e) {
+    throw new Error(`x mentions: ${e.message.split('\n')[0]}`, { cause: e });
+  }
+  // DMs (message requests included) and replies come from the twitter skill's own read verb, which
+  // retries X's flaky endpoints. It runs on Overlord (a Chiba call hops over ssh); if that fails the
+  // mentions already collected are kept and the failure is reported.
+  try {
+    const since = new Date(sinceMs).toISOString();
+    const lines = call(repliesBin, ['replies', '--since', since])
+      .split('\n')
+      .filter(Boolean)
+      .map((l) => JSON.parse(l));
+    leads.push(...xReplyLeads(lines, { sinceMs }));
+  } catch (e) {
+    console.error(`x replies/DMs: ${e.message.split('\n')[0]}; falling back to twikit dm-requests`);
+    try {
+      leads.push(...xDmLeads(JSON.parse(call(process.env.TWIKIT_BIN || 'twikit', ['dm-requests'])), { sinceMs }));
+    } catch (e2) {
+      console.error(`x dm-requests: ${e2.message.split('\n')[0]}`);
+    }
+  }
+  return leads.slice(0, cap);
+}
+
 // ---- Steam: free VR mods published as their own store app (Half-Life 2: VR Mod) ---------
 // Store search is fuzzy, so a hit only becomes a candidate when appdetails says it is a
 // `mod` of a base game, or its name says VR mod/port.
@@ -617,6 +737,7 @@ export const COLLECTORS = {
   discord,
   youtube,
   reddit,
+  x,
 };
 
 // GitHub repo a candidate points at, for enrichment and dedupe.

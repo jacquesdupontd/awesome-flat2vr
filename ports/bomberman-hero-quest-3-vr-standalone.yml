@@ -1,0 +1,31 @@
+name: Bomberman Hero Quest 3 VR Standalone
+games:
+  - Bomberman Hero
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+platform: standalone
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "n64"
+version_date: "2026-10-12"
+download_url: https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone/releases/latest
+source_url: https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone
+license: GPL-3.0
+required_files: Your own backup of the 1.0 North American Bomberman Hero ROM, selected when the game launches
+known_bugs:
+  - Bomb explosions don't always display
+  - Screen recording on the headset drops resolution until recording stops
+notes: Based on the PC Bomberman Hero Recomp; install the APK via the Quest browser or SideQuest.
+images:
+  - game: Bomberman Hero
+    file: images/bomberman-hero-quest-3-vr-standalone/bomberman-hero.png
+    credit: Bomberman Hero grid by Sho. (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/263683
+reviews: []
+added_by: bot
+discovered_via: https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone
+last_checked: "2026-10-15"

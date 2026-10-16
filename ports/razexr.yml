@@ -19,6 +19,8 @@ source_url: https://github.com/Team-Beef-Studios/RazeXR
 license: GPL-2.0
 required_files: GRP/data files from owned copies of the supported Build engine games
 known_bugs: []
+no_image:
+  - Exhumed
 images:
   - game: Duke Nukem 3D
     file: images/razexr/duke-nukem-3d.png
@@ -36,10 +38,6 @@ images:
     file: images/razexr/redneck-rampage.png
     credit: Redneck Rampage grid by Haxy (SteamGridDB)
     source_url: https://www.steamgriddb.com/grid/287114
-  - game: Exhumed
-    file: images/razexr/exhumed.png
-    credit: Team-Beef-Studios/RazeXR
-    source_url: https://github.com/Team-Beef-Studios/RazeXR
 reviews:
   - title: Duke Nukem 3D, Blood, Shadow Warrior (& more) in VR on Quest 2 with Raze XR! Retro FPS Games in VR.
     channel: VR Reviews

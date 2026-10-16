@@ -17,11 +17,8 @@ required_files: ACE COMBAT 8 (Steam version), plus ac8_ui_fix.lua from the separ
 known_bugs:
   - Requires bypassing EasyAntiCheat by launching AceCombat8.exe directly, which disables multiplayer/online play
 notes: Fixes the flight HUD (minimap, center instruments, weapons/status) not being visible in VR via UEVR.
-images:
-  - game: ACE COMBAT 8
-    file: images/ace-combat-8-uevr-profile-hud-fix/ace-combat-8.jpg
-    credit: Paradise Decay
-    source_url: https://www.youtube.com/watch?v=weAhEMpT87k
+no_image:
+  - ACE COMBAT 8
 reviews:
   - title: Ace Combat 8 - Day 1 in VR with UEVR! (Test) - Its CRIMINAL this DOES NOT have NATIVE VR Mode!
     channel: Paradise Decay

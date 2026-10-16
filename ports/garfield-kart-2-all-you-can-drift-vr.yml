@@ -1,0 +1,25 @@
+name: Garfield Kart 2 All You Can Drift VR
+games:
+  - Garfield Kart 2 - All You Can Drift
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "Garfield_Kart_Furious_Racing_VRa"
+version_date: "2026-10-14"
+download_url: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR/releases/latest
+source_url: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR
+license: unknown
+required_files: Garfield Kart 2 - All You Can Drift (offline) game installation
+known_bugs:
+  - Author describes the mod as very WIP and 'kinda broken'
+notes: Install by unzipping the release into the game folder.
+no_image:
+  - Garfield Kart 2 - All You Can Drift
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR
+last_checked: "2026-10-15"

@@ -1,0 +1,33 @@
+name: Twisted Tower VR Mod
+games:
+  - Twisted Tower
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "TwistedTowerVRModa_updated"
+version_date: "2026-10-04"
+download_url: https://github.com/King-EJ/Twisted-Tower-VR-Mod/releases/latest
+source_url: https://github.com/King-EJ/Twisted-Tower-VR-Mod
+license: unknown
+required_files: Owned install of Twisted Tower (Unity 2022.3, IL2CPP, URP)
+known_bugs: []
+notes: VR controllers act as a virtual gamepad; melee weapons can be swung physically to hit enemies/objects; tested on Quest 3 via Virtual Desktop.
+images:
+  - game: Twisted Tower
+    file: images/twisted-tower-vr-mod/twisted-tower.jpg
+    credit: Twisted Tower grid by LongFlightofStairs (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/853786
+reviews:
+  - title: Twisted Tower VR Performance / New 6DOF Motion Controls Mod / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=gxmrwvlqu48
+  - title: TWISTED TOWER Gameplay Demo VR UUVR Mod...
+    channel: Techno'Glitch
+    url: https://www.youtube.com/watch?v=HIuklt6AdjY
+added_by: bot
+discovered_via: https://github.com/King-EJ/Twisted-Tower-VR-Mod
+last_checked: "2026-10-14"

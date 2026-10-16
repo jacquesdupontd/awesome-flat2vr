@@ -1,0 +1,33 @@
+name: Xonotic VR
+games:
+  - Xonotic
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+  - Pico
+controls: 6dof
+status: beta
+version: "Beta-0.5"
+version_date: "2026-10-05"
+download_url: https://github.com/SgtBilko76/Xonotic-VR/releases/latest
+source_url: https://github.com/SgtBilko76/Xonotic-VR
+license: unknown
+required_files: None; the release APK bundles the Xonotic 0.8.6 game data.
+known_bugs: []
+notes: Native standalone DarkPlaces-based port with room-scale tracking, hand-aimed weapons and online multiplayer.
+images:
+  - game: Xonotic
+    file: images/xonotic-vr/xonotic.png
+    credit: Xonotic grid by Moohoo (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/760029
+reviews: []
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/Xonotic-VR
+last_checked: "2026-10-15"

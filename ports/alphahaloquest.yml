@@ -1,0 +1,35 @@
+name: AlphaHaloQuest
+games:
+  - "Halo: Combat Evolved"
+category: source-port
+authors:
+  - name: christiancoler
+    url: https://github.com/christiancoler
+platform: standalone
+headsets:
+  - Meta Quest
+controls: 6dof
+status: alpha
+version: "alpha"
+version_date: "2026-09-30"
+download_url: https://github.com/christiancoler/AlphaHaloQuest/releases/latest
+source_url: https://github.com/christiancoler/AlphaHaloQuest
+license: CC0-1.0
+required_files: Legally dumped original Xbox Halo CE disc image (.iso/.xiso) or extracted folder containing maps/ui.map
+known_bugs:
+  - Crashes, bad controls, visual problems and unfinished VR behavior
+  - No visible reticle during weapon zoom
+  - HUD placement and scopes not VR-native
+  - No left-handed weapon support
+  - Vehicle controls not designed for VR
+  - Aiming and two-hand behavior unreliable in some situations
+notes: Based on halo-ce-universal and the Xbox Halo decompilation; runs natively on the headset with OpenXR and OpenGL ES.
+images:
+  - game: "Halo: Combat Evolved"
+    file: images/alphahaloquest/halo-combat-evolved.png
+    credit: "Halo: Combat Evolved grid by ender-blade (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/34594
+reviews: []
+added_by: bot
+discovered_via: https://github.com/christiancoler/AlphaHaloQuest
+last_checked: "2026-10-15"

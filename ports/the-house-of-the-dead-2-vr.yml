@@ -11,8 +11,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "v0.3-test1"
-version_date: "2026-10-09"
+version: "v0.4-test1"
+version_date: "2026-10-14"
 download_url: https://github.com/mikermak/hotd2-vr/releases/latest
 source_url: https://github.com/mikermak/hotd2-vr
 license: GPL-2.0
@@ -21,15 +21,13 @@ known_bugs:
   - PC VR is still untested in a headset
   - Quest 2 and Quest Pro are new and not tested yet
 notes: Fork of the Flycast Dreamcast/NAOMI emulator; no game data included.
+no_image:
+  - The Maze of the Kings
 images:
   - game: The House of the Dead 2
     file: images/the-house-of-the-dead-2-vr/the-house-of-the-dead-2.png
     credit: The House of the Dead 2 grid by elgamer242 (SteamGridDB)
     source_url: https://www.steamgriddb.com/grid/33449
-  - game: The Maze of the Kings
-    file: images/the-house-of-the-dead-2-vr/the-maze-of-the-kings.png
-    credit: mikermak/hotd2-vr
-    source_url: https://github.com/mikermak/hotd2-vr
 reviews:
   - title: The House of the Dead 2… but it's VR
     channel: Retroid
@@ -39,4 +37,4 @@ reviews:
     url: https://www.youtube.com/watch?v=MkmQsxcIMLc
 added_by: bot
 discovered_via: https://github.com/mikermak/hotd2-vr
-last_checked: "2026-10-09"
+last_checked: "2026-10-15"

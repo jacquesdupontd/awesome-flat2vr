@@ -1,0 +1,42 @@
+name: Magic Carpet VR
+games:
+  - Magic Carpet
+  - "Magic Carpet: Hidden Worlds"
+  - "Magic Carpet 2: The Netherworlds"
+category: source-port
+authors:
+  - name: NathanaelA
+    url: https://github.com/NathanaelA
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+controls: 6dof
+status: beta
+version: "0.1.0"
+version_date: "2026-08-18"
+download_url: https://github.com/NathanaelA/mgcarpet-vr/releases/latest
+source_url: https://github.com/NathanaelA/mgcarpet-vr
+homepage: https://questports.vercel.app/ports/magic-carpet-vr
+license: GPL-3.0
+required_files: Own copies of Magic Carpet (and optionally Hidden Worlds / Magic Carpet 2), e.g. GOG, original disc or full install; data must be converted on a Windows or Linux PC.
+known_bugs: []
+notes: Engine reimplementation in Rust with true stereo, dual-cast spells on each controller, and an optional Enhanced Mode.
+no_image:
+  - "Magic Carpet: Hidden Worlds"
+  - "Magic Carpet 2: The Netherworlds"
+images:
+  - game: Magic Carpet
+    file: images/magic-carpet-vr/magic-carpet.jpg
+    credit: Magic Carpet grid by Luckspeare (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/381806
+reviews:
+  - title: Magic Carpet VR Teaser
+    channel: 샌프란시스코 아빠의 농구 다이어리
+    url: https://www.youtube.com/watch?v=B4LGZ_hp_14
+  - title: Time For A Magic Carpet Ride // Rug Riders VR Quest 2 Gameplay
+    channel: ClicksterVR
+    url: https://www.youtube.com/watch?v=71c9InnRu30
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/magic-carpet-vr
+last_checked: "2026-10-15"

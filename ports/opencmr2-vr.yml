@@ -1,0 +1,37 @@
+name: OpenCMR2 VR
+games:
+  - Colin McRae Rally 2.0
+category: source-port
+authors:
+  - name: DR-89
+    url: https://github.com/DR-89
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: mixed
+status: beta
+version: "v0.1.0"
+version_date: "2026-10-13"
+download_url: https://github.com/DR-89/opencmr2-vr/releases/latest
+source_url: https://github.com/DR-89/opencmr2-vr
+license: GPL-3.0
+required_files: A full installed PC copy of Colin McRae Rally 2.0 (console editions, demos, ISO or uninstalled CD not sufficient)
+known_bugs:
+  - "Early release: performance and compatibility still need work beyond the tested playable race and import flow"
+notes: Built on pablocpas/OpenCMR2, a native SDL port of the pablocpas/CMR2Decomp decompilation; same release includes a Windows PCVR/OpenXR build.
+images:
+  - game: Colin McRae Rally 2.0
+    file: images/opencmr2-vr/colin-mcrae-rally-2-0.jpg
+    credit: Colin McRae Rally 2.0 grid by ZazaMastro (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/518934
+reviews:
+  - title: DiRT Rally 2.0 VR - Colin McRae FLAT OUT Pack - Ford Focus 2001 [No HUD]
+    channel: GregzVR
+    url: https://www.youtube.com/watch?v=0dnauzNftNs
+  - title: Colin McRae Rally 2.0 VR Performance / New Meta Quest Standalone VR Port / Quest 3
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=DLRhWcwrqtY
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/opencmr2-vr
+last_checked: "2026-10-14"

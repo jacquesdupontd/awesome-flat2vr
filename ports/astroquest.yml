@@ -11,8 +11,8 @@ headsets:
   - Quest 3S
 controls: 6dof
 status: beta
-version: "v0.20"
-version_date: "2026-10-06"
+version: "v0.21.1"
+version_date: "2026-10-13"
 download_url: https://github.com/bigmak94/AstroQuest/releases/latest
 source_url: https://github.com/bigmak94/AstroQuest
 license: GPL-2.0
@@ -21,9 +21,9 @@ known_bugs: []
 notes: Based on an ARM64 fork of the shadPS4 PS4 emulator; playable standalone on Quest 3/3S or on PC via Virtual Desktop/SteamVR, with a PS5 DualSense recommended but Quest Touch controllers supported as a fallback.
 images:
   - game: ASTRO BOT Rescue Mission
-    file: images/astroquest/astro-bot-rescue-mission.jpg
-    credit: VR Studio
-    source_url: https://www.youtube.com/watch?v=3SmrgertDco
+    file: images/astroquest/astro-bot-rescue-mission.png
+    credit: Astro Bot Rescue Mission grid by babinok (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/854678
 reviews:
   - title: Install the Best PSVR Game on PC in 1 Minute! Astro Bot Rescue Mission VR Mod
     channel: VR Studio
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=ltoL_BLV4qY
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/astroquest
-last_checked: "2026-10-11"
+last_checked: "2026-10-14"

@@ -1,0 +1,33 @@
+name: EDF6VR
+games:
+  - Earth Defense Force 6
+category: mod
+authors:
+  - name: momotori01
+    url: https://github.com/momotori01
+platform: pcvr
+controls: 6dof
+status: stable
+version: "EDF6VR-3.2.9"
+version_date: "2026-10-14"
+download_url: https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD/releases/latest
+source_url: https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD
+license: Unlicense
+required_files: Steam version of Earth Defense Force 6
+known_bugs: []
+notes: Bundles the EDF6MultiSlot 8-player co-op mod plus HD textures; supports SteamVR and Virtual Desktop, with VR cockpits built for every vehicle type.
+images:
+  - game: Earth Defense Force 6
+    file: images/edf6vr/earth-defense-force-6.jpg
+    credit: EARTH DEFENSE FORCE ６ grid by devjako (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/469912
+reviews:
+  - title: EARTH DEFENSE FORCE 6 VR Performance / Fantastic VR Mod with 6DOF Motion Controls / Quest 3 PCVR
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=q6mnrXdHd-8
+  - title: Earth Defense Force 6 VR MOD (8 Player Co-op)
+    channel: EDF Central
+    url: https://www.youtube.com/watch?v=NX79tWuvssw
+added_by: bot
+discovered_via: https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD
+last_checked: "2026-10-14"

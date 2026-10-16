@@ -1,0 +1,36 @@
+name: Farpoint PC VR
+games:
+  - Farpoint
+category: mod
+authors:
+  - name: evertec82
+    url: https://github.com/evertec82
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.8.5"
+version_date: "2026-10-12"
+download_url: https://github.com/evertec82/Farpoint/releases/latest
+source_url: https://github.com/evertec82/Farpoint
+license: GPL-2.0
+required_files: Your own compatible Farpoint game package named Farpoint.pkg, placed beside Play Farpoint.bat
+known_bugs:
+  - Rainbow textures
+  - Stretched geometry
+  - Intermittent crashes
+notes: Development port built on shadPS4 and OpenXR, based on AstroQuest, with tracked controllers, haptics and SteamVR support.
+images:
+  - game: Farpoint
+    file: images/farpoint-pc-vr/farpoint.png
+    credit: Farpoint grid by Benuno (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/34924
+reviews:
+  - title: The BEST Game I've EVER Played! | Farpoint FPS VR Gameplay!
+    channel: Wizzite
+    url: https://www.youtube.com/watch?v=CNg8TdD1S4A
+  - title: Farpoint VR Full Walkthrough HD
+    channel: SpottinGames
+    url: https://www.youtube.com/watch?v=UwKws_65zeI
+added_by: bot
+discovered_via: https://github.com/evertec82/Farpoint
+last_checked: "2026-10-15"

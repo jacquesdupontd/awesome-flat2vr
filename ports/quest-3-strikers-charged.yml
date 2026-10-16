@@ -1,0 +1,31 @@
+name: Quest 3 Strikers CHARGED
+games:
+  - Mario Strikers Charged
+category: source-port
+authors:
+  - name: LanceSweatpants
+    url: https://github.com/LanceSweatpants
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: gamepad
+status: alpha
+version: "v0.1.0-alpha1"
+version_date: "2026-10-15"
+download_url: https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED/releases/latest
+source_url: https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED
+license: CC0-1.0
+required_files: Mario Strikers Charged, USA version (R4QE01) revision 1, as .iso, .rvz or .wia
+known_bugs:
+  - Only the USA R4QE01 revision 1 game version works; other regions and revisions are unsupported
+notes: Fork of yannicksuter/mscharged-port with a Quest OpenXR layer offering Jumbotron living-room and stadium views.
+images:
+  - game: Mario Strikers Charged
+    file: images/quest-3-strikers-charged/mario-strikers-charged.png
+    credit: Mario Strikers Charged grid by Alfonso72394 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/129551
+reviews: []
+added_by: bot
+discovered_via: https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED
+last_checked: "2026-10-15"
