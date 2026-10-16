@@ -1,0 +1,37 @@
+name: DiRT2VR
+games:
+  - "Colin McRae: DiRT 2"
+category: mod
+authors:
+  - name: preseznik
+    url: https://github.com/preseznik
+platform: pcvr
+headsets:
+  - Quest 3
+controls: gamepad
+status: beta
+version: "v0.16.0"
+version_date: "2026-09-28"
+download_url: https://github.com/preseznik/DiRT2VR/releases/latest
+source_url: https://github.com/preseznik/DiRT2VR
+license: unknown
+required_files: Own working DiRT 2 version 1.1.0.0 installation (Windows x64)
+known_bugs:
+  - PSVR2, Logitech and Fanatec hardware not yet verified
+  - VDXR support is experimental
+notes: Launcher with experimental stereoscopic VR and head tracking via SteamVR or OpenXR; menus use a virtual screen; tested on Quest 3 through SteamVR.
+images:
+  - game: "Colin McRae: DiRT 2"
+    file: images/dirt2vr/colin-mcrae-dirt-2.jpg
+    credit: "Colin McRae: Dirt 2 (Wikipedia)"
+    source_url: https://en.wikipedia.org/wiki/Colin_McRae%3A_Dirt_2
+reviews:
+  - title: "Colin McRae: DiRT 2 VR Performance / New VR Mod with Head Tracking / Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=rwlOWadANQ0
+  - title: DiRT Rally 2.0 VR - Colin McRae FLAT OUT Pack - Ford Focus 2001 [No HUD]
+    channel: GregzVR
+    url: https://www.youtube.com/watch?v=0dnauzNftNs
+added_by: bot
+discovered_via: https://github.com/preseznik/DiRT2VR
+last_checked: "2026-10-15"

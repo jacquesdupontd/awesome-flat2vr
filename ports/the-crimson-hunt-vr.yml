@@ -1,0 +1,27 @@
+name: The Crimson Hunt VR
+games:
+  - The Crimson Hunt
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "The_Crimson_Hunt_VR"
+version_date: "2026-10-13"
+download_url: https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-/releases/latest
+source_url: https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-
+license: unknown
+required_files: The Crimson Hunt (Unity 6000.3.11, IL2CPP x64, HDRP, Game Creator 2) game install
+known_bugs: []
+notes: Tested on Quest 3 via Virtual Desktop/SteamVR OpenXR runtime; game's own camera and menus are displayed on a floating screen.
+images:
+  - game: The Crimson Hunt
+    file: images/the-crimson-hunt-vr/the-crimson-hunt.jpg
+    credit: The Crimson Hunt store art
+    source_url: https://store.steampowered.com/app/4485020/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-
+last_checked: "2026-10-15"

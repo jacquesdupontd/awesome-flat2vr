@@ -124,6 +124,12 @@
     "notes": {
       "type": "string"
     },
+    "no_image": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Games in `games` with no trustworthy art: SteamGridDB, Steam and Wikipedia have none under the game's own title. The README shows the game without a picture rather than a wrong one."
+    },
     "images": {
       "type": "array",
       "minItems": 1,

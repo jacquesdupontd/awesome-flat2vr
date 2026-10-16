@@ -1,0 +1,33 @@
+name: SOMA VR
+games:
+  - SOMA
+category: mod
+authors:
+  - name: Bateau01
+    url: https://github.com/Bateau01
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.07.1"
+version_date: "2026-10-14"
+download_url: https://github.com/Bateau01/SOMA-VR/releases/latest
+source_url: https://github.com/Bateau01/SOMA-VR
+license: GPL-3.0
+required_files: Owned copy of SOMA (Steam) installed; launch flatscreen once first to generate user_settings.cfg
+known_bugs: []
+notes: Native OpenXR VR conversion with motion controls and physical interactions; runs via SteamVR or Virtual Desktop (VDXR).
+images:
+  - game: SOMA
+    file: images/soma-vr/soma.jpg
+    credit: SOMA grid by Comcord (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/180075
+reviews:
+  - title: "VR Headsets to Get More Expensive | GTA: Vice City, Batman: Arkham Knight, FEAR and SOMA Coming t..."
+    channel: Portal News
+    url: https://www.youtube.com/watch?v=bl2-F1t2mK8
+  - title: SOMA native VR mod - Trailer
+    channel: bateau1
+    url: https://www.youtube.com/watch?v=1WeFO728uA4
+added_by: bot
+discovered_via: https://github.com/Bateau01/SOMA-VR
+last_checked: "2026-10-15"

@@ -1,0 +1,38 @@
+name: Crazy Taxi VR Standalone
+games:
+  - Crazy Taxi
+category: mod
+authors:
+  - name: Baywilly
+    url: https://github.com/Baywilly
+  - name: Sito
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.1-beta"
+version_date: "2026-10-12"
+download_url: https://github.com/Baywilly/Crazy-Taxi-VR-Standalone/releases/latest
+source_url: https://github.com/Baywilly/Crazy-Taxi-VR-Standalone
+homepage: https://questports.vercel.app/ports/crazy-taxi-vr
+license: unknown
+required_files: Own copy of SEGA's Crazy Taxi for Android, exact version 6.0-80 (APKM bundle), to which the XDelta patch is applied.
+known_bugs:
+  - Release notes say this version may contain bugs.
+notes: Distributed as an ~250 MB XDelta patch for the user's own Android game copy; offers cockpit, chase and miniature camera views.
+images:
+  - game: Crazy Taxi
+    file: images/crazy-taxi-vr-standalone/crazy-taxi.png
+    credit: Crazy Taxi grid by Klumb3r (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/698
+reviews:
+  - title: Crazy Taxi VR Performance / New Meta Quest 3 Standalone VR Mod with Motion Steering / Quest 3
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=53FEb8eGrSo
+  - title: Crazy Taxi First Person VR MOD - Quest 2 - PPSSPP VR
+    channel: 𝐈𝐑𝐎𝐍𝐁𝐔𝐆𝙑𝙍
+    url: https://www.youtube.com/watch?v=J0pn9FTNJKs
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/crazy-taxi-vr
+last_checked: "2026-10-15"

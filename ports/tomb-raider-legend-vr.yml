@@ -1,0 +1,33 @@
+name: "Tomb Raider: Legend VR"
+games:
+  - "Tomb Raider: Legend"
+category: mod
+authors:
+  - name: RototRobot
+    url: https://github.com/RototRobot
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "0.0.5"
+version_date: "2026-10-12"
+download_url: https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port/releases/latest
+source_url: https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port
+license: Apache-2.0
+required_files: "Tomb Raider: Legend for PC (Steam or GOG release)"
+known_bugs: []
+notes: Runs as a Direct3D 9 proxy (d3d9.dll) alongside a forked DXVK, with an optional first-person mode and radial gear menu; the author states the mod was made with heavy AI (Claude) assistance.
+images:
+  - game: "Tomb Raider: Legend"
+    file: images/tomb-raider-legend-vr/tomb-raider-legend.png
+    credit: "Tomb Raider: Legend grid by MrWheyne (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/35394
+reviews:
+  - title: "Tomb Raider: Legend VR Mod - 6 DOF Motion Controls & Head-Tracking in First Person View"
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=DqGK9uYqqAE
+  - title: "Tomb Raider: Legend VR / New VR Mod with 6DOF Motion Controls / 1st and 3d Person / How to Install"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=TGe_CxinSLc
+added_by: bot
+discovered_via: https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port
+last_checked: "2026-10-15"

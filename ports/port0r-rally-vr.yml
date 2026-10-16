@@ -11,8 +11,8 @@ headsets:
   - Quest 2
 controls: 6dof
 status: beta
-version: "v0.2.5"
-version_date: "2026-10-11"
+version: "v0.2.6"
+version_date: "2026-10-16"
 download_url: https://port0r.itch.io/rally-vr
 source_url: https://github.com/jacquesdupontd/port0r
 homepage: https://github.com/jacquesdupontd/port0r#install-port0r-rally-vr
@@ -31,4 +31,4 @@ reviews:
     url: https://www.youtube.com/watch?v=cz97qTB1Yy8
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/sega-rally-vr
-last_checked: "2026-10-13"
+last_checked: "2026-10-16"

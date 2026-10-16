@@ -138,6 +138,7 @@ export function finalizeEntry(raw, candidate, { date = today() } = {}) {
     entry[k] = v;
   }
   delete entry.images;
+  delete entry.no_image;
   delete entry.reviews;
   entry.known_bugs = Array.isArray(raw.known_bugs) ? raw.known_bugs.filter(Boolean) : [];
   if (entry.authors) entry.authors = entry.authors.map((a) => (a.url ? a : { name: a.name }));

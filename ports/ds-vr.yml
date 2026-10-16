@@ -1,0 +1,38 @@
+name: ds-vr
+games:
+  - Dead Space (2008)
+category: mod
+authors:
+  - name: Mortygotvr
+    url: https://github.com/Mortygotvr
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.0-alpha"
+version_date: "2026-10-14"
+download_url: https://github.com/Mortygotvr/deadspace-vr/releases/latest
+source_url: https://github.com/Mortygotvr/deadspace-vr
+license: unknown
+required_files: Dead Space (2008) on Steam (app 17470), running under Proton on Linux with SteamVR
+known_bugs:
+  - One image for both eyes (no stereo yet)
+  - Only the plasma cutter is tested as a weapon
+  - Saves at save stations only
+  - Tested on one PC through the start of the game only
+  - Windows not supported yet
+notes: Linux-only (Proton + SteamVR) mod with head-tracked first person, 6DoF aiming, wrist hologram HUD and in-VR settings menu.
+images:
+  - game: Dead Space (2008)
+    file: images/ds-vr/dead-space.png
+    credit: Dead Space grid by DFE 785 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/611555
+reviews:
+  - title: Dead Space VR Is Real... and It's Incredible!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=i8kqEA6QuM4
+  - title: This is TOO INTENSE in VR! // The DEAD SPACE VR We Wanted? (Unreal Engine VR)
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=lvCuaE87zS0
+added_by: bot
+discovered_via: https://github.com/Mortygotvr/deadspace-vr
+last_checked: "2026-10-15"

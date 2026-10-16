@@ -1,0 +1,41 @@
+name: Descent 1 & 2 VR
+games:
+  - Descent
+  - Descent 2
+category: source-port
+authors:
+  - name: GameOrDie007
+    url: https://github.com/GameOrDie007
+platform: both
+headsets:
+  - Meta Quest 3
+  - Steam Frame
+controls: 6dof
+status: beta
+version: "v1.1"
+version_date: "2026-10-11"
+download_url: https://github.com/GameOrDie007/Descent-1-and-2-VR/releases/latest
+source_url: https://github.com/GameOrDie007/Descent-1-and-2-VR
+license: unknown
+required_files: Own copy of Descent and/or Descent 2 for PC (Steam, GOG, or disc)
+known_bugs: []
+notes: Built on DXX-Redux with OpenXR; includes a one-click PC installer, cockpit view options, and an interactive in-VR game manual.
+images:
+  - game: Descent
+    file: images/descent-1-2-vr/descent.jpg
+    credit: Descent grid by Rick Deckard (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/588729
+  - game: Descent 2
+    file: images/descent-1-2-vr/descent-2.png
+    credit: Descent 2 grid by flamepanther (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/102400
+reviews:
+  - title: Intense moments in "Ocean Descent" on Playstation VR
+    channel: GeeksvsGeeks
+    url: https://www.youtube.com/watch?v=k41nuqxpkkI
+  - title: "Survivorman VR: The Descent for Meta Quest"
+    channel: substatica
+    url: https://www.youtube.com/watch?v=lgq4KuqIZoo
+added_by: bot
+discovered_via: https://github.com/GameOrDie007/Descent-1-and-2-VR
+last_checked: "2026-10-14"

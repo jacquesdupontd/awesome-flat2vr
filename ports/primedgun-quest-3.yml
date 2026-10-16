@@ -1,0 +1,38 @@
+name: PrimedGun Quest 3
+games:
+  - Metroid Prime
+category: source-port
+authors:
+  - name: LiquidAzir
+    url: https://github.com/LiquidAzir
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.0-preview.1"
+version_date: "2026-10-03"
+download_url: https://github.com/LiquidAzir/PrimedGun-Quest3/releases/latest
+source_url: https://github.com/LiquidAzir/PrimedGun-Quest3
+license: GPL-3.0
+required_files: Metroid Prime for GameCube, USA GM8E01 revision 0 (1.0) disc image
+known_bugs:
+  - Public preview APK has not had an end-to-end headset playthrough
+  - Quest 3S not validated
+  - Demanding scenes or newly encountered effects can stutter
+notes: Standalone build on Dolphin and Dolphin ReduX; emulation runs on the headset.
+images:
+  - game: Metroid Prime
+    file: images/primedgun-quest-3/metroid-prime.png
+    credit: Metroid Prime grid by alfiehicks (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/418999
+reviews:
+  - title: METROID PRIME VR is one of the BEST Dolphin VR experiences! // Quest 2 Airlink Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=iWS_krcirCw
+  - title: Metroid Prime VR Performance / New Meta Quest Standalone VR Mod / Meta Quest 3
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=d_xUXZURdzM
+added_by: bot
+discovered_via: https://github.com/LiquidAzir/PrimedGun-Quest3
+last_checked: "2026-10-15"

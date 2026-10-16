@@ -1,0 +1,38 @@
+name: Wipeout Rewrite VR
+games:
+  - wipEout (1995)
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+  - PICO 4
+  - PICO 4 Ultra
+  - PICO Neo3
+controls: gamepad
+status: beta
+version: "v0.1.0-beta1"
+version_date: "2026-09-25"
+download_url: https://github.com/SgtBilko76/Wipeout-Rewrite-VR/releases/latest
+source_url: https://github.com/SgtBilko76/Wipeout-Rewrite-VR
+homepage: https://portroyale.online
+license: unknown
+required_files: Game data from the player's own PSX NTSC copy of wipEout
+known_bugs:
+  - Opening the system menu during a race doesn't pause the game
+  - A few menu models only exist in the PC version and are skipped
+notes: Built on phoboslab's open-source wipEout Rewrite; races render in stereo 3D with head tracking and a switchable cockpit/chase view.
+images:
+  - game: wipEout (1995)
+    file: images/wipeout-rewrite-vr/wipeout.png
+    credit: WipeOut grid by BaddAss=( (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/808359
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/wipeout-rewrite-vr
+last_checked: "2026-10-14"

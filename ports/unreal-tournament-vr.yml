@@ -1,0 +1,42 @@
+name: Unreal Tournament VR
+games:
+  - Unreal Tournament (UT99)
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest Pro
+  - Quest 3
+  - Quest 3S
+  - PICO 4 (experimental)
+  - PICO Neo 3 (experimental)
+controls: 6dof
+status: beta
+version: "v1.0.0-beta10-ut99"
+version_date: "2026-09-26"
+download_url: https://github.com/SgtBilko76/Unreal-Tournament-VR/releases/latest
+source_url: https://github.com/SgtBilko76/Unreal-Tournament-VR
+license: unknown
+required_files: Own copy of Unreal Tournament 99 (free from OldUnreal, 469e or 436); copy System, Maps, Textures, Sounds, Music, Help to /sdcard/SurrealEngineUT/
+known_bugs:
+  - Single-player tournament ladder does not spawn bots yet
+  - PICO 4 / Neo 3 support untested on hardware
+notes: Built on the Surreal Engine Unreal Engine 1 reimplementation with an OpenXR/Vulkan renderer.
+images:
+  - game: Unreal Tournament (UT99)
+    file: images/unreal-tournament-vr/unreal-tournament.png
+    credit: Unreal Tournament grid by QuiGonJinnah (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/28751
+reviews:
+  - title: Unreal Tournament VR - Native on Meta Quest 3 / How to install see Description
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=IuMcM7eZ6Cc
+  - title: Unreal Tournament VR Native on Meta Quest | First Minutes VR Gameplay (No Commentary) | Meta Quest 3
+    channel: EVERYDAY VR Gameplay⁩ ᯅ TOXXUS
+    url: https://www.youtube.com/watch?v=3HXaguU4eUA
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/Unreal-Tournament-VR
+last_checked: "2026-10-15"

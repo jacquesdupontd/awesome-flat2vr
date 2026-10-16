@@ -1,0 +1,29 @@
+name: "Beyond: Two Souls VR Mod"
+games:
+  - "Beyond: Two Souls"
+category: mod
+authors:
+  - name: adore11s
+    url: https://github.com/adore11s
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.16.43"
+version_date: "2026-10-13"
+download_url: https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases/latest
+source_url: https://github.com/adore11s/Beyond-Two-Souls-VR-Mod
+license: MIT
+required_files: "Beyond: Two Souls (PC) via Steam or Epic Games Store"
+known_bugs:
+  - First-person view (F1/F3) is still being tuned and work in progress
+  - Only tested with two of Jodie's outfits (young Jodie green shirt, adult Jodie red dress); other outfits may look off in first person
+notes: Uses OpenXR/SteamVR for native stereo head tracking, with an optional first-person mode through Jodie's eyes using motion-controller arms.
+images:
+  - game: "Beyond: Two Souls"
+    file: images/beyond-two-souls-vr-mod/beyond-two-souls.png
+    credit: "Beyond: Two Souls grid by Snakerov (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/495379
+reviews: []
+added_by: bot
+discovered_via: https://github.com/adore11s/Beyond-Two-Souls-VR-Mod
+last_checked: "2026-10-14"

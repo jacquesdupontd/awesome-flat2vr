@@ -1,0 +1,36 @@
+name: WipEout VR (astromaddie)
+games:
+  - WipEout (1995)
+category: source-port
+authors:
+  - name: astromaddie
+    url: https://github.com/astromaddie
+platform: standalone
+headsets:
+  - Steam Frame
+controls: 6dof
+status: alpha
+version: "v0.1.0"
+version_date: "2026-10-11"
+download_url: https://github.com/astromaddie/wipeout-vr/releases/latest
+source_url: https://github.com/astromaddie/wipeout-vr
+license: unknown
+required_files: User-owned NTSC-U PlayStation WipEout disc image (SCUS-94301), prepared with the included data tool
+known_bugs:
+  - Cockpit instrument view is still in development
+  - Title, menus and intro use a flat panel instead of a full VR view
+  - HUD distance and visibility controls are missing
+  - Desktop mirror is blank
+notes: Fork of phoboslab/wipeout-rewrite running natively on SteamOS/Steam Frame via OpenXR, SDL2 and OpenGL (Turnip/Zink); not an emulator or PC-streamed app.
+images:
+  - game: WipEout (1995)
+    file: images/wipeout-vr-astromaddie/wipeout.png
+    credit: WipeOut grid by BaddAss=( (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/808359
+reviews:
+  - title: Wipeout VR - Firestarter - Capital Reach
+    channel: buud
+    url: https://www.youtube.com/watch?v=z5SOrWqJ5k8
+added_by: bot
+discovered_via: https://github.com/astromaddie/wipeout-vr
+last_checked: "2026-10-14"

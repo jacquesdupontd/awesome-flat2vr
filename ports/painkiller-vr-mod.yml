@@ -19,15 +19,13 @@ license: unknown
 required_files: "PainKiller 1.64 (Heaven's Got a Hitman) and/or Battle Out of Hell; tested on PainKiller: Black Edition (Steam)"
 known_bugs: []
 notes: Native OpenXR implementation (no UEVR dependency); author tested with Black Edition on Steam, Quest 2 and Virtual Desktop, though broader OpenXR headset/runtime support is expected but less proven.
+no_image:
+  - "PainKiller: Battle Out of Hell"
 images:
   - game: PainKiller
     file: images/painkiller-vr-mod/painkiller.png
     credit: Painkiller grid by YMCrank (SteamGridDB)
     source_url: https://www.steamgriddb.com/grid/761033
-  - game: "PainKiller: Battle Out of Hell"
-    file: images/painkiller-vr-mod/painkiller-battle-out-of-hell.png
-    credit: FluorescentHallucinogen/painkiller-vr-mod
-    source_url: https://github.com/FluorescentHallucinogen/painkiller-vr-mod
 reviews:
   - title: VR Mods are The FUTURE OF VR GAMING! This PAINKILLER VR Mod is AWESOME
     channel: Beardo Benjo

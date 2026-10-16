@@ -1,0 +1,33 @@
+name: MOHAVR
+games:
+  - "Medal of Honor: Airborne"
+category: mod
+authors:
+  - name: Disonomouss
+    url: https://github.com/Disonomouss
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.8.15"
+version_date: "2026-10-13"
+download_url: https://github.com/Disonomouss/MOHAVR/releases/latest
+source_url: https://github.com/Disonomouss/MOHAVR
+license: GPL-3.0
+required_files: "Medal of Honor: Airborne from Steam or the EA app"
+known_bugs: []
+notes: Requires a graphics card with Direct3D 12 and an OpenXR runtime (Virtual Desktop, SteamVR or Meta Quest Link).
+images:
+  - game: "Medal of Honor: Airborne"
+    file: images/mohavr/medal-of-honor-airborne.png
+    credit: "Medal of Honor: Airborne grid by tscar (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/143848
+reviews:
+  - title: "Medal of Honor: Airborne VR Performance / New VR Mod - 6DOF Motion Controls / Quest 3 + RTX 4080 S"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=s9aMjvlmLHs
+  - title: "Medal of Honor: Airborne in VR with Motion Controls"
+    channel: StoniVR
+    url: https://www.youtube.com/watch?v=LU7LbkhDUCk
+added_by: bot
+discovered_via: https://github.com/Disonomouss/MOHAVR
+last_checked: "2026-10-14"
